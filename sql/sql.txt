@@ -1,0 +1,4 @@
+CREATE USER 'admin_test'@'%' IDENTIFIED BY '123456'; 
+GRANT privileges ON meipet_test.* TO 'admin_test'@'%';
+
+GRANT privileges ON meipet_online.* TO 'admin_online'@'%';
