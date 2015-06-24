@@ -1,6 +1,6 @@
 <?php
 // 通用组件模块
-class GeneralComAction extends Action {
+class RegAction extends Action {
     public function mpbar(){
         header("Content-Type:text/html; charset=utf-8");
         echo "第一个例子测试！";
