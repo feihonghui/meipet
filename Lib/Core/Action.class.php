@@ -287,7 +287,7 @@ abstract class Action {
      * @return void
      +----------------------------------------------------------
      */
-    protected function ajaxReturn($data,$info='',$status=1,$type='') {
+    protected function ajaxReturn($data,$info='',$status=1,$type='',$callback='') {
         $result  =  array();
         $result['status']  =  $status;
         $result['info'] =  $info;
@@ -308,7 +308,13 @@ abstract class Action {
             // 返回可执行的js脚本
             header('Content-Type:text/html; charset=utf-8');
             exit($data);
-        }else{
+        }elseif(strtoupper($type)=='JSONP'){
+            // 增加jsonp支持
+            header('Content-Type:text/html; charset=utf-8');
+            header("Access-Control-Allow-Origin: *");
+            exit($callback."(".json_encode($result).")");
+        }
+        else{
             // TODO 增加其它格式
         }
     }
