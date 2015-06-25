@@ -1,0 +1,4 @@
+CREATE USER 'admin_test'@'%' IDENTIFIED BY '123456'; 
+GRANT ALL ON meipet_test.* TO 'admin_test'@'%';
+
+GRANT ALL ON meipet_online.* TO 'admin_online'@'%';
