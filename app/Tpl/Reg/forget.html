@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
-    <title>注册</title>
+    <title>找回密码</title>
 
     <!-- Bootstrap -->
     <link href="http://www.meipet.com.cn/static/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -18,15 +18,18 @@
     <![endif]-->
   </head>
   <body>
-    <h1>注册</h1>
+    <h1>找回密码</h1>
 	
 
-	<form action="http://www.meipet.com.cn/index.php/Reg/doReg" method="post">
+	<form action="http://www.meipet.com.cn/index.php/Reg/getPassword" method="post">
 	  <p>手机号: <input type="text" name="mobile" /></p>
-	  <p>密码: <input type="password" name="password" /></p>
-	  <p>密码确认: <input type="password" name="password2" /></p>
-	  <p>短信验证码: <input type="text" name="yanzhengma" /></p>
 	  <button type="button">点击获取验证码</button>
+	  <p>短信验证码: <input type="text" name="yanzhengma" /></p>
+	  
+	  
+	  <p>新密码: <input type="password" name="password" /></p>
+	  <p>新密码确认: <input type="password" name="password2" /></p>
+
 	  <br/>
 	  <input type="submit" value="提交" />
 	</form>
