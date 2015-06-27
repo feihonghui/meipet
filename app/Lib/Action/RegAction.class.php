@@ -146,9 +146,7 @@ class RegAction extends Action {
 		// 记录短信
 		$id = SmsService::saveMessage ( $mobile, $content );
 		
-		$data = $code;
-		
-		$this->ajaxReturn ( $data, 'info:' . $mobile, 1, 'JSONP', $callback );
+		$this->ajaxReturn ( $content, 'info:' . $mobile, 1, 'EVAL', $callback );
 	}
 	private function isExistLoginId($mobile) {
 		$Dao = M ( "user" );
