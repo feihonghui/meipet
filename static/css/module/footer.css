@@ -1,0 +1,14 @@
+#footer{
+    background: rgba(255,255,255,0.8);
+    padding: 10px 0 5px;
+    box-shadow: 2px 0px 2px #ddd;
+    color:#888;
+    line-height: 25px;
+    text-align: center;
+}
+#footer a{
+    color:#888;
+}
+#footer a:hover{
+    color:#fd5e00;
+}

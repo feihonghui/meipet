@@ -1,0 +1,26 @@
+body{
+    background-color: #eee;
+}
+.layout-1190{
+    width: 1190px;
+    margin: 0 auto;
+}
+.layout-1190{
+	clear:both;
+}
+.layout-1190{
+	*zoom:1;
+}
+.layout-1190:after{
+	display:block;
+	clear:both;
+	height:0;
+	content:"\0020";
+}
+#content{
+    padding-top: 60px;
+    height: 800px;
+}
+a:hover{
+    color:#fd5e00!important;
+};
