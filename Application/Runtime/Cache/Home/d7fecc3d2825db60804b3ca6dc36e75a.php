@@ -3,6 +3,7 @@
     <meta charset="utf-8">
     <title>美优萌宠——登陆</title>
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <link rel="shortcut icon" href="http://www.meipet.com.cn/static/img/favicon.png"/>
     <link rel="stylesheet" href="http://www.meipet.com.cn/static/bootstrap/css/bootstrap.min.css" type="text/css" />
     <link rel="stylesheet" href="http://www.meipet.com.cn/static/css/module/form.css" type="text/css" />
 </head>
@@ -11,8 +12,8 @@
         <div class="col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-4">
             <div class="page-login-form box login">
 
-                <div class="login-description text-center">欢迎来到美优萌宠
-
+                <div class="login-description text-center">
+                    欢迎来到美优萌宠
                 </div>
 
                 <form action="http://www.meipet.com.cn/index.php/Home/Log/doLog" method="post"class="form-validate">
