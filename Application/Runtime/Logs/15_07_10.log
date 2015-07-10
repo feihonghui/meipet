@@ -1739,3 +1739,91 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTrace [ RunTime:0.000290s ]
 INFO: [ app_end ] --END-- [ RunTime:0.000319s ]
 
+[ 2015-07-10T20:04:48+08:00 ] 127.0.0.1 /index.php/Home/Log/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000243s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000440s ]
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent (output started at /Users/niuer/www/meipet/Application/Common/Conf/config.php:3) /Users/niuer/www/meipet/ThinkPHP/Common/functions.php 第 1092 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/niuer/www/meipet/Application/Common/Conf/config.php:3) /Users/niuer/www/meipet/Application/Home/Controller/LogController.class.php 第 12 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000018s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000054s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.003112s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003156s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000102s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000128s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/niuer/www/meipet/Application/Common/Conf/config.php:3) /Users/niuer/www/meipet/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/niuer/www/meipet/Application/Common/Conf/config.php:3) /Users/niuer/www/meipet/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/niuer/www/meipet/Application/Common/Conf/config.php:3) /Users/niuer/www/meipet/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000317s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000347s ]
+
+[ 2015-07-10T20:04:51+08:00 ] 127.0.0.1 /index.php/Home/Reg/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000409s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000751s ]
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent (output started at /Users/niuer/www/meipet/Application/Common/Conf/config.php:3) /Users/niuer/www/meipet/ThinkPHP/Common/functions.php 第 1092 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/niuer/www/meipet/Application/Common/Conf/config.php:3) /Users/niuer/www/meipet/Application/Home/Controller/RegController.class.php 第 10 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000022s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000068s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.003914s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003953s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000080s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000102s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/niuer/www/meipet/Application/Common/Conf/config.php:3) /Users/niuer/www/meipet/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/niuer/www/meipet/Application/Common/Conf/config.php:3) /Users/niuer/www/meipet/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/niuer/www/meipet/Application/Common/Conf/config.php:3) /Users/niuer/www/meipet/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000253s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000278s ]
+
+[ 2015-07-10T20:06:11+08:00 ] 127.0.0.1 /index.php/Home/Reg/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000221s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000398s ]
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent (output started at /Users/niuer/www/meipet/Application/Common/Conf/config.php:3) /Users/niuer/www/meipet/ThinkPHP/Common/functions.php 第 1092 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/niuer/www/meipet/Application/Common/Conf/config.php:3) /Users/niuer/www/meipet/Application/Home/Controller/RegController.class.php 第 10 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000026s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000173s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.003598s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003630s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000083s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000106s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/niuer/www/meipet/Application/Common/Conf/config.php:3) /Users/niuer/www/meipet/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/niuer/www/meipet/Application/Common/Conf/config.php:3) /Users/niuer/www/meipet/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/niuer/www/meipet/Application/Common/Conf/config.php:3) /Users/niuer/www/meipet/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000249s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000273s ]
+
+[ 2015-07-10T20:29:34+08:00 ] 127.0.0.1 /index.php/Home/Reg/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000227s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000413s ]
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent (output started at /Users/niuer/www/meipet/Application/Common/Conf/config.php:3) /Users/niuer/www/meipet/ThinkPHP/Common/functions.php 第 1092 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/niuer/www/meipet/Application/Common/Conf/config.php:3) /Users/niuer/www/meipet/Application/Home/Controller/RegController.class.php 第 10 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000023s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000069s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.004744s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004778s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000084s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000107s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/niuer/www/meipet/Application/Common/Conf/config.php:3) /Users/niuer/www/meipet/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/niuer/www/meipet/Application/Common/Conf/config.php:3) /Users/niuer/www/meipet/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/niuer/www/meipet/Application/Common/Conf/config.php:3) /Users/niuer/www/meipet/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000267s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000292s ]
+

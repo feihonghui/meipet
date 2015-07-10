@@ -1,15 +1,12 @@
-<?php if (!defined('THINK_PATH')) exit();?>﻿
-<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
+<?php if (!defined('THINK_PATH')) exit();?>﻿<html lang="zh-CN">
 <head>
-<meta charset="utf-8">
+	<meta charset="utf-8">
     <title>美优萌宠</title>
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-<link rel="stylesheet" href="http://www.meipet.com.cn/static/bootstrap/css/bootstrap.min.css" type="text/css" />
-<link rel="stylesheet" href="http://www.meipet.com.cn/static/css/module/form.css" type="text/css" />
+	<link rel="stylesheet" href="http://www.meipet.com.cn/static/bootstrap/css/bootstrap.min.css" type="text/css" />
+	<link rel="stylesheet" href="http://www.meipet.com.cn/static/css/module/form.css" type="text/css" />
 </head>
 <body>
-
 	<div class="row">
 		<div class="col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-4">
 			<div class="page-login-form box login">
@@ -65,19 +62,18 @@
 			</div>
 		</div>
 	</div>
-
-	<script src="http://www.meipet.com.cn/static/js/global/jquery.min.js"></script>
-	<script src="http://www.meipet.com.cn/static/bootstrap/js/bootstrap.min.js"></script>
-	<script type="text/javascript">
-		$("#code").click(
-			function() {
-				var mobile = $("#mobile").val();
-				if (mobile == '') {
-					alert('对不起,手机号不能为空');
-					return;
-				}
-				window.open('http://www.meipet.com.cn/index.php/Home/Reg/Verifycode?callback=xxxxxxxx&mobile=' + mobile);
-			});
-	</script>
 </body>
+<script src="http://www.meipet.com.cn/static/jquery/jquery.min.js"></script>
+<script src="http://www.meipet.com.cn/static/bootstrap/js/bootstrap.min.js"></script>
+<script type="text/javascript">
+	$("#code").click(
+		function() {
+			var mobile = $("#mobile").val();
+			if (mobile == '') {
+				alert('对不起,手机号不能为空');
+				return;
+			}
+			window.open('http://www.meipet.com.cn/index.php/Home/Reg/Verifycode?callback=xxxxxxxx&mobile=' + mobile);
+		});
+</script>
 </html>
