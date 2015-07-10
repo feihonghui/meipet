@@ -1,28 +1,14 @@
 ﻿
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-
-<title>美优萌宠——登陆</title>
-
-<link rel="stylesheet"
-	href="//fonts.googleapis.com/css?family=Open+Sans:regular,700,600&amp;latin"
-	type="text/css" />
-<link rel="stylesheet"
-	href="http://www.meipet.com.cn/static/bootstrap/css/bootstrap.min.css"
-	type="text/css" />
-<script
-	src="http://www.meipet.com.cn/static/bootstrap/js/bootstrap.min.js"></script>
-<script
-	src="http://www.meipet.com.cn/static/jquery/jquery-1.11.1.min.js"></script>
-
-<link rel="stylesheet"
-	href="http://www.meipet.com.cn/static/css/template.css" type="text/css" />
-
-
+<meta charset="utf-8">
+    <title>美优萌宠</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<link rel="stylesheet" href="http://www.meipet.com.cn/static/old/bootstrap/css/bootstrap.min.css" type="text/css" />
+<link rel="stylesheet" href="http://www.meipet.com.cn/static/old/css/template.css" type="text/css" />
 </head>
-<body
-	class="site com-users view-login no-layout no-task itemid-121 en-gb ltr  sticky-header layout-fluid">
+<body >
 	<div class="body-innerwrapper">
 		<section id="sp-main-body">
 			<div class="container">
@@ -83,7 +69,7 @@
 											<div class="form-group">
 												<button type="submit"
 													class="btn btn-success btn-lg btn-block btn-login">
-													注  册</button>
+													注&nbsp;&nbsp;册</button>
 											</div>
 										</form>
 									</div>
@@ -95,9 +81,9 @@
 				</div>
 			</div>
 		</section>
-
 	</div>
-
+	<script src="http://www.meipet.com.cn/static/old/jquery/jquery-1.11.1.min.js"></script>
+	<script src="http://www.meipet.com.cn/static/old/bootstrap/js/bootstrap.min.js"></script>
 	<script>
 		$("#code")
 				.click(
@@ -107,8 +93,7 @@
 								alert('对不起,手机号不能为空');
 								return;
 							}
-							window
-									.open('http://www.meipet.com.cn/index.php/Home/Reg/Verifycode?callback=xxxxxxxx&mobile='
+							window.open('http://www.meipet.com.cn/index.php/Home/Reg/Verifycode?callback=xxxxxxxx&mobile='
 											+ mobile);
 						});
 	</script>
