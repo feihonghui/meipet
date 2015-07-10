@@ -153,13 +153,13 @@ body{
 }
 #indexContent .content-top ul.select-box{
     float: right;
-    height: 24px;
-    margin-bottom: 1px;
+    height: 22px;
+    margin-bottom: 3px;
 }
 #indexContent .content-top ul.select-box li{
     float: left;
-    height: 24px;
-    line-height: 24px;
+    height: 22px;
+    line-height: 22px;
     font-size: 12px;
     color:#333;
     margin-left: 15px;
