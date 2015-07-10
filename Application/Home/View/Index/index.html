@@ -308,6 +308,6 @@
     </div>
 </footer>
 </body>
-<script type="text/javascript" src="http://www.meipet.com.cn/static/js/global/jquery.min.js"></script>
+<script src="http://www.meipet.com.cn/static/jquery/jquery.min.js"></script>
 <script type="text/javascript" src="http://www.meipet.com.cn/static/js/page/index/v1.js"></script>
 </html>
