@@ -5,13 +5,10 @@
 	margin-right: 5px;
 	margin-bottom: 5px;
 	position: relative;
-	border: solid #eee 1px;
+	border: solid #f3f3f3 1px;
 }
 .index-offer-list li:hover{
 	z-index: 99;
-}
-.index-offer-list li.more{
-	text-align: center;
 }
 .index-offer-list .img-box{
 	height: 150px;
@@ -83,6 +80,10 @@
 	width: 150px;
 	line-height: 18px;
 	text-align: left;
+}
+.index-offer-list .img-box .description span.text{
+	width: 144px;
+	padding: 0 3px;
 }
 .index-offer-list .img-box .description span.button{
 	width: 100px;

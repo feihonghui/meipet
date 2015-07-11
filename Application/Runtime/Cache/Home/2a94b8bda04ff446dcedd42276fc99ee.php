@@ -148,9 +148,18 @@
                                 </div>
                             </a>
                         </li>
-                        <li class="more">
+                        <li>
                             <a href="#">
-                                <img src="">
+                                <div class="img-box" style="background-image: url(http://www.meipet.com.cn/static/img/temp7.jpeg);">
+                                    <div class="info ms-yh">
+                                        <span class="price">价格<br/>&yen;0.00</span>
+                                        <span class="age">年龄<br/>&le;3个月</span>
+                                    </div>
+                                    <div class="description">
+                                        <span class="text">美优美宠猫猫美优美宠猫猫优美宠猫猫优美宠猫猫</span>
+                                        <span class="button">立即领养</span>
+                                    </div>
+                                </div>
                             </a>
                         </li>
                     </ul>
@@ -242,6 +251,20 @@
                         <li>
                             <a href="#">
                                 <div class="img-box" style="background-image: url(http://www.meipet.com.cn/static/img/temp6.jpeg);">
+                                    <div class="info ms-yh">
+                                        <span class="price">价格<br/>&yen;0.00</span>
+                                        <span class="age">年龄<br/>&le;3个月</span>
+                                    </div>
+                                    <div class="description">
+                                        <span class="text">美优美宠猫猫美优美宠猫猫优美宠猫猫优美宠猫猫</span>
+                                        <span class="button">立即领养</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="img-box" style="background-image: url(http://www.meipet.com.cn/static/img/temp7.jpeg);">
                                     <div class="info ms-yh">
                                         <span class="price">价格<br/>&yen;0.00</span>
                                         <span class="age">年龄<br/>&le;3个月</span>
