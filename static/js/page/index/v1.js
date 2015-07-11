@@ -1,14 +1,14 @@
-(function($){
-    function initOptionPos(){
-        function resetOptionPos(){
+(function($) {
+    function initOptionPos() {
+        function resetOptionPos() {
             var winHeight = window.innerHeight,
                 beautyBar = $("#beautyBar"),
                 beautyFooter = $("#beautyFooter"),
                 leftHeight = winHeight - beautyBar.height() - beautyFooter.height(),
                 option = $("#indexContent").find('.option'),
-                marginTop = (leftHeight - option.height())/2;
-                
-            if(marginTop<0){
+                marginTop = (leftHeight - option.height()) / 2;
+
+            if (marginTop < 0) {
                 marginTop = 0;
             }
             marginTop = marginTop + beautyBar.height();
@@ -24,7 +24,7 @@
         });
     }
 
-    function initTab(){
+    function initTab() {
         var indexContent = $('#indexContent'),
             tabTitle = indexContent.find('.tab-title'),
             contentBoxList = indexContent.find('.tab-content .content-box');
@@ -33,17 +33,20 @@
             event.preventDefault();
             var that = $(this),
                 currentContentBox = contentBoxList.eq(that.index());
-            if(!that.hasClass('current')){
+            if (!that.hasClass('current')) {
                 that.addClass('current').siblings('li').removeClass('current');
                 currentContentBox.siblings('.content-box').css({
                     "width": "0px",
                     "display": "none",
                     "opacity": 0,
-                    "overflow":"hidden"
+                    "overflow": "hidden"
                 });
                 currentContentBox.css({
                     "display": "block"
-                }).animate({width: 692,opacity: 1}, 200,function() {
+                }).animate({
+                    width: 692,
+                    opacity: 1
+                }, 200, function() {
                     currentContentBox.css({
                         "overflow": "visible"
                     });
@@ -52,7 +55,7 @@
         });
     }
 
-    $(function(){
+    $(function() {
         initOptionPos();
         initTab();
     });
