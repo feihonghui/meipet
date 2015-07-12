@@ -5,9 +5,8 @@
 	width: 210px;
 	float: left;
 	margin: 5px 10px 5px 0;
-	padding: 9px;
+	padding: 10px;
 	background: #fff;
-	border: solid #eee 1px;
 }
 .offer-item:nth-child(5n){
 	margin-right: 0;

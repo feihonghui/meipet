@@ -10,7 +10,7 @@
 	padding: 8px 0;
 }
 .offer-sn .sn-item{
-	border-bottom: dotted #ddd 1px;
+	border-bottom: dotted #dcdcdc 1px;
 }
 .offer-sn a,
 .offer-sn span{
@@ -53,17 +53,15 @@
 	font-size: 12px;
 }
 .offer-sn .zone{
-	margin-top: 2px;
 	float: left;
-	height: 16px;
-	font-size: 12px;
+	height: 20px;
 	margin-left: 15px;
 	padding-left: 15px;
 	border-left: solid #ddd 1px;
 }
 .offer-sn .zone a{
-	height: 16px;
-	line-height: 16px;
+	height: 20px;
+	line-height: 20px;
 	margin-right: 7px;
 	padding: 0 7px;
 }
