@@ -1,9 +1,7 @@
 .offer-sn{
 	margin-top: 15px;
-	width: 1160px;
-	padding: 5px 15px;
-	border-radius: 3px;
-	background: #eee;
+	width: 1170px;
+	padding: 5px 10px;
 }
 
 .offer-sn .sn-item,
@@ -29,7 +27,7 @@
 	line-height: 20px;
 }
 .offer-sn span.title{
-	color:#888;
+	color:#666;
 }
 .offer-sn .sn-item a:hover{
 	text-decoration: underline;
@@ -64,8 +62,8 @@
 	border-left: solid #ddd 1px;
 }
 .offer-sn .zone a{
-	height: 18px;
-	line-height: 18px;
+	height: 16px;
+	line-height: 16px;
 	margin-right: 7px;
 	padding: 0 7px;
 }

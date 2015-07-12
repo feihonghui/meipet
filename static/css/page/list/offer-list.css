@@ -7,7 +7,7 @@
 	margin: 5px 10px 5px 0;
 	padding: 9px;
 	background: #fff;
-	border: solid #ddd 1px;
+	border: solid #eee 1px;
 }
 .offer-item:nth-child(5n){
 	margin-right: 0;
@@ -75,34 +75,25 @@
 	float: right;
 }
 
-.offer-item .item-box .other{
-	position: absolute;
+.offer-item .other{
 	width: 210px;
 	background-color: #fff;
-	padding: 9px;
-	border: solid #ddd 1px;
-	border-top: none;
-	left:-10px;
-	top:205px;
-	color:#666;
-	display: none;
+	color:#444;
+	position: relative;
 }
-.offer-item .item-box .other .position{
-	height: 20px;
-	overflow: hidden;
-	padding-bottom: 7px;
-	margin-bottom: 7px;
-	border-bottom: dotted 1px #ddd;
-}
-.offer-item .item-box .other .description{
+.offer-item .other .description{
 	display: inline-block;
-	width: 210px;
+	width: 200px;
+	line-height: 20px;
+	padding: 0 5px;
+	height: 40px;
+	margin-top: 8px;
 }
-.offer-item .item-box .other .description:hover{
+.offer-item .other .description:hover{
 	color:#fe6600;
 	text-decoration: underline;
 }
-.offer-item .item-box .other .button{
+.offer-item .other .button{
 	display: inline-block;
 	width: 120px;
 	margin-left: 45px;
@@ -112,7 +103,4 @@
 	line-height: 30px;
 	background-color: #fe6600;
 	color:#fff;
-}
-.offer-item:hover .item-box .other{
-	display: block;
 }
