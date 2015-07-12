@@ -1,0 +1,83 @@
+.offer-sn{
+	margin-top: 15px;
+	width: 1160px;
+	padding: 5px 15px;
+	border-radius: 3px;
+	background: #eee;
+}
+
+.offer-sn .sn-item,
+.offer-sn .position{
+	height: 20px;
+	padding: 8px 0;
+}
+.offer-sn .sn-item{
+	border-bottom: dotted #ddd 1px;
+}
+.offer-sn a,
+.offer-sn span{
+	float: left;
+	color:#333;
+	
+}
+
+.offer-sn .sn-item a,
+.offer-sn .sn-item span,
+.offer-sn .position a.swich-city,
+.offer-sn .position span{
+	height: 20px;
+	line-height: 20px;
+}
+.offer-sn span.title{
+	color:#888;
+}
+.offer-sn .sn-item a:hover{
+	text-decoration: underline;
+}
+.offer-sn .sn-item a{
+	margin-right: 15px;
+	padding: 0 10px;
+	border-radius: 3px;
+}
+
+.offer-sn .sn-item a.selected{
+	background-color: #fe6600;
+	color:#fff;
+}
+
+.offer-sn .sn-item a.selected:hover{
+	color:#fff!important;
+	text-decoration: none;
+}
+.offer-sn a.swich-city{
+	margin-left: 5px;
+	color:#999;
+	font-size: 12px;
+}
+.offer-sn .zone{
+	margin-top: 2px;
+	float: left;
+	height: 16px;
+	font-size: 12px;
+	margin-left: 15px;
+	padding-left: 15px;
+	border-left: solid #ddd 1px;
+}
+.offer-sn .zone a{
+	height: 18px;
+	line-height: 18px;
+	margin-right: 7px;
+	padding: 0 7px;
+}
+.offer-sn .zone a:hover{
+	text-decoration: underline;
+}
+.offer-sn .zone a.selected{
+	background-color: #fe6600;
+	color:#fff;
+	border-radius: 3px;
+}
+.offer-sn .zone a.selected:hover{
+	color:#fff!important;
+	text-decoration: none;
+}

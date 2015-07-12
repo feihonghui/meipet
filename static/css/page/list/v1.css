@@ -1,3 +1,17 @@
 body{
 	background-color: #d9d9d9;
 }
+.get-more{
+	display: block;
+	height: 30px;
+	line-height: 30px;
+	width: 777px;
+	background-color: #eee;
+	border:solid #eee 1px;
+	text-align: center;
+	margin: 0 auto;
+	margin-bottom: 30px;
+	border-radius: 3px;
+	color:#666;
+	cursor: pointer;
+}
