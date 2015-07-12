@@ -178,12 +178,12 @@ body {
     margin-top: 2px;
     margin-left: 10px;
     padding-left: 12px;
-    border-left: solid #aaa 1px;
+    border-left: solid #bbb 1px;
     font-size: 12px;
 
 }
 #indexContent .content-top .see-all a{
-    color:#36f;
+    color:#fe6600;
 }
 #indexContent .content-top ul.select-box {
     float: right;

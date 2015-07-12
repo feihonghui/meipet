@@ -1,0 +1,37 @@
+.offer-list{
+	padding: 10px 0;
+}
+.offer-item{
+	width: 210px;
+	float: left;
+	margin: 5px 10px 5px 0;
+	padding: 10px;
+	overflow: hidden;
+	background: #fff;
+}
+.offer-item:nth-child(5n){
+	margin-right: 0;
+}
+
+.offer-item .item-box{
+	width: 210px;
+	height: 210px;
+	position: relative;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center;
+	-webkit-transition: all .2s ease-in-out 0s;
+    -moz-transition: all .2s ease-in-out 0s;
+    -o-transition: all .2s ease-in-out 0s;
+    -ms-transition: all .2s ease-in-out 0s;
+    transition: all .2s ease-in-out 0s;
+}
+
+.offer-item:hover .item-box{
+	background-size: 110%;
+	-webkit-transition: all .2s ease-in-out 0s;
+    -moz-transition: all .2s ease-in-out 0s;
+    -o-transition: all .2s ease-in-out 0s;
+    -ms-transition: all .2s ease-in-out 0s;
+    transition: all .2s ease-in-out 0s;
+}
