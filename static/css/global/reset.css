@@ -1,0 +1,40 @@
+html{color:#000;overflow-y:scroll;background:#fff;}
+body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,fieldset,lengend,button,input,textarea,form,th,td{margin:0;padding:0;}
+body,button,input,select,textarea{font:12px/1.5 Tahoma,Arial,"\5b8b\4f53",sans-serif;}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+address,cite,dfn,em,var{font-style:normal;}
+code,kbd,pre,samp,tt{font-family:"Courier New",Courier,monospace;}
+small{font-size:12px;}
+ul,ol{list-style:none;}
+abbr[title],acronym[title]{border-bottom:1px dotted;cursor:help;}
+q:before,q:after{content:'';}
+:focus{outline:0;}
+legend{color:#000;}
+fieldset,img{border:none;}
+button,input,select,textarea{font-size:100%;}
+table{border-collapse:collapse;border-spacing:0;}
+hr{border:none;height:1px;*color:#fff;}
+img{-ms-interpolation-mode:bicubic;}
+.fd-left{float:left;}
+.fd-right{float:right;}
+.fd-clr{clear:both;}
+.fd-clr{*zoom:1;}
+.fd-clr:after{display:block;clear:both;height:0;content:"\0020";}
+.fd-cny{font-family:Helvetica,Arial;}
+#header,#content,#footer{*zoom:1;}
+#header:after,#content:after,#footer:after{display:block;clear:both;height:0;content:"\0020";}
+a,a:hover{text-decoration:none;}
+a:hover{color:#fe6600!important;}
+.ms-yh{font-family:"\5FAE\8F6F\96C5\9ED1","\9ED1\4F53","\6587\6CC9\9A7F\6B63\9ED1\4F53","\534E\6587\7EC6\9ED1",STHeiti;font-weight:400;}
+
+#mobile-banner,
+.mobile-banner{
+    display: none!important;
+}
+#mobile-toolbar,
+.mobile-toolbar{
+    display: none!important;
+}
+body{
+    font-size: 14px;
+}
