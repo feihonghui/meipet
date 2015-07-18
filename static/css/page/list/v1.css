@@ -1,0 +1,13 @@
+body{
+	background-color: #ececec;
+}
+.no-more{
+	display: block;
+	height: 30px;
+	line-height: 30px;
+	width: 100%;
+	text-align: center;
+	margin: 0 auto;
+	margin-bottom: 10px;
+	color:#666;
+}

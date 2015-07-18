@@ -1,0 +1,105 @@
+.offer-list{
+	padding: 5px 0 10px;
+}
+.offer-item{
+	width: 210px;
+	float: left;
+	margin: 5px 10px 5px 0;
+	padding: 10px;
+	background: #fff;
+}
+.offer-item:nth-child(5n){
+	margin-right: 0;
+}
+
+.offer-item .item-box{
+	width: 210px;
+	height: 210px;
+	position: relative;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center;
+	-webkit-transition: all .2s ease-in-out 0s;
+    -moz-transition: all .2s ease-in-out 0s;
+    -o-transition: all .2s ease-in-out 0s;
+    -ms-transition: all .2s ease-in-out 0s;
+    transition: all .2s ease-in-out 0s;
+}
+.offer-item:hover .item-box{
+	z-index: 99;
+}
+.offer-item:hover .item-box{
+	background-size: 110%;
+	-webkit-transition: all .2s ease-in-out 0s;
+    -moz-transition: all .2s ease-in-out 0s;
+    -o-transition: all .2s ease-in-out 0s;
+    -ms-transition: all .2s ease-in-out 0s;
+    transition: all .2s ease-in-out 0s;
+}
+
+.offer-item .item-box .price-age{
+	position: absolute;
+	bottom: 0;
+	left:0;
+	width: 210px;
+	height: 0;
+	padding: 0;
+	background-color: rgba(254, 102, 0, .88);
+	-webkit-transition: all .2s ease-in-out 0s;
+    -moz-transition: all .2s ease-in-out 0s;
+    -o-transition: all .2s ease-in-out 0s;
+    -ms-transition: all .2s ease-in-out 0s;
+    transition: all .2s ease-in-out 0s;
+	overflow: hidden;
+}
+.offer-item:hover .item-box .price-age{
+	height: 40px;
+	padding: 5px 0;
+	-webkit-transition: all .2s ease-in-out 0s;
+    -moz-transition: all .2s ease-in-out 0s;
+    -o-transition: all .2s ease-in-out 0s;
+    -ms-transition: all .2s ease-in-out 0s;
+    transition: all .2s ease-in-out 0s;
+}
+.offer-item .item-box .price-age span{
+	float: left;
+	line-height: 20px;
+	width: 105px;
+	text-align: center;
+	color:#fff;
+}
+.offer-item .item-box .price-age span.age{
+	width: 104px;
+	border-left: dotted #eee 1px;
+	float: right;
+}
+
+.offer-item .other{
+	width: 210px;
+	background-color: #fff;
+	color:#444;
+	position: relative;
+}
+.offer-item .other .description{
+	display: inline-block;
+	width: 200px;
+	line-height: 20px;
+	padding: 0 5px;
+	height: 40px;
+	margin-top: 8px;
+}
+.offer-item .other .description:hover{
+	color:#fe6600;
+	text-decoration: underline;
+}
+.offer-item .other .button{
+	display: inline-block;
+	width: 120px;
+	margin-left: 45px;
+	margin-top: 5px;
+	text-align: center;
+	height: 30px;
+	line-height: 30px;
+	background-color: #fe6600;
+	color:#fff;
+}
