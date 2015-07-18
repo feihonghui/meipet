@@ -35,6 +35,18 @@
 	  <option value ="F">女</option>
 	</select>
   </p>
+  <p>类型：
+    <select name='type'>
+	  <option value ="{$user['type']}">{$user['type']}</option>
+	  <option value ="大型门店">大型门店</option>
+	  <option value ="中型门店">中型门店</option>
+	  <option value ="小型门店">小型门店</option>
+	  <option value ="个人">个人</option>
+	  <option value ="公益组织">公益组织</option>
+	  <option value ="政府机构">政府机构</option>
+	</select>
+  </p>
+  
   <p>生日：<input type="text" name="birthday" value="{$user['birthday']}"/></p>
   <p>邮箱：<input type="text" name="mail" value="{$user['mail']}"/></p>
   <p>手机：<input type="text" name="mobile"  value="{$user['mobile']}"/></p>
