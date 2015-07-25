@@ -1,6 +1,9 @@
 body{
 	background-color: #ececec;
 }
+#content{
+    padding-top: 60px;
+}
 .no-more{
 	display: block;
 	height: 30px;

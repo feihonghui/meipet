@@ -1,0 +1,115 @@
+.login-logo{
+	padding: 10px 0 15px;
+	height: 50px;
+	position: fixed;
+	top:0px;
+	left:0px;
+	width: 100%;
+	box-shadow: 2px 0px 2px #ddd;
+}
+.logo-container,
+.logo-container .layout-990{
+	height: 100%;
+	position: relative;
+}
+#doc{
+	width: 100%;
+	background-image: url(../../img/pet.jpg);
+	background-size: 90%;
+	background-repeat: no-repeat;
+	background-color: #fff;
+	height: 100%;
+	background-position: center 30px;
+}
+.login-logo img{
+	height: 50px;
+	float: left;
+}
+.login-logo span{
+	float: left;
+	height: 30px;
+	line-height: 30px;
+	margin:13px 0 7px;
+	margin-left: 20px;
+	padding-left: 20px;
+	border-left: solid #ddd 1px;
+	font-size: 22px;
+	color:#888;
+}
+.login-form{
+	float: right;
+	padding: 15px 25px;
+	width: 288px;
+	border-radius: 5px;
+	background: #fcfcfc;
+	border: solid #eee 1px;
+	position: absolute;
+	top: 25%;
+	right: 0px;
+}
+.login-form input{
+	width: 288px;
+	margin-top: 15px;
+	border:solid #dedede 1px;
+	border-radius: 5px;
+}
+#identify-code{
+	width: 150px;
+	display: inline-block;
+}
+#get-identify-code{
+	display: inline-block;
+	margin-left: 20px;
+	width: 107px;
+	text-align: center;
+	height: 38px;
+	line-height: 38px;
+	background-color: #ddd;
+	color:#333;
+	cursor: pointer;
+	border-radius: 5px;
+}
+.login-form form a,
+.login-form form span{
+	display: inline-block;
+}
+.login-form a{
+	color:#009966;
+}
+.login-form form a{
+	margin-top: 8px;
+}
+.login-form form span.do{
+	width: 100%;
+	margin-top: 15px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	background: #fd5e00;
+	color:#fff;
+	font-size: 16px;
+	border-radius: 5px;
+	margin-bottom:10px;
+	cursor: pointer;
+}
+.login-form .message{
+	color:#660;
+	font-size: 15px;
+	height: 20px;
+	line-height: 20px;
+	padding: 0 5px;
+}
+.login-form ul{
+	padding-top: 5px;
+	color:#666;
+}
+#mobile{
+	width: 288px;
+}
+#footer{
+	position:fixed;
+	bottom:0px;
+	left: 0px;
+	width: 100%;
+	background-color: rgba(250,250,250,0.88);
+}
