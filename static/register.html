@@ -2,7 +2,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>美优萌宠——登陆</title>
+    <title>美优萌宠——注册</title>
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <link rel="shortcut icon" href="http://www.meipet.com.cn/static/img/favicon.png" />
     <link rel="stylesheet" type="text/css" href="http://www.meipet.com.cn/static/css/global/reset.css" />
@@ -15,27 +15,28 @@
 
 <body>
     <div id="doc">
-        <div class="layout-990">
-            <h4 class="login-logo">
-                <a href="#">
-                    <img src="http://www.meipet.com.cn/static/img/logo.png">
-                </a>
-                <span class="txt">登录</span>
-            </h4>
+        <div class="login-logo">
+            <div class="layout-990">
+                <h4>
+                    <a href="#">
+                        <img src="http://www.meipet.com.cn/static/img/logo.png">
+                    </a>
+                    <span class="txt">注册</span>
+                </h4>
+            </div>
         </div>
         <div class="logo-container">
             <div class="layout-990">
                 <div class="login-form">
-                    <div class="message">登录美优萌宠</div>
+                    <div class="message">注册美优萌宠</div>
                     <form action="http://www.meipet.com.cn/index.php/Home/Log/doLog" method="post">
                         <input type="text" name="mobile" id="mobile" value="" placeholder="手机号"/>
-                        <input type="password" name="password" id="password" value="" placeholder="密码"/>
-                        <a href="http://www.meipet.com.cn/index.php/Home/Reg/forget">忘记密码？</a><br/>
-                        <span>登&nbsp;录</span>
+                        <input type="text" name="identifycode" id="identify-code" value="" placeholder="短信验证码"/>
+                        <span id="get-identify-code">获取验证码</span>
+                        <input type="text" name="mobile" id="mobile" value="" placeholder="密码"/>
+                        <input type="password" name="password" id="password" value="" placeholder="密码确认"/>
+                        <span class="do">注&nbsp;册</span>
                     </form>
-                    <ul>
-                        <li>还没有账号？<a href="http://www.meipet.com.cn/index.php/Home/Reg/index"> 立即注册</a></li>
-                    </ul>
                 </div>
             </div>
         </div>

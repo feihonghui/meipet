@@ -5,40 +5,48 @@
     <title>美优萌宠——登陆</title>
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <link rel="shortcut icon" href="http://www.meipet.com.cn/static/img/favicon.png" />
-    <link rel="stylesheet" href="http://www.meipet.com.cn/static/bootstrap/css/bootstrap.min.css" type="text/css" />
-    <link rel="stylesheet" href="http://www.meipet.com.cn/static/css/module/form.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="http://www.meipet.com.cn/static/css/global/reset.css" />
+    <link rel="stylesheet" type="text/css" href="http://www.meipet.com.cn/static/css/global/layout.css" />
+    <link rel="stylesheet" type="text/css" href="http://www.meipet.com.cn/static/css/module/form.css" />
+
+     <link rel="stylesheet" type="text/css" href="http://www.meipet.com.cn/static/css/module/footer.css">
+    <link rel="stylesheet" type="text/css" href="http://www.meipet.com.cn/static/css/page/login/v1.css" />
 </head>
 
 <body>
-    <div class="row">
-        <div class="col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-4">
-            <div class="page-login-form box login">
-                <div class="login-description text-center">
-                    欢迎来到美优萌宠
+    <div id="doc">
+        <div class="layout-990">
+            <h4 class="login-logo">
+                <a href="#">
+                    <img src="http://www.meipet.com.cn/static/img/logo.png">
+                </a>
+                <span class="txt">登录</span>
+            </h4>
+        </div>
+        <div class="logo-container">
+            <div class="layout-990">
+                <div class="login-form">
+                    <div class="message">登录美优萌宠</div>
+                    <form action="http://www.meipet.com.cn/index.php/Home/Log/doLog" method="post">
+                        <input type="text" name="mobile" id="mobile" value="" placeholder="手机号"/>
+                        <input type="password" name="password" id="password" value="" placeholder="密码"/>
+                        <a href="http://www.meipet.com.cn/index.php/Home/Reg/forget">忘记密码？</a><br/>
+                        <span>登&nbsp;录</span>
+                    </form>
+                    <ul>
+                        <li>还没有账号？<a href="http://www.meipet.com.cn/index.php/Home/Reg/index"> 立即注册</a></li>
+                    </ul>
                 </div>
-                <form action="http://www.meipet.com.cn/index.php/Home/Log/doLog" method="post" class="form-validate">
-                    <div class="form-group">
-                        <div class="group-control">
-                            <input type="text" name="mobile" id="username" value="" class="validate-username required" size="25" placeholder="手机号" required aria-required="true" />
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <div class="group-control">
-                            <input type="password" name="password" id="password" value="" placeholder="密码" class="validate-password required" size="25" maxlength="99" required aria-required="true" />
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <a href="http://www.meipet.com.cn/index.php/Home/Reg/forget">忘记密码</a>
-                    </div>
-                    <div class="form-group">
-                        <button type="submit" class="btn btn-success btn-lg btn-block btn-login">登&nbsp;录</button>
-                    </div>
-                </form>
             </div>
-            <div class="form-links">
-                <ul>
-                    <li>现在还没有账号<a href="http://www.meipet.com.cn/index.php/Home/Reg/index"> 立即注册</a></li>
-                </ul>
+        </div>
+
+        <div id="footer" class="ms-yh">
+            <div class="layout-1190">
+                <span class="copyright">
+                Copyright&nbsp;©&nbsp;<a href="#" target="_self">杭州美呦科技有限公司</a>&nbsp;&nbsp;2015-2018&nbsp;&nbsp;版权所有
+            </span>
+                <br>
+                <a href="#">关于美优</a>&nbsp;|&nbsp;<a href="#">团队介绍</a>&nbsp;|&nbsp;<a href="#">加入我们</a>
             </div>
         </div>
     </div>
