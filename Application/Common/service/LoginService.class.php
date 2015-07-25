@@ -36,4 +36,16 @@ class LoginService {
 			return TRUE;
 		}
 	}
+	
+	static public function getUserModel() {
+		$loginId = LoginService::getLoginId ();
+		if (empty ( $loginId )) {
+			return null;
+		}
+		 
+		$Dao = M ( "user" );
+		$condition ['login_id'] = $loginId;
+		$user = $Dao->where ( $condition )->find ();
+		return $user;
+	}
 }

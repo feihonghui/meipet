@@ -1,0 +1,43 @@
+
+
+<form action="__URL__/update" method="post">
+  <input type="hidden" name="id" value="{$user['id']}">
+  <p>登陆名称：{$user['login_id']}</p>
+  <p>昵称 ：<input type="text" name="name" value="{$user['name']}"/></p>
+  <p>城市：
+    <select  name='city'>
+	  <option value ="杭州">杭州</option>
+	</select>
+  </p>
+  <p>县/区：
+    <select name='area'>
+      <option value ="{$user['area']}">{$user['area']}</option>
+      <option value ="上城区">上城区</option>
+      <option value ="下城区">下城区</option>
+      <option value ="拱墅区">拱墅区</option>
+      <option value ="江干区">江干区</option>
+      <option value ="西湖区">西湖区</option>
+	  <option value ="滨江区">滨江区</option>
+	  <option value ="余杭区">余杭区</option>
+	  <option value ="萧山区">萧山区</option>
+	</select>
+  </p>
+  <p>详细地址 ：<input type="text" name="address" value="{$user['address']}" placeholder="例如：钱龙大厦1单元513室"/></p>
+  <p>头像：<input type="text" name="face_img" />{$user['face_img']}</p>
+  <p>性别：
+    <select name='sex'>
+      <if condition="$user_sex eq 'F' ">
+         <option value ="F">女</option>
+	  <elseif condition="'M' eq $user_sex"/>
+	     <option value ="M">男</option>
+	  </if>
+	  <option value ="M">男</option>
+	  <option value ="F">女</option>
+	</select>
+  </p>
+  <p>生日：<input type="text" name="birthday" value="{$user['birthday']}"/></p>
+  <p>邮箱：<input type="text" name="mail" value="{$user['mail']}"/></p>
+  <p>手机：<input type="text" name="mobile"  value="{$user['mobile']}"/></p>
+  <p>qq号：：<input type="text" name="qq"  value="{$user['qq']}"/></p>
+  <input type="submit" value="Submit" />
+</form>
