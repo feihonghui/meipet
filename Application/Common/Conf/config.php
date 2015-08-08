@@ -1,8 +1,8 @@
-<!--线下环境-->
+
 
 <?php
 return array(
-	
+//线下环境
 	 'DB_TYPE'   => 'mysql', // 数据库类型
 	 'DB_HOST'   => '121.40.181.18', // 服务器地址
 	 'DB_NAME'   => 'meipet_test', // 数据库名
@@ -16,8 +16,9 @@ return array(
 ?>
 
 
-<!--线上环境-->
+
 <?php
+//线上环境
 /*return array(
 	
 	 'DB_TYPE'   => 'mysql', // 数据库类型

@@ -1,0 +1,68 @@
+
+
+<form action="__URL__/update" method="post">
+  <input type="hidden" name="id" value="{$pet['id']}">
+  <p>标题：<input type="text" name="subject" value="{$pet['subject']}"/></p>
+  <p>种类：
+    <select name='category'>
+      <if condition="$pet['category'] eq 'cat' ">
+         <option value ="cat">喵星人</option>
+         <option value ="dog">汪星人</option>
+	  <else/>
+         <option value ="dog">汪星人</option>
+         <option value ="cat">喵星人</option>
+	  </if>
+	</select>
+  </p>
+  
+  <p>品种：
+    <select name='pinzhong' data-pz="{'cat':['英短','美短'],'dog':['金毛','国美']}">
+	  <option value ="{$pet['pinzhong']}">{$pet['pinzhong']}</option>
+	</select>
+  </p>
+  <p>颜色：
+    <select name='color'>
+      <option value ="{$pet['color']}" >{$pet['color']}</option>
+	  <option value ="白色" >白色</option>
+	  <option value ="黑色" >黑色</option>
+	  <option value ="棕色">棕色</option>
+	</select>
+  </p>
+
+
+  <p>城市：
+    <select  name='city'>
+	  <option value ="杭州">杭州</option>
+	</select>
+  </p>
+  <p>县/区：
+    <select name='area'>
+      <option value ="{$pet['area']}">{$pet['area']}</option>
+      <option value ="上城区">上城区</option>
+      <option value ="下城区">下城区</option>
+      <option value ="拱墅区">拱墅区</option>
+      <option value ="江干区">江干区</option>
+      <option value ="西湖区">西湖区</option>
+	  <option value ="滨江区">滨江区</option>
+	  <option value ="余杭区">余杭区</option>
+	  <option value ="萧山区">萧山区</option>
+	</select>
+  </p>
+  <p>详细地址 ：<input type="text" name="address" value="" placeholder="例如：钱龙大厦1单元513室"/>{$pet['address']}</p>
+  
+  <p>照片：<input type="text" name="img" placeholder="照片url" />{$pet['img']}</p>
+  <p>性别：
+    <select name='sex'>
+      <if condition="$pet['sex'] eq 'M' ">
+         <option value ="M">公</option>
+	     <option value ="F">母</option>
+	  <else/>
+	     <option value ="F">母</option>
+         <option value ="M">公</option>
+	  </if>
+	</select>
+  </p>
+  <p>生日：<input type="text" name="birthday" value="{$pet['birthday']}"/></p>
+
+  <input type="submit" value="提交" />
+</form>
