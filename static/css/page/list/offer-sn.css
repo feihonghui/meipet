@@ -1,6 +1,6 @@
 .offer-sn{
 	margin-top: 15px;
-	width: 1170px;
+	width: 970px;
 	padding: 5px 10px;
 }
 
@@ -10,7 +10,11 @@
 	padding: 8px 0;
 }
 .offer-sn .sn-item{
-	border-bottom: dotted #dcdcdc 1px;
+	border-bottom: dotted #bbb 1px;
+	padding-bottom: 15px;
+}
+.offer-sn .position{
+	padding-top:15px;
 }
 .offer-sn a,
 .offer-sn span{

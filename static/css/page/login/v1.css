@@ -12,9 +12,9 @@
 	height: 100%;
 	position: relative;
 }
-#doc{
-	width: 100%;
+html{
 	background-image: url(../../img/pet.jpg);
+	width: 100%;
 	background-size: 90%;
 	background-repeat: no-repeat;
 	background-color: #fff;
@@ -39,17 +39,19 @@
 .login-form{
 	float: right;
 	padding: 15px 25px;
-	width: 288px;
 	border-radius: 5px;
-	/*background: url(../../img/loginbg.jpg);*/
-	background: #ededed;
+	background: url(../../img/loginbg.jpg);
 	border: solid #eee 1px;
 	position: absolute;
-	top: 25%;
+	top: 200px;
 	right: 0px;
 }
 .login-form input{
 	width: 288px;
+	height: 30px;
+	line-height: 30px;
+	padding-top: 5px;
+	padding-bottom: 5px; 
 	margin-top: 15px;
 	border:solid #eee 1px;
 	border-radius: 5px;
@@ -95,8 +97,9 @@
 	cursor: pointer;
 }
 .login-form .message{
-	color:#660;
+	color:#fd5e00;
 	font-size: 15px;
+	font-weight: 700;
 	height: 20px;
 	line-height: 20px;
 	padding: 0 5px;
