@@ -2,7 +2,7 @@
 namespace Home\Controller;
 use Think\Controller;
 
-
+include_once DOC_ROOT . '/Application/Common/service/SmsService.class.php';
 
 // 通用组件模块
 class RegController extends Controller {
@@ -140,17 +140,15 @@ class RegController extends Controller {
 			return;
 		}
 		$code = rand ( 100000, 999999 );
-		
-		$content = "您的注册验证码为:" . $code . "，请于30分钟内正确输入验证码";
+		$content = "亲爱的小主银，您的注册验证码是" . $code . "（30分钟内有效）。您就是我的全世界，么么哒~";
 		// 发送短信
-		// sent($mobile,$content)
-		// 本地缓存
-		S ( "verifycode_" . $mobile, $code, 1800 );
-		
-		// 记录短信
-		$id = $this->saveMessage ( $mobile, $content );
-		
-		$this->ajaxReturn ( $content, 'EVAL' );
+		if(\SmsService::sent($mobile, $content)){
+			S ( "verifycode_" . $mobile, $code, 1800 );
+			// 记录短信
+			$id = $this->saveMessage ( $mobile, $content );
+			$this->ajaxReturn ( "success", 'JSONP' );
+		}
+		$this->ajaxReturn ( "false", 'JSONP' );
 	}
 	private function isExistLoginId($mobile) {
 		$Dao = M ( "user" );
