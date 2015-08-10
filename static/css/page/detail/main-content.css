@@ -54,10 +54,11 @@ html{
 
 .main-info{
 	width: 260px;
-	padding: 5px 20px;
+	padding: 4px 19px;
 	float: right;
 	padding-bottom: 10px;
-	background: #fff7f7;
+	border:solid #ddd 1px;
+	background: #fff;
 	border-radius: 5px;
 	overflow: hidden;
 }
@@ -69,7 +70,7 @@ html{
 	font-size: 16px;
 	font-weight:700;
 	color:#fd5e00;
-	border-bottom:dotted #ddd 1px;
+	border-bottom:dotted #ccc 1px;
 }
 .main-info ul{
 	padding: 10px 0;

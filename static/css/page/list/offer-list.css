@@ -7,12 +7,15 @@
 	float: left;
 	margin: 5px 10px 5px 0;
 	padding: 10px;
+	border-radius: 3px;
 	background: #fff;
 }
 
 .offer-item .item-box{
 	width: 220px;
 	height: 220px;
+	border-radius: 3px;
+	overflow: hidden;
 	position: relative;
 	background-repeat: no-repeat;
 	background-size: 100%;
@@ -98,6 +101,7 @@
 	text-align: center;
 	height: 30px;
 	line-height: 30px;
+	border-radius: 3px;
 	background-color: #fe6600;
 	color:#fff;
 }
