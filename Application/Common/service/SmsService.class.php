@@ -22,12 +22,12 @@ class SmsService {
 		$flag = 0;
 		$params = ''; // 要post的数据
 		$argv = array (
-				'name' => $this->name, // 必填参数。用户账号
-				'pwd' => $this->pwd, // 必填参数。（web平台：基本资料中的接口密码）
+				'name' => self::$name, // 必填参数。用户账号
+				'pwd' => self::$pwd, // 必填参数。（web平台：基本资料中的接口密码）
 				'content' => $content, // 必填参数。发送内容（1-500 个汉字）UTF-8编码
 				'mobile' => $mobile, // 必填参数。手机号码。多个以英文逗号隔开
 				'stime' => '', // 可选参数。发送时间，填写时已填写的时间发送，不填时为当前时间发送
-				'sign' => $this->sign, // 必填参数。用户签名。
+				'sign' => self::$sign, // 必填参数。用户签名。
 				'type' => 'pt', // 必填参数。固定值 pt
 				'extno' => '' 
 		);
@@ -41,7 +41,10 @@ class SmsService {
 			$flag = 1;
 		}
 		$url = "http://web.duanxinwang.cc/asmx/smsservice.aspx?" . $params; // 提交的url地址
-		$con = substr ( file_get_contents ( $url ), 0, 1 ); // 获取信息发送后的状态
+		//echo $url;
+		$result=file_get_contents ( $url );
+		//echo $result;
+		$con = substr ($result, 0, 1 ); // 获取信息发送后的状态
 		
 		if ($con == '0') {
 			return TRUE;
