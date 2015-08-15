@@ -33,11 +33,10 @@
                     <li class="current">有偿领养</li>
                     <li>无偿领养</li>
                     <li>怪物商城</li>
-                    <li>造型洗澡</li>
+                    <li>造型洗护</li>
                     <li>萌宠医疗</li>
                     <li>萌宠告别</li>
                     <li>萌宠社区</li>
-                    <li>App下载</li>
                 </ul>
                 <div class="tab-content">
                     <div class="content-box current">
