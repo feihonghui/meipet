@@ -34,7 +34,8 @@ class LogController extends Controller {
 	public function checkout() {
 		header ( "Content-Type:text/html; charset=utf-8" );
 		\LoginService::checkout ();
-		$this->success("退出成功","http://www.meipet.com.cn/");
+		$date->result=true;
+		return $this->ajaxReturn ( $date , 'JSONP' );
 	}
 	public function doLog() {
 		$mobile = $_POST ["mobile"];
@@ -71,6 +72,23 @@ class LogController extends Controller {
 		$date->result=true;
 		return $this->ajaxReturn ( $date , 'JSONP' );
 
+	}
+	
+	//获取用户信息
+
+	// 验证手机号是否被注册
+	public function getUserInfo() {
+
+		if (! \LoginService::isLogin ()) {
+			$date->result=false;
+			$date->reason="notLogin";
+			return $this->ajaxReturn ( $date , 'JSONP' );
+		}
+		
+		$user = \LoginService::getUserModel ();
+		$date->result=true;
+		$date->user=$user;
+		return $this->ajaxReturn ( $date , 'JSONP' );
 	}
 }
 ?>
