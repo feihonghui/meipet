@@ -21,4 +21,8 @@ $yanzhengma = $_POST ["yanzhengma"];
 验证手机号
 http://www.meipet.com.cn/log/checkLoginId?callback=aaa&mobile=13777427165
 登陆post接口
-http://www.meipet.com.cn/log/doLog?mobile=13777427154&password=1
+http://www.meipet.com.cn/log/doLog?
+$mobile = $_POST ["mobile"];
+$password = $_POST ["password"];
+
+忘记密码页面：

@@ -1,5 +1,7 @@
 <?php
+
 namespace Home\Controller;
+
 use Think\Controller;
 
 include_once DOC_ROOT . '/Application/Common/service/SmsService.class.php';
@@ -19,20 +21,20 @@ class RegController extends Controller {
 		$regUrl = 'http://www.meipet.com.cn/index.php/Home/Reg/index';
 		
 		if (empty ( $mobile ) || empty ( $password ) || empty ( $password2 ) || empty ( $yanzhengma )) {
-			return $this->ajaxReturn($this->failJson("字段不能为空"),"JSONP");
+			return $this->ajaxReturn ( $this->failJson ( "字段不能为空" ), "JSONP" );
 		}
 		
 		if ($this->isExistLoginId ( $mobile )) {
-			return $this->ajaxReturn($this->failJson("该账号已经被注册"),"JSONP");
+			return $this->ajaxReturn ( $this->failJson ( "该账号已经被注册" ), "JSONP" );
 		}
 		
 		if ($password != $password2) {
-			return $this->ajaxReturn($this->failJson("密码不一致"),"JSONP");
+			return $this->ajaxReturn ( $this->failJson ( "密码不一致" ), "JSONP" );
 		}
 		
 		$oldcode = S ( "verifycode_" . $mobile );
 		if ($yanzhengma != $oldcode) {
-			return $this->ajaxReturn($this->failJson("验证码不正确"),"JSONP");
+			return $this->ajaxReturn ( $this->failJson ( "验证码不正确" ), "JSONP" );
 		}
 		
 		$Dao = M ( "user" ); // 实例化模型类
@@ -47,9 +49,9 @@ class RegController extends Controller {
 		
 		// 写入数据
 		if ($lastInsId = $Dao->add ( $data )) {
-			return $this->ajaxReturn($this->successJson(),"JSONP");
+			return $this->ajaxReturn ( $this->successJson (), "JSONP" );
 		} else {
-			return $this->ajaxReturn($this->failJson("数据写入错误"),"JSONP");
+			return $this->ajaxReturn ( $this->failJson ( "数据写入错误" ), "JSONP" );
 		}
 	}
 	
@@ -60,21 +62,21 @@ class RegController extends Controller {
 		if (empty ( $callback ) || empty ( $mobile )) {
 			return;
 		}
-		$search ='/^1[3|4|5|7|8][0-9]\d{4,8}$/';
+		$search = '/^1[3|4|5|7|8][0-9]\d{4,8}$/';
 		
-		if(!preg_match($search,$mobile)) {
-			$date->result=false;
-			$date->reason="numberError";
-			$this->ajaxReturn ( $date , 'JSONP' );
+		if (! preg_match ( $search, $mobile )) {
+			$date->result = false;
+			$date->reason = "numberError";
+			$this->ajaxReturn ( $date, 'JSONP' );
 		}
 		
 		if (! $this->isExistLoginId ( $mobile )) {
-			$date->result=true;
-			$this->ajaxReturn ( $date,'JSONP');
+			$date->result = true;
+			$this->ajaxReturn ( $date, 'JSONP' );
 		} else {
-			$date->result=false;
-			$date->reason="numberExist";
-			$this->ajaxReturn ( $date , 'JSONP' );
+			$date->result = false;
+			$date->reason = "numberExist";
+			$this->ajaxReturn ( $date, 'JSONP' );
 		}
 	}
 	
@@ -83,22 +85,24 @@ class RegController extends Controller {
 		$callback = $_GET ["callback"];
 		$mobile = $_GET ["mobile"];
 		if (empty ( $callback ) || empty ( $mobile )) {
-			return;
+			return $this->ajaxReturn ( $this->failJson ( "手机号为空" ), 'JSONP' );
 		}
 		
 		if ($this->hasSended ( $mobile )) {
-			return;
+			$date = $this->successJson ();
+			$date->reason = "hasSended";
+			return $this->ajaxReturn ( $date, 'JSONP' );
 		}
 		$code = rand ( 100000, 999999 );
 		$content = "亲爱的小主银，您的注册验证码是" . $code . "（30分钟内有效）。您就是我的全世界，么么哒~";
 		// 发送短信
-		if(\SmsService::sent($mobile, $content)){
+		if (\SmsService::sent ( $mobile, $content )) {
 			S ( "verifycode_" . $mobile, $code, 1800 );
 			// 记录短信
 			$id = $this->saveMessage ( $mobile, $content );
-			$this->ajaxReturn ( "success", 'JSONP' );
+			$this->ajaxReturn ( $this->successJson (), 'JSONP' );
 		}
-		$this->ajaxReturn ( "false", 'JSONP' );
+		$this->ajaxReturn ( $this->failJson("SystemError"), 'JSONP' );
 	}
 	private function isExistLoginId($mobile) {
 		$Dao = M ( "user" );
@@ -130,24 +134,23 @@ class RegController extends Controller {
 		}
 		return TRUE;
 	}
-    private function saveMessage($mobile, $content) {
+	private function saveMessage($mobile, $content) {
 		$Dao = M ( "sms" );
 		$data ["mobile"] = $mobile;
 		$data ["content"] = $content;
 		$data ["GMT_CREATE"] = date ( 'Y-m-d H:i:s', time () );
-	
+		
 		// 写入数据
 		$lastInsId = $Dao->add ( $data );
 		return $lastInsId;
 	}
-	
 	protected function failJson($reason) {
-		$date->result=false;
-		$date->reason=$reason;
+		$date->result = false;
+		$date->reason = $reason;
 		return $date;
 	}
 	protected function successJson() {
-		$date->result=true;
+		$date->result = true;
 		return $date;
 	}
 }

@@ -10,56 +10,6 @@ class ForgetController extends Controller {
 		header ( "Content-Type:text/html; charset=utf-8" );
 		$this->display ();
 	}
-	public function forget() {
-		header ( "Content-Type:text/html; charset=utf-8" );
-		$this->display ();
-	}
-	public function doReg() {
-		$mobile = $_POST ["mobile"];
-		$password = $_POST ["password"];
-		$password2 = $_POST ["password2"];
-		$yanzhengma = $_POST ["yanzhengma"];
-		
-		$regUrl = 'http://www.meipet.com.cn/index.php/Home/Reg/index';
-		
-		if (empty ( $mobile ) || empty ( $password ) || empty ( $password2 ) || empty ( $yanzhengma )) {
-			$this->error ( "字段不能为空", $regUrl );
-			return;
-		}
-		
-		if ($this->isExistLoginId ( $mobile )) {
-			$this->error ( "该账号已经被注册", $regUrl );
-			return;
-		}
-		
-		if ($password != $password2) {
-			$this->error ( "密码不一致", $regUrl );
-			return;
-		}
-		
-		$oldcode = S ( "verifycode_" . $mobile );
-		if ($yanzhengma != $oldcode) {
-			$this->error ( "验证码不对", $regUrl );
-			return;
-		}
-		
-		$Dao = M ( "user" ); // 实例化模型类
-		                     
-		// 构建写入的数据数组
-		$data ["login_id"] = $mobile;
-		$data ["mobile"] = $mobile;
-		$data ["password"] = md5 ( $password );
-		$data ["mobile"] = $mobile;
-		$data ["GMT_CREATE"] = date ( 'Y-m-d H:i:s', time () );
-		$data ["gmt_modified"] = date ( 'Y-m-d H:i:s', time () );
-		
-		// 写入数据
-		if ($lastInsId = $Dao->add ( $data )) {
-			echo $this->success ( "", "http://www.meipet.com.cn/index.php/Home/Log/index" );
-		} else {
-			$this->error ( '数据写入错误！', $regUrl );
-		}
-	}
 	
 	// 找回密码
 	public function getPassword() {
@@ -111,31 +61,6 @@ class ForgetController extends Controller {
 			$this->error ( "系统错误", $forgetUrl );
 			return;
 		} 
-	}
-	
-	// 验证手机号是否被注册
-	public function checkLoginId() {
-		$callback = $_GET ["callback"];
-		$mobile = $_GET ["mobile"];
-		if (empty ( $callback ) || empty ( $mobile )) {
-			return;
-		}
-		$search ='/^1[3|4|5|7|8][0-9]\d{4,8}$/';
-		
-		if(!preg_match($search,$mobile)) {
-			$date->result=false;
-			$date->reason="numberError";
-			$this->ajaxReturn ( $date , 'JSONP' );
-		}
-		
-		if (! $this->isExistLoginId ( $mobile )) {
-			$date->result=true;
-			$this->ajaxReturn ( $date,'JSONP');
-		} else {
-			$date->result=false;
-			$date->reason="numberExist";
-			$this->ajaxReturn ( $date , 'JSONP' );
-		}
 	}
 	
 	// 获取验证码
