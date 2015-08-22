@@ -25,4 +25,9 @@ http://www.meipet.com.cn/log/doLog?
 $mobile = $_POST ["mobile"];
 $password = $_POST ["password"];
 
-Õ¸º«√‹¬Î“≥√Ê£∫
+’“ªÿ√‹¬Î£∫
+http://www.meipet.com.cn/forget/getPassword
+$mobile = $_POST ["mobile"];
+$password = $_POST ["password"];
+$password2 = $_POST ["password2"];
+$yanzhengma = $_POST ["yanzhengma"];
