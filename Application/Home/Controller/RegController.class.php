@@ -120,11 +120,21 @@ class RegController extends Controller {
 		if (empty ( $callback ) || empty ( $mobile )) {
 			return;
 		}
+		$search ='/^1[3|4|5|7|8][0-9]\d{4,8}$/';
+		
+		if(!preg_match($search,$mobile)) {
+			$date->result=false;
+			$date->reason="numberError";
+			$this->ajaxReturn ( $date , 'JSONP' );
+		}
 		
 		if (! $this->isExistLoginId ( $mobile )) {
-			$this->ajaxReturn ( true,'JSONP');
+			$date->result=true;
+			$this->ajaxReturn ( $date,'JSONP');
 		} else {
-			$this->ajaxReturn ( false , 'JSONP' );
+			$date->result=false;
+			$date->reason="numberExist";
+			$this->ajaxReturn ( $date , 'JSONP' );
 		}
 	}
 	
