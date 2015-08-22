@@ -44,7 +44,7 @@ class LogController extends Controller {
 		$logUrl = 'http://www.meipet.com.cn/index.php/Home/Log/index';
 		
 		$date->result=false;
-		
+
 		if (empty ( $mobile ) || empty ( $password )) {
 			$date->reason="账号或密码为空";
 			return $this->ajaxReturn ( $date , 'JSONP' );
@@ -71,7 +71,6 @@ class LogController extends Controller {
 		\LoginService::saveUser ( $user );
 		$date->result=true;
 		return $this->ajaxReturn ( $date , 'JSONP' );
-
 	}
 	
 	//获取用户信息
