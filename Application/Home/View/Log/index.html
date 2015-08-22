@@ -32,6 +32,7 @@
                         <input type="password" name="password" id="password" value="" placeholder="密码"/>
                         <a href="http://www.meipet.com.cn/index.php/Home/Reg/forget">忘记密码？</a><br/>
                         <span>登&nbsp;录</span>
+                        <input type="submit" value="登陆"/>
                     </form>
                     <ul>
                         <li>还没有账号？<a href="http://www.meipet.com.cn/index.php/Home/Reg/index"> 立即注册</a></li>
