@@ -34,7 +34,8 @@ class LogController extends Controller {
 	public function checkout() {
 		header ( "Content-Type:text/html; charset=utf-8" );
 		\LoginService::checkout ();
-		$this->success("退出成功","http://www.meipet.com.cn/");
+		$date->result=true;
+		return $this->ajaxReturn ( $date , 'JSONP' );
 	}
 	public function doLog() {
 		$mobile = $_POST ["mobile"];
@@ -43,7 +44,7 @@ class LogController extends Controller {
 		$logUrl = 'http://www.meipet.com.cn/index.php/Home/Log/index';
 		
 		$date->result=false;
-		
+
 		if (empty ( $mobile ) || empty ( $password )) {
 			$date->reason="账号或密码为空";
 			return $this->ajaxReturn ( $date , 'JSONP' );
@@ -70,7 +71,23 @@ class LogController extends Controller {
 		\LoginService::saveUser ( $user );
 		$date->result=true;
 		return $this->ajaxReturn ( $date , 'JSONP' );
+	}
+	
+	//获取用户信息
 
+	// 验证手机号是否被注册
+	public function getUserInfo() {
+
+		if (! \LoginService::isLogin ()) {
+			$date->result=false;
+			$date->reason="notLogin";
+			return $this->ajaxReturn ( $date , 'JSONP' );
+		}
+		
+		$user = \LoginService::getUserModel ();
+		$date->result=true;
+		$date->user=$user;
+		return $this->ajaxReturn ( $date , 'JSONP' );
 	}
 }
 ?>
