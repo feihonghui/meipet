@@ -4,7 +4,7 @@ use Think\Controller;
 
 
 // 通用组件模块
-class PetListController extends Controller {
+class ListController extends Controller {
 	public function index() {
 		header ( "Content-Type:text/html; charset=utf-8" );
 		$category = $_GET ["category"];
@@ -12,9 +12,7 @@ class PetListController extends Controller {
 		$city = $_GET ["city"];
 		$page = $_GET ["page"];
 		$size = $_GET ["size"];
-		
-		
-		
+		$this->display();
 	}
 	
 }

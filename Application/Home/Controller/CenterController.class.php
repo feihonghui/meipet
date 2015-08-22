@@ -1,14 +1,16 @@
 <?php
-
 namespace Home\Controller;
-
 use Think\Controller;
 
 include_once DOC_ROOT . '/Application/Common/service/SmsService.class.php';
 
 // 通用组件模块
-class RegController extends Controller {
+class CenterController extends Controller {
 	public function index() {
+		header ( "Content-Type:text/html; charset=utf-8" );
+		$this->display ();
+	}
+	public function forget() {
 		header ( "Content-Type:text/html; charset=utf-8" );
 		$this->display ();
 	}
@@ -21,20 +23,24 @@ class RegController extends Controller {
 		$regUrl = 'http://www.meipet.com.cn/index.php/Home/Reg/index';
 		
 		if (empty ( $mobile ) || empty ( $password ) || empty ( $password2 ) || empty ( $yanzhengma )) {
-			return $this->ajaxReturn ( $this->failJson ( "字段不能为空" ), "JSONP" );
+			$this->error ( "字段不能为空", $regUrl );
+			return;
 		}
 		
 		if ($this->isExistLoginId ( $mobile )) {
-			return $this->ajaxReturn ( $this->failJson ( "该账号已经被注册" ), "JSONP" );
+			$this->error ( "该账号已经被注册", $regUrl );
+			return;
 		}
 		
 		if ($password != $password2) {
-			return $this->ajaxReturn ( $this->failJson ( "密码不一致" ), "JSONP" );
+			$this->error ( "密码不一致", $regUrl );
+			return;
 		}
 		
 		$oldcode = S ( "verifycode_" . $mobile );
 		if ($yanzhengma != $oldcode) {
-			return $this->ajaxReturn ( $this->failJson ( "验证码不正确" ), "JSONP" );
+			$this->error ( "验证码不对", $regUrl );
+			return;
 		}
 		
 		$Dao = M ( "user" ); // 实例化模型类
@@ -49,10 +55,62 @@ class RegController extends Controller {
 		
 		// 写入数据
 		if ($lastInsId = $Dao->add ( $data )) {
-			return $this->ajaxReturn ( $this->successJson (), "JSONP" );
+			echo $this->success ( "", "http://www.meipet.com.cn/index.php/Home/Log/index" );
 		} else {
-			return $this->ajaxReturn ( $this->failJson ( "数据写入错误" ), "JSONP" );
+			$this->error ( '数据写入错误！', $regUrl );
 		}
+	}
+	
+	// 找回密码
+	public function getPassword() {
+		$mobile = $_POST ["mobile"];
+		$password = $_POST ["password"];
+		$password2 = $_POST ["password2"];
+		$yanzhengma = $_POST ["yanzhengma"];
+		
+		$forgetUrl = 'http://www.meipet.com.cn/index.php/Home/Reg/forget';
+		
+		if (empty ( $mobile ) || empty ( $password ) || empty ( $password2 ) || empty ( $yanzhengma )) {
+			$this->error ( "字段不能为空", $forgetUrl );
+			return;
+		}
+		
+		$Dao = M ( "user" );
+		$condition ['login_id'] = $mobile;
+		$user = $Dao->where ( $condition )->find ();
+		
+		if (empty ( $user )) {
+			$this->error ( "该账号不存在", $forgetUrl );
+			return;
+		}
+		
+		if ($password != $password2) {
+			$this->error ( "密码不一致", $forgetUrl );
+			return;
+		}
+		
+		$oldcode = S ( "verifycode_" . $mobile );
+		if ($yanzhengma != $oldcode) {
+			$this->error ( "验证码不对", $forgetUrl );
+			return;
+		}
+		
+		$user ["password"] = md5 ( $password );
+		$user ["gmt_modified"] = date ( 'Y-m-d H:i:s', time () );
+		
+		$cond ['id'] = $user ['id'];
+		$result = $Dao->where ( $cond )->save ( $user );
+		
+		//echo $Dao->getLastSql();
+		
+		 if ($result !== false) {
+			
+			echo $this->success ( "", "http://www.meipet.com.cn/index.php/Home/Log/index" );
+			return;
+		} else {
+			$this->error ( "系统错误", $forgetUrl );
+			return;
+		} 
 	}
 	
 	// 验证手机号是否被注册
@@ -62,21 +120,21 @@ class RegController extends Controller {
 		if (empty ( $callback ) || empty ( $mobile )) {
 			return;
 		}
-		$search = '/^1[3|4|5|7|8][0-9]\d{4,8}$/';
+		$search ='/^1[3|4|5|7|8][0-9]\d{4,8}$/';
 		
-		if (! preg_match ( $search, $mobile )) {
-			$date->result = false;
-			$date->reason = "numberError";
-			$this->ajaxReturn ( $date, 'JSONP' );
+		if(!preg_match($search,$mobile)) {
+			$date->result=false;
+			$date->reason="numberError";
+			$this->ajaxReturn ( $date , 'JSONP' );
 		}
 		
 		if (! $this->isExistLoginId ( $mobile )) {
-			$date->result = true;
-			$this->ajaxReturn ( $date, 'JSONP' );
+			$date->result=true;
+			$this->ajaxReturn ( $date,'JSONP');
 		} else {
-			$date->result = false;
-			$date->reason = "numberExist";
-			$this->ajaxReturn ( $date, 'JSONP' );
+			$date->result=false;
+			$date->reason="numberExist";
+			$this->ajaxReturn ( $date , 'JSONP' );
 		}
 	}
 	
@@ -85,24 +143,22 @@ class RegController extends Controller {
 		$callback = $_GET ["callback"];
 		$mobile = $_GET ["mobile"];
 		if (empty ( $callback ) || empty ( $mobile )) {
-			return $this->ajaxReturn ( $this->failJson ( "手机号为空" ), 'JSONP' );
+			return;
 		}
 		
 		if ($this->hasSended ( $mobile )) {
-			$date = $this->successJson ();
-			$date->reason = "hasSended";
-			return $this->ajaxReturn ( $date, 'JSONP' );
+			return;
 		}
 		$code = rand ( 100000, 999999 );
 		$content = "亲爱的小主银，您的注册验证码是" . $code . "（30分钟内有效）。您就是我的全世界，么么哒~";
 		// 发送短信
-		if (\SmsService::sent ( $mobile, $content )) {
+		if(\SmsService::sent($mobile, $content)){
 			S ( "verifycode_" . $mobile, $code, 1800 );
 			// 记录短信
 			$id = $this->saveMessage ( $mobile, $content );
-			$this->ajaxReturn ( $this->successJson (), 'JSONP' );
+			$this->ajaxReturn ( "success", 'JSONP' );
 		}
-		$this->ajaxReturn ( $this->failJson("SystemError"), 'JSONP' );
+		$this->ajaxReturn ( "false", 'JSONP' );
 	}
 	private function isExistLoginId($mobile) {
 		$Dao = M ( "user" );
@@ -134,24 +190,15 @@ class RegController extends Controller {
 		}
 		return TRUE;
 	}
-	private function saveMessage($mobile, $content) {
+    private function saveMessage($mobile, $content) {
 		$Dao = M ( "sms" );
 		$data ["mobile"] = $mobile;
 		$data ["content"] = $content;
 		$data ["GMT_CREATE"] = date ( 'Y-m-d H:i:s', time () );
-		
+	
 		// 写入数据
 		$lastInsId = $Dao->add ( $data );
 		return $lastInsId;
-	}
-	protected function failJson($reason) {
-		$date->result = false;
-		$date->reason = $reason;
-		return $date;
-	}
-	protected function successJson() {
-		$date->result = true;
-		return $date;
 	}
 }
 ?>
