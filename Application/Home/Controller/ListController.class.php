@@ -21,11 +21,11 @@ class ListController extends Controller {
 		if(empty($page)){
 			$page=1;
 		}
-		if(!empty($size)){
+		if(empty($size)){
 		    $size=20;
 		}
 		
-		$limit=($page-1)*$size+","+$size;
+		$limit=($page-1)*$size.",".$size;
 		
 		
 		$Dao = M ( "pet" );
@@ -40,6 +40,7 @@ class ListController extends Controller {
 		}
 		
 		$petList = $Dao->where ( $condition )->limit($limit)->select();
+	    echo 	$Dao->getLastSql();
 		$data->result = true;
 	    $data->data=$petList;
 		$this->ajaxReturn($data,"JSONP");

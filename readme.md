@@ -1,15 +1,16 @@
-Í¨ÓÃ½Ó¿Ú:
-»ñÈ¡ÓÃ»§ĞÅÏ¢:
+
+é€šç”¨æ¥å£:
+è·å–ç”¨æˆ·ä¿¡æ¯:
 http://www.meipet.com.cn/log/getUserInfo
-ÍË³öµÇÂ½:
+é€€å‡ºç™»é™†:
 http://www.meipet.com.cn/log/checkout
 
-×¢²áÏà¹Ø£º
-×¢²áÊ±»ñÈ¡ÑéÖ¤Âë£º
+æ³¨å†Œç›¸å…³ï¼š
+æ³¨å†Œæ—¶è·å–éªŒè¯ç ï¼š
 http://www.meipet.com.cn/reg/Verifycode?callback=xxxxxxxx&mobile=13777427154
-ÑéÖ¤ÊÖ»úºÅÂë£º£¨ÒÑ×¢²áºÍºÅÂë´íÎó£©
+éªŒè¯æ‰‹æœºå·ç ï¼šï¼ˆå·²æ³¨å†Œå’Œå·ç é”™è¯¯ï¼‰
 http://www.meipet.com.cn/reg/checkLoginId?callback=aaa&mobile=13734632465
-×¢²á½Ó¿Ú
+æ³¨å†Œæ¥å£
 http://www.meipet.com.cn/reg/doReg?
 $mobile = $_POST ["mobile"];
 $password = $_POST ["password"];
@@ -17,17 +18,20 @@ $password2 = $_POST ["password2"];
 $yanzhengma = $_POST ["yanzhengma"];
 
 
-µÇÂ½Ïà¹Ø£º
-ÑéÖ¤ÊÖ»úºÅ
+ç™»é™†ç›¸å…³ï¼š
+éªŒè¯æ‰‹æœºå·
 http://www.meipet.com.cn/log/checkLoginId?callback=aaa&mobile=13777427165
-µÇÂ½post½Ó¿Ú
+ç™»é™†postæ¥å£
 http://www.meipet.com.cn/log/doLog?
 $mobile = $_POST ["mobile"];
 $password = $_POST ["password"];
 
-ÕÒ»ØÃÜÂë£º
+æ‰¾å›å¯†ç ï¼š
 http://www.meipet.com.cn/forget/getPassword
 $mobile = $_POST ["mobile"];
 $password = $_POST ["password"];
 $password2 = $_POST ["password2"];
 $yanzhengma = $_POST ["yanzhengma"];
+
+å® ç‰©åˆ—è¡¨æ¥å£
+http://www.meipet.com.cn/list/getPet?category=dog&area=%E6%BB%A8%E6%B1%9F%E5%8C%BA&city=%E6%9D%AD%E5%B7%9E&page=2&size=1
