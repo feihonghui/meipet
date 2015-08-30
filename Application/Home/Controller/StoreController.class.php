@@ -48,7 +48,7 @@ class StoreController extends Controller {
 			$size=20;
 		}
 		
-		$limit=($page-1)*$size.",".$size;
+		$limit=($page-1)*$size.",".$size; 
 		
 		
 	    if(empty($userId)&&empty($adoptId)){
