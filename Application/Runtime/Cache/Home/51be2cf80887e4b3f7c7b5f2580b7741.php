@@ -8,8 +8,8 @@
     <link rel="stylesheet" type="text/css" href="/static/css/global/reset.css" />
     <link rel="stylesheet" type="text/css" href="/static/css/global/layout.css" />
     <link rel="stylesheet" type="text/css" href="/static/css/module/form.css" />
-
-     <link rel="stylesheet" type="text/css" href="/static/css/module/footer.css">
+    
+    <link rel="stylesheet" type="text/css" href="/static/css/module/footer.css" />
     <link rel="stylesheet" type="text/css" href="/static/css/page/login/v1.css" />
 </head>
 
