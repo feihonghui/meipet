@@ -1,0 +1,2588 @@
+[ 2015-08-30T13:13:05+08:00 ] 127.0.0.1 /detail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.041002s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.056003s ]
+NOTIC: [8] Undefined index: category C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Home\Controller\DetailController.class.php 第 10 行.
+NOTIC: [8] Undefined index: area C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Home\Controller\DetailController.class.php 第 11 行.
+NOTIC: [8] Undefined index: city C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Home\Controller\DetailController.class.php 第 12 行.
+NOTIC: [8] Undefined index: page C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Home\Controller\DetailController.class.php 第 13 行.
+NOTIC: [8] Undefined index: size C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Home\Controller\DetailController.class.php 第 14 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.085005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.085005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.013001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.014001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.014001s ]
+
+[ 2015-08-30T13:17:57+08:00 ] 127.0.0.1 /detail?id=111
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: category C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Home\Controller\DetailController.class.php 第 10 行.
+NOTIC: [8] Undefined index: area C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Home\Controller\DetailController.class.php 第 11 行.
+NOTIC: [8] Undefined index: city C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Home\Controller\DetailController.class.php 第 12 行.
+NOTIC: [8] Undefined index: page C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Home\Controller\DetailController.class.php 第 13 行.
+NOTIC: [8] Undefined index: size C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Home\Controller\DetailController.class.php 第 14 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-08-30T13:18:12+08:00 ] 127.0.0.1 /detail/111
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+ERR: 非法操作:111
+
+[ 2015-08-30T13:18:19+08:00 ] 127.0.0.1 /detail?id=111
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: category C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Home\Controller\DetailController.class.php 第 10 行.
+NOTIC: [8] Undefined index: area C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Home\Controller\DetailController.class.php 第 11 行.
+NOTIC: [8] Undefined index: city C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Home\Controller\DetailController.class.php 第 12 行.
+NOTIC: [8] Undefined index: page C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Home\Controller\DetailController.class.php 第 13 行.
+NOTIC: [8] Undefined index: size C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Home\Controller\DetailController.class.php 第 14 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-08-30T13:22:14+08:00 ] 127.0.0.1 /detail?id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: category C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Home\Controller\DetailController.class.php 第 10 行.
+NOTIC: [8] Undefined index: area C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Home\Controller\DetailController.class.php 第 11 行.
+NOTIC: [8] Undefined index: city C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Home\Controller\DetailController.class.php 第 12 行.
+NOTIC: [8] Undefined index: page C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Home\Controller\DetailController.class.php 第 13 行.
+NOTIC: [8] Undefined index: size C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Home\Controller\DetailController.class.php 第 14 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-08-30T13:33:48+08:00 ] 127.0.0.1 /detail?id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `mp_pet` [ RunTime:0.013001s ]
+NOTIC: [2] Invalid argument supplied for foreach() C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\ThinkPHP\Library\Think\Db.class.php 第 425 行.
+SQL: SELECT * FROM `mp_pet` LIMIT 1   [ RunTime:0.011001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-08-30T13:34:30+08:00 ] 127.0.0.1 /detail?id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `mp_pet` [ RunTime:0.005000s ]
+NOTIC: [2] Invalid argument supplied for foreach() C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\ThinkPHP\Library\Think\Db.class.php 第 425 行.
+SQL: SELECT * FROM `mp_pet` LIMIT 1   [ RunTime:0.005001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-08-30T13:37:09+08:00 ] 127.0.0.1 /detail?id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `mp_pet` [ RunTime:0.014001s ]
+NOTIC: [2] Invalid argument supplied for foreach() C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\ThinkPHP\Library\Think\Db.class.php 第 425 行.
+SQL: SELECT * FROM `mp_pet` LIMIT 1   [ RunTime:0.025002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-08-30T13:37:11+08:00 ] 127.0.0.1 /detail?id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `mp_pet` [ RunTime:0.010001s ]
+NOTIC: [2] Invalid argument supplied for foreach() C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\ThinkPHP\Library\Think\Db.class.php 第 425 行.
+SQL: SELECT * FROM `mp_pet` LIMIT 1   [ RunTime:0.014001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-08-30T13:37:32+08:00 ] 127.0.0.1 /detail?id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mp_pet` [ RunTime:0.037002s ]
+NOTIC: [2] Invalid argument supplied for foreach() C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\ThinkPHP\Library\Think\Db.class.php 第 425 行.
+SQL: SELECT * FROM `mp_pet` LIMIT 1   [ RunTime:0.009001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.014000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.002001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-08-30T13:37:34+08:00 ] 127.0.0.1 /detail?id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `mp_pet` [ RunTime:0.011001s ]
+NOTIC: [2] Invalid argument supplied for foreach() C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\ThinkPHP\Library\Think\Db.class.php 第 425 行.
+SQL: SELECT * FROM `mp_pet` LIMIT 1   [ RunTime:0.007000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-08-30T13:37:53+08:00 ] 127.0.0.1 /detail?id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `mp_pet` [ RunTime:0.015001s ]
+NOTIC: [2] Invalid argument supplied for foreach() C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\ThinkPHP\Library\Think\Db.class.php 第 425 行.
+SQL: SELECT * FROM `mp_pet` LIMIT 1   [ RunTime:0.014001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.034002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-08-30T13:38:23+08:00 ] 127.0.0.1 /detail?id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `mp_pet` [ RunTime:0.006000s ]
+NOTIC: [2] Invalid argument supplied for foreach() C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\ThinkPHP\Library\Think\Db.class.php 第 425 行.
+SQL: SELECT * FROM `mp_pet` LIMIT 1   [ RunTime:0.008001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2015-08-30T13:38:45+08:00 ] 127.0.0.1 /detail?id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mp_pet` [ RunTime:0.012001s ]
+SQL: SELECT * FROM `mp_pet` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.013001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2015-08-30T13:39:25+08:00 ] 127.0.0.1 /detail?id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mp_pet` [ RunTime:0.005001s ]
+SQL: SELECT * FROM `mp_pet` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.007000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.026002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-08-30T14:32:49+08:00 ] 127.0.0.1 /detail?id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `mp_pet` [ RunTime:0.007000s ]
+SQL: SELECT * FROM `mp_pet` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `mp_pet_img` [ RunTime:0.008001s ]
+SQL: SELECT * FROM `mp_pet` WHERE ( pet_id=2 )  [ RunTime:0.007000s ]
+ERR: 1054:Unknown column 'pet_id' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `mp_pet` WHERE ( pet_id=2 ) 
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.027002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2015-08-30T14:32:50+08:00 ] 127.0.0.1 /detail?id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `mp_pet` [ RunTime:0.009001s ]
+SQL: SELECT * FROM `mp_pet` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.008000s ]
+SQL: SHOW COLUMNS FROM `mp_pet_img` [ RunTime:0.009001s ]
+SQL: SELECT * FROM `mp_pet` WHERE ( pet_id=2 )  [ RunTime:0.005000s ]
+ERR: 1054:Unknown column 'pet_id' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `mp_pet` WHERE ( pet_id=2 ) 
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.024002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-08-30T14:33:27+08:00 ] 127.0.0.1 /detail?id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `mp_pet` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `mp_pet` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.008000s ]
+SQL: SHOW COLUMNS FROM `mp_pet_img` [ RunTime:0.007001s ]
+SQL: SELECT * FROM `mp_pet` WHERE ( pet_id=2 )  [ RunTime:0.007000s ]
+ERR: 1054:Unknown column 'pet_id' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `mp_pet` WHERE ( pet_id=2 ) 
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-08-30T14:34:18+08:00 ] 127.0.0.1 /detail?id=111
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `mp_pet` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `mp_pet` WHERE ( id=111 ) LIMIT 1   [ RunTime:0.009001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: pet C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Runtime\Cache\Home\0d75cb75cd30b13fdd4834afd69acb19.php 第 55 行.
+NOTIC: [8] Undefined variable: pet C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Runtime\Cache\Home\0d75cb75cd30b13fdd4834afd69acb19.php 第 63 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.026002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.004000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2015-08-30T14:34:20+08:00 ] 127.0.0.1 /detail?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `mp_pet` [ RunTime:0.007000s ]
+SQL: SELECT * FROM `mp_pet` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.007001s ]
+SQL: SHOW COLUMNS FROM `mp_pet_img` [ RunTime:0.008000s ]
+SQL: SELECT * FROM `mp_pet` WHERE ( pet_id=1 )  [ RunTime:0.007001s ]
+ERR: 1054:Unknown column 'pet_id' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `mp_pet` WHERE ( pet_id=1 ) 
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-08-30T14:34:32+08:00 ] 127.0.0.1 /detail?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `mp_pet` [ RunTime:0.014001s ]
+SQL: SELECT * FROM `mp_pet` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.015001s ]
+SQL: SHOW COLUMNS FROM `mp_pet_img` [ RunTime:0.010000s ]
+SQL: SELECT * FROM `mp_pet` WHERE ( pet_id=1 )  [ RunTime:0.011001s ]
+ERR: 1054:Unknown column 'pet_id' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `mp_pet` WHERE ( pet_id=1 ) 
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.033002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-08-30T14:35:23+08:00 ] 127.0.0.1 /detail?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mp_pet` [ RunTime:0.014001s ]
+SQL: SELECT * FROM `mp_pet` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.015001s ]
+SQL: SHOW COLUMNS FROM `mp_pet_img` [ RunTime:0.014000s ]
+SQL: SELECT * FROM `mp_pet` WHERE ( pet_id=1 )  [ RunTime:0.015000s ]
+ERR: 1054:Unknown column 'pet_id' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `mp_pet` WHERE ( pet_id=1 ) 
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-08-30T14:40:20+08:00 ] 127.0.0.1 /detail?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `mp_pet` [ RunTime:0.011001s ]
+SQL: SELECT * FROM `mp_pet` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.011000s ]
+SQL: SHOW COLUMNS FROM `mp_pet_img` [ RunTime:0.010001s ]
+SQL: SELECT * FROM `mp_pet` WHERE ( pet_id=1 )  [ RunTime:0.007000s ]
+ERR: 1054:Unknown column 'pet_id' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `mp_pet` WHERE ( pet_id=1 ) 
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: imgList C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Runtime\Cache\Home\0d75cb75cd30b13fdd4834afd69acb19.php 第 67 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.075005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.075005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-08-30T14:40:52+08:00 ] 127.0.0.1 /detail?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `mp_pet` [ RunTime:0.010001s ]
+SQL: SELECT * FROM `mp_pet` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.040002s ]
+SQL: SHOW COLUMNS FROM `mp_pet_img` [ RunTime:0.009001s ]
+SQL: SELECT * FROM `mp_pet` WHERE ( pet_id=1 )  [ RunTime:0.007000s ]
+ERR: 1054:Unknown column 'pet_id' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `mp_pet` WHERE ( pet_id=1 ) 
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: imgList C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Runtime\Cache\Home\0d75cb75cd30b13fdd4834afd69acb19.php 第 67 行.
+NOTIC: [8] Undefined variable: imgList C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Runtime\Cache\Home\0d75cb75cd30b13fdd4834afd69acb19.php 第 68 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.029002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-08-30T14:41:33+08:00 ] 127.0.0.1 /detail?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `mp_pet` [ RunTime:0.013000s ]
+SQL: SELECT * FROM `mp_pet` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.224012s ]
+SQL: SHOW COLUMNS FROM `mp_pet_img` [ RunTime:0.035002s ]
+SQL: SELECT * FROM `mp_pet_img` WHERE ( pet_id=1 )  [ RunTime:0.012001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: imgList C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Runtime\Cache\Home\0d75cb75cd30b13fdd4834afd69acb19.php 第 67 行.
+NOTIC: [8] Undefined variable: imgList C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Runtime\Cache\Home\0d75cb75cd30b13fdd4834afd69acb19.php 第 68 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-08-30T14:42:31+08:00 ] 127.0.0.1 /detail?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `mp_pet` [ RunTime:0.046003s ]
+SQL: SELECT * FROM `mp_pet` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.017001s ]
+SQL: SHOW COLUMNS FROM `mp_pet_img` [ RunTime:0.017001s ]
+SQL: SELECT * FROM `mp_pet_img` WHERE ( pet_id=1 )  [ RunTime:0.012001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: imgList C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Runtime\Cache\Home\0d75cb75cd30b13fdd4834afd69acb19.php 第 67 行.
+NOTIC: [8] Undefined variable: imgList C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Runtime\Cache\Home\0d75cb75cd30b13fdd4834afd69acb19.php 第 68 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-08-30T14:43:37+08:00 ] 127.0.0.1 /detail?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mp_pet` [ RunTime:0.012001s ]
+SQL: SELECT * FROM `mp_pet` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.014001s ]
+SQL: SHOW COLUMNS FROM `mp_pet_img` [ RunTime:0.016001s ]
+SQL: SELECT * FROM `mp_pet_img` WHERE ( pet_id=1 )  [ RunTime:0.016001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: imgList C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Runtime\Cache\Home\0d75cb75cd30b13fdd4834afd69acb19.php 第 67 行.
+NOTIC: [8] Undefined variable: imgList C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Runtime\Cache\Home\0d75cb75cd30b13fdd4834afd69acb19.php 第 68 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-08-30T14:43:51+08:00 ] 127.0.0.1 /detail?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `mp_pet` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `mp_pet` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.008001s ]
+SQL: SHOW COLUMNS FROM `mp_pet_img` [ RunTime:0.007000s ]
+SQL: SELECT * FROM `mp_pet_img` WHERE ( pet_id=1 )  [ RunTime:0.007000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: imgList C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Runtime\Cache\Home\0d75cb75cd30b13fdd4834afd69acb19.php 第 67 行.
+NOTIC: [8] Undefined variable: imgList C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Runtime\Cache\Home\0d75cb75cd30b13fdd4834afd69acb19.php 第 68 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.024002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-08-30T14:44:01+08:00 ] 127.0.0.1 /detail?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mp_pet` [ RunTime:0.016001s ]
+SQL: SELECT * FROM `mp_pet` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.225013s ]
+SQL: SHOW COLUMNS FROM `mp_pet_img` [ RunTime:0.030002s ]
+SQL: SELECT * FROM `mp_pet_img` WHERE ( pet_id=1 )  [ RunTime:0.011000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Array to string conversion C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Runtime\Cache\Home\0d75cb75cd30b13fdd4834afd69acb19.php 第 67 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-08-30T14:47:15+08:00 ] 127.0.0.1 /detail?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `mp_pet` [ RunTime:0.039002s ]
+SQL: SELECT * FROM `mp_pet` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.014001s ]
+SQL: SHOW COLUMNS FROM `mp_pet_img` [ RunTime:0.011001s ]
+SQL: SELECT * FROM `mp_pet_img` WHERE ( pet_id=1 )  [ RunTime:0.015000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-08-30T14:52:19+08:00 ] 127.0.0.1 /detail?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `mp_pet` [ RunTime:0.011000s ]
+SQL: SELECT * FROM `mp_pet` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.008001s ]
+SQL: SHOW COLUMNS FROM `mp_pet_img` [ RunTime:0.007000s ]
+SQL: SELECT * FROM `mp_pet_img` WHERE ( pet_id=1 )  [ RunTime:0.036002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.056003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.056003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-08-30T14:53:17+08:00 ] 127.0.0.1 /detail?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mp_pet` [ RunTime:0.005001s ]
+SQL: SELECT * FROM `mp_pet` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `mp_pet_img` [ RunTime:0.009000s ]
+SQL: SELECT * FROM `mp_pet_img` WHERE ( pet_id=1 )  [ RunTime:0.030002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.003001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-08-30T14:56:22+08:00 ] 127.0.0.1 /detail?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `mp_pet` [ RunTime:0.014001s ]
+SQL: SELECT * FROM `mp_pet` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.019001s ]
+SQL: SHOW COLUMNS FROM `mp_pet_img` [ RunTime:0.015001s ]
+SQL: SELECT * FROM `mp_pet_img` WHERE ( pet_id=1 )  [ RunTime:0.040003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-08-30T14:56:45+08:00 ] 127.0.0.1 /detail?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `mp_pet` [ RunTime:0.014001s ]
+SQL: SELECT * FROM `mp_pet` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.016001s ]
+SQL: SHOW COLUMNS FROM `mp_pet_img` [ RunTime:0.012001s ]
+SQL: SELECT * FROM `mp_pet_img` WHERE ( pet_id=1 )  [ RunTime:0.008000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.025002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2015-08-30T14:58:51+08:00 ] 127.0.0.1 /detail?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `mp_pet` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `mp_pet` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.008001s ]
+SQL: SHOW COLUMNS FROM `mp_pet_img` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `mp_pet_img` WHERE ( pet_id=1 )  [ RunTime:0.007001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.023001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-08-30T14:58:53+08:00 ] 127.0.0.1 /detail?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `mp_pet` [ RunTime:0.013000s ]
+SQL: SELECT * FROM `mp_pet` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.018001s ]
+SQL: SHOW COLUMNS FROM `mp_pet_img` [ RunTime:0.013001s ]
+SQL: SELECT * FROM `mp_pet_img` WHERE ( pet_id=1 )  [ RunTime:0.012001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-08-30T14:59:10+08:00 ] 127.0.0.1 /detail?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `mp_pet` [ RunTime:0.013001s ]
+SQL: SELECT * FROM `mp_pet` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.012001s ]
+SQL: SHOW COLUMNS FROM `mp_pet_img` [ RunTime:0.011001s ]
+SQL: SELECT * FROM `mp_pet_img` WHERE ( pet_id=1 )  [ RunTime:0.011000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-08-30T14:59:39+08:00 ] 127.0.0.1 /detail?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `mp_pet` [ RunTime:0.042002s ]
+SQL: SELECT * FROM `mp_pet` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.018001s ]
+SQL: SHOW COLUMNS FROM `mp_pet_img` [ RunTime:0.022001s ]
+SQL: SELECT * FROM `mp_pet_img` WHERE ( pet_id=1 )  [ RunTime:0.014001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.036002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-08-30T15:04:41+08:00 ] 127.0.0.1 /detail?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `mp_pet` [ RunTime:0.006001s ]
+SQL: SELECT * FROM `mp_pet` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.011000s ]
+SQL: SHOW COLUMNS FROM `mp_pet_img` [ RunTime:0.007001s ]
+SQL: SELECT * FROM `mp_pet_img` WHERE ( pet_id=1 )  [ RunTime:0.007000s ]
+NOTIC: [8] Trying to get property of non-object C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Home\Controller\DetailController.class.php 第 33 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-08-30T15:04:57+08:00 ] 127.0.0.1 /detail?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `mp_pet` [ RunTime:0.014000s ]
+SQL: SELECT * FROM `mp_pet` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.040003s ]
+SQL: SHOW COLUMNS FROM `mp_pet_img` [ RunTime:0.012000s ]
+SQL: SELECT * FROM `mp_pet_img` WHERE ( pet_id=1 )  [ RunTime:0.017000s ]
+NOTIC: [8] Trying to get property of non-object C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Home\Controller\DetailController.class.php 第 33 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.028001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-08-30T15:12:09+08:00 ] 127.0.0.1 /detail?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `mp_pet` [ RunTime:0.013000s ]
+SQL: SELECT * FROM `mp_pet` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.016001s ]
+SQL: SHOW COLUMNS FROM `mp_pet_img` [ RunTime:0.015001s ]
+SQL: SELECT * FROM `mp_pet_img` WHERE ( pet_id=1 )  [ RunTime:0.012001s ]
+NOTIC: [8] Trying to get property of non-object C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Home\Controller\DetailController.class.php 第 33 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.028002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-08-30T15:12:25+08:00 ] 127.0.0.1 /detail?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mp_pet` [ RunTime:0.009001s ]
+SQL: SELECT * FROM `mp_pet` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.008000s ]
+SQL: SHOW COLUMNS FROM `mp_pet_img` [ RunTime:0.030002s ]
+SQL: SELECT * FROM `mp_pet_img` WHERE ( pet_id=1 )  [ RunTime:0.005000s ]
+NOTIC: [8] Trying to get property of non-object C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Home\Controller\DetailController.class.php 第 33 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: price/100 C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Runtime\Cache\Home\0d75cb75cd30b13fdd4834afd69acb19.php 第 109 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-08-30T15:12:36+08:00 ] 127.0.0.1 /detail?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `mp_pet` [ RunTime:0.015001s ]
+SQL: SELECT * FROM `mp_pet` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.013001s ]
+SQL: SHOW COLUMNS FROM `mp_pet_img` [ RunTime:0.024001s ]
+SQL: SELECT * FROM `mp_pet_img` WHERE ( pet_id=1 )  [ RunTime:0.014001s ]
+NOTIC: [8] Trying to get property of non-object C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Home\Controller\DetailController.class.php 第 33 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-08-30T15:15:14+08:00 ] 127.0.0.1 /detail?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `mp_pet` [ RunTime:0.012000s ]
+SQL: SELECT * FROM `mp_pet` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.017001s ]
+SQL: SHOW COLUMNS FROM `mp_pet_img` [ RunTime:0.015001s ]
+SQL: SELECT * FROM `mp_pet_img` WHERE ( pet_id=1 )  [ RunTime:0.015001s ]
+NOTIC: [8] Trying to get property of non-object C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Home\Controller\DetailController.class.php 第 33 行.
+NOTIC: [8] Trying to get property of non-object C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Home\Controller\DetailController.class.php 第 36 行.
+NOTIC: [8] Trying to get property of non-object C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Home\Controller\DetailController.class.php 第 37 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-08-30T15:15:40+08:00 ] 127.0.0.1 /detail?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mp_pet` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `mp_pet` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.008001s ]
+SQL: SHOW COLUMNS FROM `mp_pet_img` [ RunTime:0.008000s ]
+SQL: SELECT * FROM `mp_pet_img` WHERE ( pet_id=1 )  [ RunTime:0.007001s ]
+NOTIC: [8] Trying to get property of non-object C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Home\Controller\DetailController.class.php 第 33 行.
+NOTIC: [8] Trying to get property of non-object C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Home\Controller\DetailController.class.php 第 36 行.
+NOTIC: [8] Trying to get property of non-object C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Home\Controller\DetailController.class.php 第 37 行.
+NOTIC: [8] Trying to get property of non-object C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Home\Controller\DetailController.class.php 第 38 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.026001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2015-08-30T15:16:17+08:00 ] 127.0.0.1 /detail?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `mp_pet` [ RunTime:0.031002s ]
+SQL: SELECT * FROM `mp_pet` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.015001s ]
+SQL: SHOW COLUMNS FROM `mp_pet_img` [ RunTime:0.025001s ]
+SQL: SELECT * FROM `mp_pet_img` WHERE ( pet_id=1 )  [ RunTime:0.021001s ]
+NOTIC: [8] Trying to get property of non-object C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Home\Controller\DetailController.class.php 第 33 行.
+NOTIC: [8] Trying to get property of non-object C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Home\Controller\DetailController.class.php 第 36 行.
+NOTIC: [8] Trying to get property of non-object C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Home\Controller\DetailController.class.php 第 37 行.
+NOTIC: [8] Trying to get property of non-object C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Home\Controller\DetailController.class.php 第 38 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.029002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-08-30T15:16:33+08:00 ] 127.0.0.1 /detail?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `mp_pet` [ RunTime:0.014001s ]
+SQL: SELECT * FROM `mp_pet` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.014000s ]
+SQL: SHOW COLUMNS FROM `mp_pet_img` [ RunTime:0.013001s ]
+SQL: SELECT * FROM `mp_pet_img` WHERE ( pet_id=1 )  [ RunTime:0.015001s ]
+NOTIC: [8] Trying to get property of non-object C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Home\Controller\DetailController.class.php 第 33 行.
+NOTIC: [8] Array to string conversion C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Home\Controller\DetailController.class.php 第 36 行.
+NOTIC: [8] Trying to get property of non-object C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Home\Controller\DetailController.class.php 第 37 行.
+NOTIC: [8] Trying to get property of non-object C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Home\Controller\DetailController.class.php 第 38 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.033002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2015-08-30T15:16:58+08:00 ] 127.0.0.1 /detail?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `mp_pet` [ RunTime:0.010000s ]
+SQL: SELECT * FROM `mp_pet` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.010001s ]
+SQL: SHOW COLUMNS FROM `mp_pet_img` [ RunTime:0.007000s ]
+SQL: SELECT * FROM `mp_pet_img` WHERE ( pet_id=1 )  [ RunTime:0.008001s ]
+NOTIC: [8] Trying to get property of non-object C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Home\Controller\DetailController.class.php 第 33 行.
+NOTIC: [8] Trying to get property of non-object C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Home\Controller\DetailController.class.php 第 37 行.
+NOTIC: [8] Trying to get property of non-object C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Home\Controller\DetailController.class.php 第 38 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2015-08-30T15:17:20+08:00 ] 127.0.0.1 /detail?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `mp_pet` [ RunTime:0.013001s ]
+SQL: SELECT * FROM `mp_pet` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.014001s ]
+SQL: SHOW COLUMNS FROM `mp_pet_img` [ RunTime:0.017001s ]
+SQL: SELECT * FROM `mp_pet_img` WHERE ( pet_id=1 )  [ RunTime:0.014001s ]
+NOTIC: [8] Trying to get property of non-object C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Home\Controller\DetailController.class.php 第 33 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.026001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.002001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2015-08-30T15:17:50+08:00 ] 127.0.0.1 /detail?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `mp_pet` [ RunTime:0.007000s ]
+SQL: SELECT * FROM `mp_pet` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.011001s ]
+SQL: SHOW COLUMNS FROM `mp_pet_img` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `mp_pet_img` WHERE ( pet_id=1 )  [ RunTime:0.006001s ]
+NOTIC: [8] Trying to get property of non-object C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Home\Controller\DetailController.class.php 第 33 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-08-30T15:17:52+08:00 ] 127.0.0.1 /detail?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mp_pet` [ RunTime:0.016001s ]
+SQL: SELECT * FROM `mp_pet` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.013001s ]
+SQL: SHOW COLUMNS FROM `mp_pet_img` [ RunTime:0.011000s ]
+SQL: SELECT * FROM `mp_pet_img` WHERE ( pet_id=1 )  [ RunTime:0.011001s ]
+NOTIC: [8] Trying to get property of non-object C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Home\Controller\DetailController.class.php 第 33 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.003001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2015-08-30T15:18:16+08:00 ] 127.0.0.1 /detail?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `mp_pet` [ RunTime:0.014000s ]
+SQL: SELECT * FROM `mp_pet` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.017001s ]
+SQL: SHOW COLUMNS FROM `mp_pet_img` [ RunTime:0.013001s ]
+SQL: SELECT * FROM `mp_pet_img` WHERE ( pet_id=1 )  [ RunTime:0.012001s ]
+NOTIC: [8] Trying to get property of non-object C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Home\Controller\DetailController.class.php 第 33 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-08-30T15:19:29+08:00 ] 127.0.0.1 /detail?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `mp_pet` [ RunTime:0.012000s ]
+SQL: SELECT * FROM `mp_pet` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.015000s ]
+SQL: SHOW COLUMNS FROM `mp_pet_img` [ RunTime:0.016001s ]
+SQL: SELECT * FROM `mp_pet_img` WHERE ( pet_id=1 )  [ RunTime:0.011001s ]
+NOTIC: [8] Trying to get property of non-object C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Home\Controller\DetailController.class.php 第 33 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: addrress C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Runtime\Cache\Home\0d75cb75cd30b13fdd4834afd69acb19.php 第 114 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-08-30T15:19:31+08:00 ] 127.0.0.1 /detail?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `mp_pet` [ RunTime:0.013001s ]
+SQL: SELECT * FROM `mp_pet` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.014001s ]
+SQL: SHOW COLUMNS FROM `mp_pet_img` [ RunTime:0.017001s ]
+SQL: SELECT * FROM `mp_pet_img` WHERE ( pet_id=1 )  [ RunTime:0.014001s ]
+NOTIC: [8] Trying to get property of non-object C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Home\Controller\DetailController.class.php 第 33 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: addrress C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Runtime\Cache\Home\0d75cb75cd30b13fdd4834afd69acb19.php 第 114 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.027001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2015-08-30T15:19:40+08:00 ] 127.0.0.1 /detail?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `mp_pet` [ RunTime:0.009000s ]
+SQL: SELECT * FROM `mp_pet` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.009001s ]
+SQL: SHOW COLUMNS FROM `mp_pet_img` [ RunTime:0.007000s ]
+SQL: SELECT * FROM `mp_pet_img` WHERE ( pet_id=1 )  [ RunTime:0.011001s ]
+NOTIC: [8] Trying to get property of non-object C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Home\Controller\DetailController.class.php 第 33 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-08-30T15:24:27+08:00 ] 127.0.0.1 /detail?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `mp_pet` [ RunTime:0.011000s ]
+SQL: SELECT * FROM `mp_pet` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.013001s ]
+SQL: SHOW COLUMNS FROM `mp_user` [ RunTime:0.007000s ]
+SQL: SELECT * FROM `mp_user` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.008001s ]
+SQL: SHOW COLUMNS FROM `mp_pet_img` [ RunTime:0.007000s ]
+SQL: SELECT * FROM `mp_pet_img` WHERE ( pet_id=1 )  [ RunTime:0.007001s ]
+NOTIC: [8] Trying to get property of non-object C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Home\Controller\DetailController.class.php 第 41 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-08-30T15:24:56+08:00 ] 127.0.0.1 /detail?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `mp_pet` [ RunTime:0.011001s ]
+SQL: SELECT * FROM `mp_pet` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `mp_user` [ RunTime:0.008001s ]
+SQL: SELECT * FROM `mp_user` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `mp_pet_img` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `mp_pet_img` WHERE ( pet_id=1 )  [ RunTime:0.008001s ]
+NOTIC: [8] Trying to get property of non-object C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Home\Controller\DetailController.class.php 第 41 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-08-30T15:26:54+08:00 ] 127.0.0.1 /detail?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `mp_pet` [ RunTime:0.014001s ]
+SQL: SELECT * FROM `mp_pet` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.015001s ]
+SQL: SHOW COLUMNS FROM `mp_user` [ RunTime:0.014001s ]
+SQL: SELECT * FROM `mp_user` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.010001s ]
+SQL: SHOW COLUMNS FROM `mp_pet_img` [ RunTime:0.013000s ]
+SQL: SELECT * FROM `mp_pet_img` WHERE ( pet_id=1 )  [ RunTime:0.014001s ]
+NOTIC: [8] Trying to get property of non-object C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Home\Controller\DetailController.class.php 第 41 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.039003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-08-30T15:27:10+08:00 ] 127.0.0.1 /list
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.029002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-08-30T15:40:18+08:00 ] 127.0.0.1 /list/getPet?area=%E6%BB%A8%E6%B1%9F%E5%8C%BA&city=%E6%9D%AD%E5%B7%9E&page=1&size=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: category C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Home\Controller\ListController.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `mp_pet` [ RunTime:0.004001s ]
+SQL: SELECT * FROM `mp_pet` WHERE ( `area` = '滨江区' ) AND ( `city` = '杭州' ) LIMIT 2   [ RunTime:0.008000s ]
+NOTIC: [2] Creating default object from empty value C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Home\Controller\ListController.class.php 第 43 行.
+
+[ 2015-08-30T15:45:38+08:00 ] 127.0.0.1 /list/getPet?area=%E6%BB%A8%E6%B1%9F%E5%8C%BA&city=%E6%9D%AD%E5%B7%9E&page=1&size=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: category C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Home\Controller\ListController.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `mp_pet` [ RunTime:0.014001s ]
+SQL: SELECT * FROM `mp_pet` WHERE ( `area` = '滨江区' ) AND ( `city` = '杭州' ) LIMIT 2   [ RunTime:0.015001s ]
+NOTIC: [2] Creating default object from empty value C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Home\Controller\ListController.class.php 第 44 行.
+
+[ 2015-08-30T15:45:52+08:00 ] 127.0.0.1 /list/getPet?area=%E6%BB%A8%E6%B1%9F%E5%8C%BA&city=%E6%9D%AD%E5%B7%9E&page=2&size=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: category C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Home\Controller\ListController.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `mp_pet` [ RunTime:0.007000s ]
+SQL: SELECT * FROM `mp_pet` WHERE ( `area` = '滨江区' ) AND ( `city` = '杭州' ) LIMIT 4   [ RunTime:0.006000s ]
+NOTIC: [2] Creating default object from empty value C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Home\Controller\ListController.class.php 第 44 行.
+
+[ 2015-08-30T15:47:22+08:00 ] 127.0.0.1 /list/getPet?area=%E6%BB%A8%E6%B1%9F%E5%8C%BA&city=%E6%9D%AD%E5%B7%9E&page=2&size=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: category C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Home\Controller\ListController.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `mp_pet` [ RunTime:0.013000s ]
+SQL: SELECT * FROM `mp_pet` WHERE ( `area` = '滨江区' ) AND ( `city` = '杭州' ) LIMIT 2,2   [ RunTime:0.016001s ]
+NOTIC: [2] Creating default object from empty value C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Home\Controller\ListController.class.php 第 44 行.
+
+[ 2015-08-30T15:47:32+08:00 ] 127.0.0.1 /list/getPet?area=%E6%BB%A8%E6%B1%9F%E5%8C%BA&city=%E6%9D%AD%E5%B7%9E&page=2&size=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: category C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Home\Controller\ListController.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `mp_pet` [ RunTime:0.014000s ]
+SQL: SELECT * FROM `mp_pet` WHERE ( `area` = '滨江区' ) AND ( `city` = '杭州' ) LIMIT 1,1   [ RunTime:0.014001s ]
+NOTIC: [2] Creating default object from empty value C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Home\Controller\ListController.class.php 第 44 行.
+
+[ 2015-08-30T15:48:04+08:00 ] 127.0.0.1 /list/getPet?category=dog&area=%E6%BB%A8%E6%B1%9F%E5%8C%BA&city=%E6%9D%AD%E5%B7%9E&page=2&size=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `mp_pet` [ RunTime:0.017001s ]
+SQL: SELECT * FROM `mp_pet` WHERE ( `category` = 'dog' ) AND ( `area` = '滨江区' ) AND ( `city` = '杭州' ) LIMIT 1,1   [ RunTime:0.013001s ]
+NOTIC: [2] Creating default object from empty value C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Home\Controller\ListController.class.php 第 44 行.
+
+[ 2015-08-30T15:48:47+08:00 ] 127.0.0.1 /list/getPet?category=dog&area=%E6%BB%A8%E6%B1%9F%E5%8C%BA&city=%E6%9D%AD%E5%B7%9E&page=2&size=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mp_pet` [ RunTime:0.017001s ]
+SQL: SELECT * FROM `mp_pet` WHERE ( `category` = 'dog' ) AND ( `area` = '滨江区' ) AND ( `city` = '杭州' ) LIMIT 1,1   [ RunTime:0.014001s ]
+NOTIC: [2] Creating default object from empty value C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Home\Controller\ListController.class.php 第 44 行.
+
+[ 2015-08-30T15:48:54+08:00 ] 127.0.0.1 /list/getPet?
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+NOTIC: [8] Undefined index: category C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Home\Controller\ListController.class.php 第 15 行.
+NOTIC: [8] Undefined index: area C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Home\Controller\ListController.class.php 第 16 行.
+NOTIC: [8] Undefined index: city C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Home\Controller\ListController.class.php 第 17 行.
+NOTIC: [8] Undefined index: page C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Home\Controller\ListController.class.php 第 18 行.
+NOTIC: [8] Undefined index: size C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Home\Controller\ListController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `mp_pet` [ RunTime:0.017001s ]
+NOTIC: [8] Undefined variable: condition C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Home\Controller\ListController.class.php 第 42 行.
+SQL: SELECT * FROM `mp_pet` LIMIT 0,20   [ RunTime:0.011001s ]
+NOTIC: [2] Creating default object from empty value C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Home\Controller\ListController.class.php 第 44 行.
+
+[ 2015-08-30T15:52:16+08:00 ] 127.0.0.1 /center
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2015-08-30T15:55:52+08:00 ] 127.0.0.1 /center?userId=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-08-30T15:57:39+08:00 ] 127.0.0.1 /center?userId=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2015-08-30T16:08:23+08:00 ] 127.0.0.1 /center?userId=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: user C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Runtime\Cache\Home\40c60c9a92b29cc47c4095078f6193d5.php 第 55 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-08-30T16:08:53+08:00 ] 127.0.0.1 /center?userId=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: user C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Runtime\Cache\Home\40c60c9a92b29cc47c4095078f6193d5.php 第 55 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-08-30T16:08:54+08:00 ] 127.0.0.1 /center?userId=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: user C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Runtime\Cache\Home\40c60c9a92b29cc47c4095078f6193d5.php 第 55 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-08-30T16:08:54+08:00 ] 127.0.0.1 /center?userId=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: user C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Runtime\Cache\Home\40c60c9a92b29cc47c4095078f6193d5.php 第 55 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-08-30T16:08:54+08:00 ] 127.0.0.1 /center?userId=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: user C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Runtime\Cache\Home\40c60c9a92b29cc47c4095078f6193d5.php 第 55 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-08-30T16:08:54+08:00 ] 127.0.0.1 /center?userId=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: user C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Runtime\Cache\Home\40c60c9a92b29cc47c4095078f6193d5.php 第 55 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-08-30T16:09:20+08:00 ] 127.0.0.1 /center?userId=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: user C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Runtime\Cache\Home\40c60c9a92b29cc47c4095078f6193d5.php 第 55 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-08-30T16:09:22+08:00 ] 127.0.0.1 /center?userId=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: user C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Runtime\Cache\Home\40c60c9a92b29cc47c4095078f6193d5.php 第 55 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-08-30T16:09:22+08:00 ] 127.0.0.1 /center?userId=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: user C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Runtime\Cache\Home\40c60c9a92b29cc47c4095078f6193d5.php 第 55 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-08-30T16:09:22+08:00 ] 127.0.0.1 /center?userId=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: user C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Runtime\Cache\Home\40c60c9a92b29cc47c4095078f6193d5.php 第 55 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2015-08-30T16:09:22+08:00 ] 127.0.0.1 /center?userId=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: user C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Runtime\Cache\Home\40c60c9a92b29cc47c4095078f6193d5.php 第 55 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-08-30T16:09:22+08:00 ] 127.0.0.1 /center?userId=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: user C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Runtime\Cache\Home\40c60c9a92b29cc47c4095078f6193d5.php 第 55 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-08-30T16:09:38+08:00 ] 127.0.0.1 /center?userId=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: user C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Runtime\Cache\Home\40c60c9a92b29cc47c4095078f6193d5.php 第 55 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2015-08-30T16:09:48+08:00 ] 127.0.0.1 /center?userId=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `mp_user` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `mp_user` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.006000s ]
+NOTIC: [8] Array to string conversion C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Home\Controller\CenterController.class.php 第 20 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-08-30T16:16:03+08:00 ] 127.0.0.1 /center?userId=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `mp_user` [ RunTime:0.014001s ]
+SQL: SELECT * FROM `mp_user` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.011000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.031001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-08-30T18:20:17+08:00 ] 127.0.0.1 /center?userId=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `mp_user` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `mp_user` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.008001s ]
+SQL: SHOW COLUMNS FROM `mp_store` [ RunTime:0.011000s ]
+NOTIC: [8] Undefined variable: 2 C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Home\Controller\CenterController.class.php 第 26 行.
+
+[ 2015-08-30T18:20:48+08:00 ] 127.0.0.1 /center?userId=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `mp_user` [ RunTime:0.133008s ]
+SQL: SELECT * FROM `mp_user` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.015001s ]
+SQL: SHOW COLUMNS FROM `mp_store` [ RunTime:0.015001s ]
+
+[ 2015-08-30T18:20:52+08:00 ] 127.0.0.1 /center?userId=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mp_user` [ RunTime:0.046003s ]
+SQL: SELECT * FROM `mp_user` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.015001s ]
+SQL: SHOW COLUMNS FROM `mp_store` [ RunTime:0.012000s ]
+
+[ 2015-08-30T18:21:05+08:00 ] 127.0.0.1 /center?userId=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `mp_user` [ RunTime:0.006001s ]
+SQL: SELECT * FROM `mp_user` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `mp_store` [ RunTime:0.010001s ]
+SQL: SELECT * FROM `mp_store` WHERE ( user_id=2 ) LIMIT 1   [ RunTime:0.006000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.033002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-08-30T18:22:20+08:00 ] 127.0.0.1 /center?userId=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `mp_user` [ RunTime:0.013000s ]
+SQL: SELECT * FROM `mp_user` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.015001s ]
+SQL: SHOW COLUMNS FROM `mp_store` [ RunTime:0.012001s ]
+SQL: SELECT * FROM `mp_store` WHERE ( user_id=2 ) LIMIT 1   [ RunTime:0.011000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.030001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2015-08-30T18:24:10+08:00 ] 127.0.0.1 /center?userId=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `mp_user` [ RunTime:0.014000s ]
+SQL: SELECT * FROM `mp_user` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.039003s ]
+SQL: SHOW COLUMNS FROM `mp_store` [ RunTime:0.013000s ]
+SQL: SELECT * FROM `mp_store` WHERE ( user_id=2 ) LIMIT 1   [ RunTime:0.011001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.028002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-08-30T18:24:27+08:00 ] 127.0.0.1 /center?userId=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `mp_user` [ RunTime:0.015001s ]
+SQL: SELECT * FROM `mp_user` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.020001s ]
+SQL: SHOW COLUMNS FROM `mp_store` [ RunTime:0.064004s ]
+SQL: SELECT * FROM `mp_store` WHERE ( user_id=2 ) LIMIT 1   [ RunTime:0.011000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.024001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-08-30T18:25:39+08:00 ] 127.0.0.1 /center?userId=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mp_user` [ RunTime:0.015000s ]
+SQL: SELECT * FROM `mp_user` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.050003s ]
+SQL: SHOW COLUMNS FROM `mp_store` [ RunTime:0.012001s ]
+SQL: SELECT * FROM `mp_store` WHERE ( user_id=2 ) LIMIT 1   [ RunTime:0.014001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.031002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-08-30T18:25:39+08:00 ] 127.0.0.1 /center?userId=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `mp_user` [ RunTime:0.013000s ]
+SQL: SELECT * FROM `mp_user` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.011001s ]
+SQL: SHOW COLUMNS FROM `mp_store` [ RunTime:0.013001s ]
+SQL: SELECT * FROM `mp_store` WHERE ( user_id=2 ) LIMIT 1   [ RunTime:0.012000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.018002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-08-30T18:26:14+08:00 ] 127.0.0.1 /center?userId=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mp_user` [ RunTime:0.040003s ]
+SQL: SELECT * FROM `mp_user` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.015001s ]
+SQL: SHOW COLUMNS FROM `mp_store` [ RunTime:0.015000s ]
+SQL: SELECT * FROM `mp_store` WHERE ( user_id=2 ) LIMIT 1   [ RunTime:0.016000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.030001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.003001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2015-08-30T18:34:58+08:00 ] 127.0.0.1 /center?userId=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `mp_user` [ RunTime:0.014001s ]
+SQL: SELECT * FROM `mp_user` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.014001s ]
+SQL: SHOW COLUMNS FROM `mp_store` [ RunTime:0.014001s ]
+SQL: SELECT * FROM `mp_store` WHERE ( user_id=2 ) LIMIT 1   [ RunTime:0.018001s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] simplexml_load_string(): Entity: line 1: parser error : attributes construct error C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\ThinkPHP\Library\Think\Template\TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string(): &lt;tpl&gt;&lt;tag condition=&quot;($store.cosmet eq 'Y')&quot;/ /&gt;&lt;/tpl&gt; C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\ThinkPHP\Library\Think\Template\TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string():                                             ^ C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\ThinkPHP\Library\Think\Template\TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string(): Entity: line 1: parser error : Couldn't find end of Start Tag tag line 1 C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\ThinkPHP\Library\Think\Template\TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string(): &lt;tpl&gt;&lt;tag condition=&quot;($store.cosmet eq 'Y')&quot;/ /&gt;&lt;/tpl&gt; C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\ThinkPHP\Library\Think\Template\TagLib.class.php 第 80 行.
+NOTIC: [2] simplexml_load_string():                                             ^ C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\ThinkPHP\Library\Think\Template\TagLib.class.php 第 80 行.
+ERR: XML标签语法错误 : condition="($store.cosmet eq 'Y')"/
+
+[ 2015-08-30T18:35:26+08:00 ] 127.0.0.1 /center?userId=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `mp_user` [ RunTime:0.015001s ]
+SQL: SELECT * FROM `mp_user` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.015001s ]
+SQL: SHOW COLUMNS FROM `mp_store` [ RunTime:0.016001s ]
+SQL: SELECT * FROM `mp_store` WHERE ( user_id=2 ) LIMIT 1   [ RunTime:0.049003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.029002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-08-30T18:35:41+08:00 ] 127.0.0.1 /center?userId=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `mp_user` [ RunTime:0.046003s ]
+SQL: SELECT * FROM `mp_user` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.012001s ]
+SQL: SHOW COLUMNS FROM `mp_store` [ RunTime:0.011000s ]
+SQL: SELECT * FROM `mp_store` WHERE ( user_id=2 ) LIMIT 1   [ RunTime:0.011001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-08-30T18:37:02+08:00 ] 127.0.0.1 /center?userId=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `mp_user` [ RunTime:0.042003s ]
+SQL: SELECT * FROM `mp_user` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `mp_store` [ RunTime:0.009001s ]
+SQL: SELECT * FROM `mp_store` WHERE ( user_id=2 ) LIMIT 1   [ RunTime:0.007000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.025001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.003001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-08-30T18:39:18+08:00 ] 127.0.0.1 /center?userId=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `mp_user` [ RunTime:0.010001s ]
+SQL: SELECT * FROM `mp_user` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.013001s ]
+SQL: SHOW COLUMNS FROM `mp_store` [ RunTime:0.014001s ]
+SQL: SELECT * FROM `mp_store` WHERE ( user_id=2 ) LIMIT 1   [ RunTime:0.009000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.023002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-08-30T18:39:31+08:00 ] 127.0.0.1 /center?userId=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `mp_user` [ RunTime:0.013001s ]
+SQL: SELECT * FROM `mp_user` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.034002s ]
+SQL: SHOW COLUMNS FROM `mp_store` [ RunTime:0.012001s ]
+SQL: SELECT * FROM `mp_store` WHERE ( user_id=2 ) LIMIT 1   [ RunTime:0.010000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.023002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2015-08-30T19:27:45+08:00 ] 127.0.0.1 /center?userId=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `mp_user` [ RunTime:0.019001s ]
+SQL: SELECT * FROM `mp_user` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.016001s ]
+SQL: SHOW COLUMNS FROM `mp_store` [ RunTime:0.015001s ]
+SQL: SELECT * FROM `mp_store` WHERE ( user_id=2 ) LIMIT 1   [ RunTime:0.014001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-08-30T19:27:54+08:00 ] 127.0.0.1 /store?userId=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `mp_user` [ RunTime:0.006001s ]
+SQL: SELECT * FROM `mp_user` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.009000s ]
+SQL: SHOW COLUMNS FROM `mp_store` [ RunTime:0.005001s ]
+SQL: SELECT * FROM `mp_store` WHERE ( user_id=2 ) LIMIT 1   [ RunTime:0.008000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2015-08-30T20:46:20+08:00 ] 127.0.0.1 /store?userId=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `mp_user` [ RunTime:0.013001s ]
+SQL: SELECT * FROM `mp_user` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.011000s ]
+SQL: SHOW COLUMNS FROM `mp_store` [ RunTime:0.011000s ]
+SQL: SELECT * FROM `mp_store` WHERE ( user_id=2 ) LIMIT 1   [ RunTime:0.010001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.033002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-08-30T20:59:17+08:00 ] 127.0.0.1 /detail?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `mp_pet` [ RunTime:0.015001s ]
+SQL: SELECT * FROM `mp_pet` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.017001s ]
+SQL: SHOW COLUMNS FROM `mp_user` [ RunTime:0.013001s ]
+SQL: SELECT * FROM `mp_user` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.012001s ]
+SQL: SHOW COLUMNS FROM `mp_pet_img` [ RunTime:0.012000s ]
+SQL: SELECT * FROM `mp_pet_img` WHERE ( pet_id=1 )  [ RunTime:0.012001s ]
+NOTIC: [8] Trying to get property of non-object C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Home\Controller\DetailController.class.php 第 42 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.019002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-08-30T20:59:20+08:00 ] 127.0.0.1 /detail?
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: id C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Home\Controller\DetailController.class.php 第 11 行.
+
+[ 2015-08-30T20:59:47+08:00 ] 127.0.0.1 /detail?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `mp_pet` [ RunTime:0.012001s ]
+SQL: SELECT * FROM `mp_pet` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.009000s ]
+SQL: SHOW COLUMNS FROM `mp_user` [ RunTime:0.016001s ]
+SQL: SELECT * FROM `mp_user` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.014001s ]
+SQL: SHOW COLUMNS FROM `mp_pet_img` [ RunTime:0.009001s ]
+SQL: SELECT * FROM `mp_pet_img` WHERE ( pet_id=1 )  [ RunTime:0.011000s ]
+NOTIC: [8] Trying to get property of non-object C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Home\Controller\DetailController.class.php 第 42 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.026002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.004000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-08-30T20:59:49+08:00 ] 127.0.0.1 /detail?
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: id C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Home\Controller\DetailController.class.php 第 11 行.
+
+[ 2015-08-30T20:59:49+08:00 ] 127.0.0.1 /index.php/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.024001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-08-30T21:00:16+08:00 ] 127.0.0.1 /detail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: id C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Home\Controller\DetailController.class.php 第 11 行.
+
+[ 2015-08-30T21:00:16+08:00 ] 127.0.0.1 /index.php/Home/Detail/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: id C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Home\Controller\DetailController.class.php 第 11 行.
+
+[ 2015-08-30T21:00:16+08:00 ] 127.0.0.1 /index.php/Home/Detail/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Undefined index: id C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Home\Controller\DetailController.class.php 第 11 行.
+
+[ 2015-08-30T21:00:16+08:00 ] 127.0.0.1 /index.php/Home/Detail/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: id C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Home\Controller\DetailController.class.php 第 11 行.
+
+[ 2015-08-30T21:00:16+08:00 ] 127.0.0.1 /index.php/Home/Detail/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: id C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Home\Controller\DetailController.class.php 第 11 行.
+
+[ 2015-08-30T21:00:16+08:00 ] 127.0.0.1 /index.php/Home/Detail/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: id C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Home\Controller\DetailController.class.php 第 11 行.
+
+[ 2015-08-30T21:00:16+08:00 ] 127.0.0.1 /index.php/Home/Detail/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [8] Undefined index: id C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Home\Controller\DetailController.class.php 第 11 行.
+
+[ 2015-08-30T21:00:16+08:00 ] 127.0.0.1 /index.php/Home/Detail/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: id C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Home\Controller\DetailController.class.php 第 11 行.
+
+[ 2015-08-30T21:00:16+08:00 ] 127.0.0.1 /index.php/Home/Detail/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: id C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Home\Controller\DetailController.class.php 第 11 行.
+
+[ 2015-08-30T21:00:17+08:00 ] 127.0.0.1 /index.php/Home/Detail/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: id C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Home\Controller\DetailController.class.php 第 11 行.
+
+[ 2015-08-30T21:00:17+08:00 ] 127.0.0.1 /index.php/Home/Detail/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: id C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Home\Controller\DetailController.class.php 第 11 行.
+
+[ 2015-08-30T21:00:17+08:00 ] 127.0.0.1 /index.php/Home/Detail/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: id C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Home\Controller\DetailController.class.php 第 11 行.
+
+[ 2015-08-30T21:00:17+08:00 ] 127.0.0.1 /index.php/Home/Detail/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: id C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Home\Controller\DetailController.class.php 第 11 行.
+
+[ 2015-08-30T21:00:17+08:00 ] 127.0.0.1 /index.php/Home/Detail/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: id C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Home\Controller\DetailController.class.php 第 11 行.
+
+[ 2015-08-30T21:00:17+08:00 ] 127.0.0.1 /index.php/Home/Detail/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: id C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Home\Controller\DetailController.class.php 第 11 行.
+
+[ 2015-08-30T21:00:17+08:00 ] 127.0.0.1 /index.php/Home/Detail/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Undefined index: id C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Home\Controller\DetailController.class.php 第 11 行.
+
+[ 2015-08-30T21:00:17+08:00 ] 127.0.0.1 /index.php/Home/Detail/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: id C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Home\Controller\DetailController.class.php 第 11 行.
+
+[ 2015-08-30T21:00:17+08:00 ] 127.0.0.1 /index.php/Home/Detail/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: id C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Home\Controller\DetailController.class.php 第 11 行.
+
+[ 2015-08-30T21:00:17+08:00 ] 127.0.0.1 /index.php/Home/Detail/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: id C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Home\Controller\DetailController.class.php 第 11 行.
+
+[ 2015-08-30T21:00:17+08:00 ] 127.0.0.1 /index.php/Home/Detail/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: id C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Home\Controller\DetailController.class.php 第 11 行.
+
+[ 2015-08-30T21:00:17+08:00 ] 127.0.0.1 /index.php/Home/Detail/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: id C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Home\Controller\DetailController.class.php 第 11 行.
+
+[ 2015-08-30T21:00:17+08:00 ] 127.0.0.1 /index.php/Home/Detail/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: id C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Home\Controller\DetailController.class.php 第 11 行.
+
+[ 2015-08-30T21:00:17+08:00 ] 127.0.0.1 /index.php/Home/Detail/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: id C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Home\Controller\DetailController.class.php 第 11 行.
+
+[ 2015-08-30T21:00:17+08:00 ] 127.0.0.1 /index.php/Home/Detail/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: id C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Home\Controller\DetailController.class.php 第 11 行.
+
+[ 2015-08-30T21:00:17+08:00 ] 127.0.0.1 /index.php/Home/Detail/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: id C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Home\Controller\DetailController.class.php 第 11 行.
+
+[ 2015-08-30T21:00:17+08:00 ] 127.0.0.1 /index.php/Home/Detail/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: id C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Home\Controller\DetailController.class.php 第 11 行.
+
+[ 2015-08-30T21:00:17+08:00 ] 127.0.0.1 /index.php/Home/Detail/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: id C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Home\Controller\DetailController.class.php 第 11 行.
+
+[ 2015-08-30T21:00:17+08:00 ] 127.0.0.1 /index.php/Home/Detail/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: id C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Home\Controller\DetailController.class.php 第 11 行.
+
+[ 2015-08-30T21:00:17+08:00 ] 127.0.0.1 /index.php/Home/Detail/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: id C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Home\Controller\DetailController.class.php 第 11 行.
+
+[ 2015-08-30T21:00:17+08:00 ] 127.0.0.1 /index.php/Home/Detail/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: id C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Home\Controller\DetailController.class.php 第 11 行.
+
+[ 2015-08-30T21:00:17+08:00 ] 127.0.0.1 /index.php/Home/Detail/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: id C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Home\Controller\DetailController.class.php 第 11 行.
+
+[ 2015-08-30T21:00:17+08:00 ] 127.0.0.1 /index.php/Home/Detail/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: id C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Home\Controller\DetailController.class.php 第 11 行.
+
+[ 2015-08-30T21:00:17+08:00 ] 127.0.0.1 /index.php/Home/Detail/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: id C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Home\Controller\DetailController.class.php 第 11 行.
+
+[ 2015-08-30T21:00:17+08:00 ] 127.0.0.1 /index.php/Home/Detail/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Undefined index: id C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Home\Controller\DetailController.class.php 第 11 行.
+
+[ 2015-08-30T21:00:17+08:00 ] 127.0.0.1 /index.php/Home/Detail/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: id C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Home\Controller\DetailController.class.php 第 11 行.
+
+[ 2015-08-30T21:00:17+08:00 ] 127.0.0.1 /index.php/Home/Detail/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: id C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Home\Controller\DetailController.class.php 第 11 行.
+
+[ 2015-08-30T21:00:17+08:00 ] 127.0.0.1 /index.php/Home/Detail/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: id C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Home\Controller\DetailController.class.php 第 11 行.
+
+[ 2015-08-30T21:00:17+08:00 ] 127.0.0.1 /index.php/Home/Detail/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: id C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Home\Controller\DetailController.class.php 第 11 行.
+
+[ 2015-08-30T21:00:18+08:00 ] 127.0.0.1 /index.php/Home/Detail/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: id C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Home\Controller\DetailController.class.php 第 11 行.
+
+[ 2015-08-30T21:00:18+08:00 ] 127.0.0.1 /index.php/Home/Detail/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: id C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Home\Controller\DetailController.class.php 第 11 行.
+
+[ 2015-08-30T21:00:18+08:00 ] 127.0.0.1 /index.php/Home/Detail/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: id C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Home\Controller\DetailController.class.php 第 11 行.
+
+[ 2015-08-30T21:00:18+08:00 ] 127.0.0.1 /index.php/Home/Detail/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: id C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Home\Controller\DetailController.class.php 第 11 行.
+
+[ 2015-08-30T21:02:10+08:00 ] 127.0.0.1 /detail?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `mp_pet` [ RunTime:0.015001s ]
+SQL: SELECT * FROM `mp_pet` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.014001s ]
+SQL: SHOW COLUMNS FROM `mp_user` [ RunTime:0.015001s ]
+SQL: SELECT * FROM `mp_user` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.012000s ]
+SQL: SHOW COLUMNS FROM `mp_pet_img` [ RunTime:0.015001s ]
+SQL: SELECT * FROM `mp_pet_img` WHERE ( pet_id=1 )  [ RunTime:0.012001s ]
+NOTIC: [8] Trying to get property of non-object C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Home\Controller\DetailController.class.php 第 41 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.039002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-08-30T21:02:13+08:00 ] 127.0.0.1 /detail
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+NOTIC: [8] Undefined index: id C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Home\Controller\DetailController.class.php 第 11 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-08-30T21:02:13+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-08-30T21:03:03+08:00 ] 127.0.0.1 /store?userId=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `mp_user` [ RunTime:0.009001s ]
+SQL: SELECT * FROM `mp_user` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.011000s ]
+SQL: SHOW COLUMNS FROM `mp_store` [ RunTime:0.012001s ]
+SQL: SELECT * FROM `mp_store` WHERE ( user_id=2 ) LIMIT 1   [ RunTime:0.012001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-08-30T21:03:05+08:00 ] 127.0.0.1 /store
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: userId C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Home\Controller\StoreController.class.php 第 11 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-08-30T21:03:05+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-08-30T21:03:14+08:00 ] 127.0.0.1 /store?userId=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `mp_user` [ RunTime:0.010000s ]
+SQL: SELECT * FROM `mp_user` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.012001s ]
+SQL: SHOW COLUMNS FROM `mp_store` [ RunTime:0.012001s ]
+SQL: SELECT * FROM `mp_store` WHERE ( user_id=2 ) LIMIT 1   [ RunTime:0.012001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.031001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-08-30T21:08:19+08:00 ] 127.0.0.1 /store/getPet?
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: userId C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Home\Controller\StoreController.class.php 第 39 行.
+NOTIC: [8] Undefined index: adoptId C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Home\Controller\StoreController.class.php 第 40 行.
+NOTIC: [8] Undefined index: page C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Home\Controller\StoreController.class.php 第 41 行.
+NOTIC: [8] Undefined index: size C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Home\Controller\StoreController.class.php 第 42 行.
+
+[ 2015-08-30T21:08:26+08:00 ] 127.0.0.1 /store?userId=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `mp_user` [ RunTime:0.014000s ]
+SQL: SELECT * FROM `mp_user` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.042003s ]
+SQL: SHOW COLUMNS FROM `mp_store` [ RunTime:0.011000s ]
+SQL: SELECT * FROM `mp_store` WHERE ( user_id=2 ) LIMIT 1   [ RunTime:0.011000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.024002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-08-30T21:08:30+08:00 ] 127.0.0.1 /store/getPet?
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: userId C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Home\Controller\StoreController.class.php 第 39 行.
+NOTIC: [8] Undefined index: adoptId C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Home\Controller\StoreController.class.php 第 40 行.
+NOTIC: [8] Undefined index: page C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Home\Controller\StoreController.class.php 第 41 行.
+NOTIC: [8] Undefined index: size C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Home\Controller\StoreController.class.php 第 42 行.
+
+[ 2015-08-30T21:08:45+08:00 ] 127.0.0.1 /store/getPet?
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: userId C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Home\Controller\StoreController.class.php 第 39 行.
+NOTIC: [8] Undefined index: adoptId C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Home\Controller\StoreController.class.php 第 40 行.
+NOTIC: [8] Undefined index: page C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Home\Controller\StoreController.class.php 第 41 行.
+NOTIC: [8] Undefined index: size C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Home\Controller\StoreController.class.php 第 42 行.
+
+[ 2015-08-30T21:08:47+08:00 ] 127.0.0.1 /store/getPet?
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: userId C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Home\Controller\StoreController.class.php 第 39 行.
+NOTIC: [8] Undefined index: adoptId C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Home\Controller\StoreController.class.php 第 40 行.
+NOTIC: [8] Undefined index: page C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Home\Controller\StoreController.class.php 第 41 行.
+NOTIC: [8] Undefined index: size C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Home\Controller\StoreController.class.php 第 42 行.
+
+[ 2015-08-30T21:08:59+08:00 ] 127.0.0.1 /store/getPet?
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: userId C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Home\Controller\StoreController.class.php 第 39 行.
+NOTIC: [8] Undefined index: adoptId C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Home\Controller\StoreController.class.php 第 40 行.
+NOTIC: [8] Undefined index: page C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Home\Controller\StoreController.class.php 第 41 行.
+NOTIC: [8] Undefined index: size C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Home\Controller\StoreController.class.php 第 42 行.
+NOTIC: [2] Creating default object from empty value C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Home\Controller\StoreController.class.php 第 74 行.
+
+[ 2015-08-30T21:09:25+08:00 ] 127.0.0.1 /store/getPet?userId=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: adoptId C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Home\Controller\StoreController.class.php 第 40 行.
+NOTIC: [8] Undefined index: page C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Home\Controller\StoreController.class.php 第 41 行.
+NOTIC: [8] Undefined index: size C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Home\Controller\StoreController.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `mp_pet` [ RunTime:0.014001s ]
+SQL: SELECT * FROM `mp_pet` WHERE ( `user_id` = '2' ) LIMIT 0,20   [ RunTime:0.018001s ]
+NOTIC: [2] Creating default object from empty value C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Home\Controller\StoreController.class.php 第 68 行.
+
+[ 2015-08-30T21:10:26+08:00 ] 127.0.0.1 /store/getPet?adoptId=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: userId C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Home\Controller\StoreController.class.php 第 39 行.
+NOTIC: [8] Undefined index: page C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Home\Controller\StoreController.class.php 第 41 行.
+NOTIC: [8] Undefined index: size C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Home\Controller\StoreController.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `mp_pet` [ RunTime:0.017001s ]
+SQL: SELECT * FROM `mp_pet` WHERE ( `adopt_id` = 2 ) LIMIT 0,20   [ RunTime:0.014001s ]
+NOTIC: [2] Creating default object from empty value C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Home\Controller\StoreController.class.php 第 68 行.
+
+[ 2015-08-30T21:12:08+08:00 ] 127.0.0.1 /store/getPet?adoptId=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: userId C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Home\Controller\StoreController.class.php 第 39 行.
+NOTIC: [8] Undefined index: page C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Home\Controller\StoreController.class.php 第 41 行.
+NOTIC: [8] Undefined index: size C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Home\Controller\StoreController.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `mp_pet` [ RunTime:0.014001s ]
+SQL: SELECT * FROM `mp_pet` WHERE ( `adopt_id` = 2 ) LIMIT 0,20   [ RunTime:0.015000s ]
+NOTIC: [2] Creating default object from empty value C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Home\Controller\StoreController.class.php 第 68 行.
+
+[ 2015-08-30T21:12:09+08:00 ] 127.0.0.1 /store/getPet?adoptId=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: userId C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Home\Controller\StoreController.class.php 第 39 行.
+NOTIC: [8] Undefined index: page C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Home\Controller\StoreController.class.php 第 41 行.
+NOTIC: [8] Undefined index: size C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Home\Controller\StoreController.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `mp_pet` [ RunTime:0.010001s ]
+SQL: SELECT * FROM `mp_pet` WHERE ( `adopt_id` = 2 ) LIMIT 0,20   [ RunTime:0.005000s ]
+NOTIC: [2] Creating default object from empty value C:\Program Files (x86)\Apache Software Foundation\Apache2.2\htdocs\Application\Home\Controller\StoreController.class.php 第 68 行.
+

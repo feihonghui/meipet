@@ -43,8 +43,7 @@
     	      url: "/upload.php/Home/Pic/upload_json",
     	      enctype: 'multipart/form-data',
     	      data: {
-    	    	  filename: filename,
-    	    	  name:   "photo"
+    	    	  photo: filename
     	      },
     	      success: function () {
     	        alert("Data Uploaded: ");
