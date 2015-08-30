@@ -95,11 +95,11 @@ class RegController extends Controller {
 		}
 		$code = rand ( 100000, 999999 );
 		$content = "亲爱的小主银，您的注册验证码是" . $code . "（30分钟内有效）。您就是我的全世界，么么哒~";
+		// 记录短信
+		$id = $this->saveMessage ( $mobile, $content );
 		// 发送短信
 		if (\SmsService::sent ( $mobile, $content )) {
 			S ( "verifycode_" . $mobile, $code, 1800 );
-			// 记录短信
-			$id = $this->saveMessage ( $mobile, $content );
 			$this->ajaxReturn ( $this->successJson (), 'JSONP' );
 		}
 		$this->ajaxReturn ( $this->failJson("SystemError"), 'JSONP' );
