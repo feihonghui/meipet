@@ -40,7 +40,7 @@ class ListController extends Controller {
 		}
 		
 		$petList = $Dao->where ( $condition )->limit($limit)->select();
-	    echo 	$Dao->getLastSql();
+	    //echo 	$Dao->getLastSql();
 		$data->result = true;
 	    $data->data=$petList;
 		$this->ajaxReturn($data,"JSONP");
