@@ -1,5 +1,6 @@
 
 通用接口:
+
 	获取用户信息:
 	http://www.meipet.com.cn/log/getUserInfo
 
@@ -40,4 +41,5 @@
 	$yanzhengma = $_POST ["yanzhengma"];
 
 宠物列表接口：
+
 	http://www.meipet.com.cn/list/getPet?category=dog&area=%E6%BB%A8%E6%B1%9F%E5%8C%BA&city=%E6%9D%AD%E5%B7%9E&page=2&size=1
