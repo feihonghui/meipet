@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <title>美优萌宠</title>
+<<<<<<< HEAD
     <link rel="shortcut icon" href="http://www.meipet.com.cn/static/img/favicon.png" />
     <!-- global-->
     <link rel="stylesheet" type="text/css" href="http://www.meipet.com.cn/static/css/global/reset.css">
@@ -15,12 +16,29 @@
     <link rel="stylesheet" type="text/css" href="http://www.meipet.com.cn/static/css/page/list/offer-sn.css">
     <link rel="stylesheet" type="text/css" href="http://www.meipet.com.cn/static/css/page/list/offer-list.css">
     <link rel="stylesheet" type="text/css" href="http://www.meipet.com.cn/static/css/page/list/v1.css">
+=======
+    <link rel="shortcut icon" href="/static/img/favicon.png" />
+    <!-- global-->
+    <link rel="stylesheet" type="text/css" href="/static/css/global/reset.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/global/layout.css">
+    <!-- module-->
+    <link rel="stylesheet" type="text/css" href="/static/css/module/header.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/module/footer.css">
+    <!-- page-->
+    <link rel="stylesheet" type="text/css" href="/static/css/page/list/offer-sn.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/page/list/offer-list.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/page/list/v1.css">
+>>>>>>> 27c8da4422b699cdac9a4898ad5a4709801476c1
 </head>
 
 <body>
     <div id="header">
         <div class="layout-990">
+<<<<<<< HEAD
             <h1><a href="#" title="美优萌宠"><img src="http://www.meipet.com.cn/static/img/logo.png"></a></h1>
+=======
+            <h1><a href="#" title="美优萌宠"><img src="/static/img/logo.png"></a></h1>
+>>>>>>> 27c8da4422b699cdac9a4898ad5a4709801476c1
             <ul class="nav ms-yh">
                 <li><a href="#">首页</a></li>
                 <li class="current"><a href="#">有偿领养</a></li>
@@ -75,7 +93,11 @@
             <div class="offer-list">
                 <div class="offer-item">
                     <a href="#">
+<<<<<<< HEAD
                         <div class="item-box" style="background-image: url(http://www.meipet.com.cn/static/img/temp1.png);">
+=======
+                        <div class="item-box" style="background-image: url(/static/img/temp1.png);">
+>>>>>>> 27c8da4422b699cdac9a4898ad5a4709801476c1
                             <div class="price-age">
                                 <span class="price">价格<br/>&yen;2000.00</span>
                                 <span class="age">年龄<br/>&le;3个月</span>
@@ -91,7 +113,11 @@
                 </div>
                 <div class="offer-item">
                     <a href="#">
+<<<<<<< HEAD
                         <div class="item-box" style="background-image: url(http://www.meipet.com.cn/static/img/temp2.jpeg);">
+=======
+                        <div class="item-box" style="background-image: url(/static/img/temp2.jpeg);">
+>>>>>>> 27c8da4422b699cdac9a4898ad5a4709801476c1
                             <div class="price-age">
                                 <span class="price">价格<br/>&yen;2000.00</span>
                                 <span class="age">年龄<br/>&le;3个月</span>
@@ -107,7 +133,11 @@
                 </div>
                 <div class="offer-item">
                     <a href="#">
+<<<<<<< HEAD
                         <div class="item-box" style="background-image: url(http://www.meipet.com.cn/static/img/temp3.jpeg);">
+=======
+                        <div class="item-box" style="background-image: url(/static/img/temp3.jpeg);">
+>>>>>>> 27c8da4422b699cdac9a4898ad5a4709801476c1
                             <div class="price-age">
                                 <span class="price">价格<br/>&yen;2000.00</span>
                                 <span class="age">年龄<br/>&le;3个月</span>
@@ -123,7 +153,11 @@
                 </div>
                 <div class="offer-item">
                     <a href="#">
+<<<<<<< HEAD
                         <div class="item-box" style="background-image: url(http://www.meipet.com.cn/static/img/temp4.jpeg);">
+=======
+                        <div class="item-box" style="background-image: url(/static/img/temp4.jpeg);">
+>>>>>>> 27c8da4422b699cdac9a4898ad5a4709801476c1
                             <div class="price-age">
                                 <span class="price">价格<br/>&yen;2000.00</span>
                                 <span class="age">年龄<br/>&le;3个月</span>
@@ -139,7 +173,11 @@
                 </div>
                 <div class="offer-item">
                     <a href="#">
+<<<<<<< HEAD
                         <div class="item-box" style="background-image: url(http://www.meipet.com.cn/static/img/temp5.jpeg);">
+=======
+                        <div class="item-box" style="background-image: url(/static/img/temp5.jpeg);">
+>>>>>>> 27c8da4422b699cdac9a4898ad5a4709801476c1
                             <div class="price-age">
                                 <span class="price">价格<br/>&yen;2000.00</span>
                                 <span class="age">年龄<br/>&le;3个月</span>
@@ -155,7 +193,11 @@
                 </div>
                 <div class="offer-item">
                     <a href="#">
+<<<<<<< HEAD
                         <div class="item-box" style="background-image: url(http://www.meipet.com.cn/static/img/temp6.jpeg);">
+=======
+                        <div class="item-box" style="background-image: url(/static/img/temp6.jpeg);">
+>>>>>>> 27c8da4422b699cdac9a4898ad5a4709801476c1
                             <div class="price-age">
                                 <span class="price">价格<br/>&yen;2000.00</span>
                                 <span class="age">年龄<br/>&le;3个月</span>
@@ -171,7 +213,11 @@
                 </div>
                 <div class="offer-item">
                     <a href="#">
+<<<<<<< HEAD
                         <div class="item-box" style="background-image: url(http://www.meipet.com.cn/static/img/temp7.jpeg);">
+=======
+                        <div class="item-box" style="background-image: url(/static/img/temp7.jpeg);">
+>>>>>>> 27c8da4422b699cdac9a4898ad5a4709801476c1
                             <div class="price-age">
                                 <span class="price">价格<br/>&yen;2000.00</span>
                                 <span class="age">年龄<br/>&le;3个月</span>
@@ -187,7 +233,11 @@
                 </div>
                 <div class="offer-item">
                     <a href="#">
+<<<<<<< HEAD
                         <div class="item-box" style="background-image: url(http://www.meipet.com.cn/static/img/temp6.jpeg);">
+=======
+                        <div class="item-box" style="background-image: url(/static/img/temp6.jpeg);">
+>>>>>>> 27c8da4422b699cdac9a4898ad5a4709801476c1
                             <div class="price-age">
                                 <span class="price">价格<br/>&yen;2000.00</span>
                                 <span class="age">年龄<br/>&le;3个月</span>
@@ -203,7 +253,11 @@
                 </div>
                 <div class="offer-item">
                     <a href="#">
+<<<<<<< HEAD
                         <div class="item-box" style="background-image: url(http://www.meipet.com.cn/static/img/temp5.jpeg);">
+=======
+                        <div class="item-box" style="background-image: url(/static/img/temp5.jpeg);">
+>>>>>>> 27c8da4422b699cdac9a4898ad5a4709801476c1
                             <div class="price-age">
                                 <span class="price">价格<br/>&yen;2000.00</span>
                                 <span class="age">年龄<br/>&le;3个月</span>
@@ -219,7 +273,11 @@
                 </div>
                 <div class="offer-item">
                     <a href="#">
+<<<<<<< HEAD
                         <div class="item-box" style="background-image: url(http://www.meipet.com.cn/static/img/temp4.jpeg);">
+=======
+                        <div class="item-box" style="background-image: url(/static/img/temp4.jpeg);">
+>>>>>>> 27c8da4422b699cdac9a4898ad5a4709801476c1
                             <div class="price-age">
                                 <span class="price">价格<br/>&yen;2000.00</span>
                                 <span class="age">年龄<br/>&le;3个月</span>
@@ -235,7 +293,11 @@
                 </div>
                 <div class="offer-item">
                     <a href="#">
+<<<<<<< HEAD
                         <div class="item-box" style="background-image: url(http://www.meipet.com.cn/static/img/temp3.jpeg);">
+=======
+                        <div class="item-box" style="background-image: url(/static/img/temp3.jpeg);">
+>>>>>>> 27c8da4422b699cdac9a4898ad5a4709801476c1
                             <div class="price-age">
                                 <span class="price">价格<br/>&yen;2000.00</span>
                                 <span class="age">年龄<br/>&le;3个月</span>
@@ -251,7 +313,11 @@
                 </div>
                 <div class="offer-item">
                     <a href="#">
+<<<<<<< HEAD
                         <div class="item-box" style="background-image: url(http://www.meipet.com.cn/static/img/temp2.jpeg);">
+=======
+                        <div class="item-box" style="background-image: url(/static/img/temp2.jpeg);">
+>>>>>>> 27c8da4422b699cdac9a4898ad5a4709801476c1
                             <div class="price-age">
                                 <span class="price">价格<br/>&yen;2000.00</span>
                                 <span class="age">年龄<br/>&le;3个月</span>
@@ -267,7 +333,11 @@
                 </div>
                 <div class="offer-item">
                     <a href="#">
+<<<<<<< HEAD
                         <div class="item-box" style="background-image: url(http://www.meipet.com.cn/static/img/temp4.jpeg);">
+=======
+                        <div class="item-box" style="background-image: url(/static/img/temp4.jpeg);">
+>>>>>>> 27c8da4422b699cdac9a4898ad5a4709801476c1
                             <div class="price-age">
                                 <span class="price">价格<br/>&yen;2000.00</span>
                                 <span class="age">年龄<br/>&le;3个月</span>
@@ -283,7 +353,11 @@
                 </div>
                 <div class="offer-item">
                     <a href="#">
+<<<<<<< HEAD
                         <div class="item-box" style="background-image: url(http://www.meipet.com.cn/static/img/temp3.jpeg);">
+=======
+                        <div class="item-box" style="background-image: url(/static/img/temp3.jpeg);">
+>>>>>>> 27c8da4422b699cdac9a4898ad5a4709801476c1
                             <div class="price-age">
                                 <span class="price">价格<br/>&yen;2000.00</span>
                                 <span class="age">年龄<br/>&le;3个月</span>
@@ -299,7 +373,11 @@
                 </div>
                 <div class="offer-item">
                     <a href="#">
+<<<<<<< HEAD
                         <div class="item-box" style="background-image: url(http://www.meipet.com.cn/static/img/temp2.jpeg);">
+=======
+                        <div class="item-box" style="background-image: url(/static/img/temp2.jpeg);">
+>>>>>>> 27c8da4422b699cdac9a4898ad5a4709801476c1
                             <div class="price-age">
                                 <span class="price">价格<br/>&yen;2000.00</span>
                                 <span class="age">年龄<br/>&le;3个月</span>
@@ -315,7 +393,11 @@
                 </div>
                 <div class="offer-item">
                     <a href="#">
+<<<<<<< HEAD
                         <div class="item-box" style="background-image: url(http://www.meipet.com.cn/static/img/temp3.jpeg);">
+=======
+                        <div class="item-box" style="background-image: url(/static/img/temp3.jpeg);">
+>>>>>>> 27c8da4422b699cdac9a4898ad5a4709801476c1
                             <div class="price-age">
                                 <span class="price">价格<br/>&yen;2000.00</span>
                                 <span class="age">年龄<br/>&le;3个月</span>
@@ -331,7 +413,11 @@
                 </div>
                 <div class="offer-item">
                     <a href="#">
+<<<<<<< HEAD
                         <div class="item-box" style="background-image: url(http://www.meipet.com.cn/static/img/temp2.jpeg);">
+=======
+                        <div class="item-box" style="background-image: url(/static/img/temp2.jpeg);">
+>>>>>>> 27c8da4422b699cdac9a4898ad5a4709801476c1
                             <div class="price-age">
                                 <span class="price">价格<br/>&yen;2000.00</span>
                                 <span class="age">年龄<br/>&le;3个月</span>
@@ -347,7 +433,11 @@
                 </div>
                 <div class="offer-item">
                     <a href="#">
+<<<<<<< HEAD
                         <div class="item-box" style="background-image: url(http://www.meipet.com.cn/static/img/temp4.jpeg);">
+=======
+                        <div class="item-box" style="background-image: url(/static/img/temp4.jpeg);">
+>>>>>>> 27c8da4422b699cdac9a4898ad5a4709801476c1
                             <div class="price-age">
                                 <span class="price">价格<br/>&yen;2000.00</span>
                                 <span class="age">年龄<br/>&le;3个月</span>
@@ -363,7 +453,11 @@
                 </div>
                 <div class="offer-item">
                     <a href="#">
+<<<<<<< HEAD
                         <div class="item-box" style="background-image: url(http://www.meipet.com.cn/static/img/temp3.jpeg);">
+=======
+                        <div class="item-box" style="background-image: url(/static/img/temp3.jpeg);">
+>>>>>>> 27c8da4422b699cdac9a4898ad5a4709801476c1
                             <div class="price-age">
                                 <span class="price">价格<br/>&yen;2000.00</span>
                                 <span class="age">年龄<br/>&le;3个月</span>
@@ -379,7 +473,11 @@
                 </div>
                 <div class="offer-item">
                     <a href="#">
+<<<<<<< HEAD
                         <div class="item-box" style="background-image: url(http://www.meipet.com.cn/static/img/temp2.jpeg);">
+=======
+                        <div class="item-box" style="background-image: url(/static/img/temp2.jpeg);">
+>>>>>>> 27c8da4422b699cdac9a4898ad5a4709801476c1
                             <div class="price-age">
                                 <span class="price">价格<br/>&yen;2000.00</span>
                                 <span class="age">年龄<br/>&le;3个月</span>
@@ -412,7 +510,11 @@
     </div>
 </body>
 <!-- global-->
+<<<<<<< HEAD
 <script type="text/javascript" src="http://www.meipet.com.cn/static/jquery/jquery.min.js"></script>
+=======
+<script type="text/javascript" src="/static/jquery/jquery.min.js"></script>
+>>>>>>> 27c8da4422b699cdac9a4898ad5a4709801476c1
 <!-- module-->
 <!-- page-->
 
