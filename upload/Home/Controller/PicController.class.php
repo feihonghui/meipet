@@ -52,7 +52,7 @@ class PicController extends Controller {
 		$file_paths=array();
 		if (! $info) { // 上传错误提示错误信息
 			$result['errorCode']   = $upload->getError();
-			$this->ajaxReturn($result,"JSONP");
+			$this->ajaxReturn($result,"JSON");
 		} else { // 上传成功
 			//echo '上传成功！文件地址为：';
 			$fileUrl="";
@@ -60,10 +60,11 @@ class PicController extends Controller {
 			foreach($info as $file){
 				$file_paths[$i]= DOC_ROOT."/".$file['savepath'].$file['savename'];
 				$i++;
-				$fileUrl=$fileUrl+ $this->domain.$file['savepath'].$file['savename'];
+				//echo $this->domain;
+				$fileUrl=$this->domain.$file['savepath'].$file['savename'];
 			}
 			$result['fileUrl']   =  $fileUrl;
-			$this->ajaxReturn($result,"JSONP");
+			$this->ajaxReturn($result,"JSON");
 		}
 	
 	

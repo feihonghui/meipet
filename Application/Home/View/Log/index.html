@@ -2,15 +2,15 @@
 
 <head>
     <meta charset="utf-8">
-    <title>美优萌宠——登陆</title>
+    <title>美优萌宠—登陆</title>
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-    <link rel="shortcut icon" href="http://www.meipet.com.cn/static/img/favicon.png" />
-    <link rel="stylesheet" type="text/css" href="http://www.meipet.com.cn/static/css/global/reset.css" />
-    <link rel="stylesheet" type="text/css" href="http://www.meipet.com.cn/static/css/global/layout.css" />
-    <link rel="stylesheet" type="text/css" href="http://www.meipet.com.cn/static/css/module/form.css" />
+    <link rel="shortcut icon" href="/static/img/favicon.png" />
+    <link rel="stylesheet" type="text/css" href="/static/css/global/reset.css" />
+    <link rel="stylesheet" type="text/css" href="/static/css/global/layout.css" />
+    <link rel="stylesheet" type="text/css" href="/static/css/module/form.css" />
 
-     <link rel="stylesheet" type="text/css" href="http://www.meipet.com.cn/static/css/module/footer.css">
-    <link rel="stylesheet" type="text/css" href="http://www.meipet.com.cn/static/css/page/login/v1.css" />
+    <link rel="stylesheet" type="text/css" href="/static/css/module/footer.css" />
+    <link rel="stylesheet" type="text/css" href="/static/css/page/login/v1.css" />
 </head>
 
 <body>
@@ -18,8 +18,8 @@
         <div class="login-logo">
             <div class="layout-990">
                 <h4>
-                    <a href="#">
-                        <img src="http://www.meipet.com.cn/static/img/logo.png">
+                    <a href="/">
+                        <img src="/static/img/logo.png">
                     </a>
                     <span class="txt">登录</span>
                 </h4>
@@ -28,15 +28,15 @@
         <div class="logo-container">
             <div class="layout-990">
                 <div class="login-form">
-                    <div class="message ms-yh">登录美优萌宠</div>
-                    <form action="http://www.meipet.com.cn/index.php/Home/Log/doLog" method="post">
-                        <input type="text" name="mobile" id="mobile" value="" placeholder="手机号"/>
-                        <input type="password" name="password" id="password" value="" placeholder="密码"/>
-                        <a href="http://www.meipet.com.cn/index.php/Home/Reg/forget">忘记密码？</a><br/>
-                        <span class="do">登&nbsp;录</span>
+                    <div class="message ms-yh" id="message">登录美优萌宠</div>
+                    <form method="post">
+                        <input type="text" id="mobile" placeholder="手机号"/>
+                        <input type="password" id="password" placeholder="密码"/>
+                        <a href="/forget">忘记密码？</a><br/>
+                        <span class="do" id="do-log">登&nbsp;录</span>
                     </form>
                     <ul>
-                        <li>还没有账号？<a href="http://www.meipet.com.cn/index.php/Home/Reg/index"> 立即注册</a></li>
+                        <li>还没有账号？<a href="/reg"> 立即注册</a></li>
                     </ul>
                 </div>
             </div>
@@ -53,5 +53,7 @@
         </div>
     </div>
 </body>
-
+<script src="/static/jquery/jquery.min.js"></script>
+<script src="/static/gallery/dialog.js"></script>
+<script type="text/javascript" src="/static/js/page/log/v1.js"></script>
 </html>

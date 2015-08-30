@@ -9,7 +9,6 @@
 }
 .logo-container,
 .logo-container .layout-990{
-	height: 100%;
 	position: relative;
 }
 html{
@@ -58,20 +57,25 @@ html{
 	background: #fff;
 }
 #identify-code{
-	width: 150px;
+	width: 120px;
 	display: inline-block;
 }
 #get-identify-code{
 	display: inline-block;
-	margin-left: 20px;
-	width: 107px;
+	margin-left: 10px;
+	width: 147px;
 	text-align: center;
 	height: 38px;
 	line-height: 38px;
-	background-color: #ccc;
-	color:#333;
+	background-color: #009966;
+	color:#fff;
 	cursor: pointer;
 	border-radius: 5px;
+}
+.forbidden{
+	background-color: #ccc!important;
+	color:#888!important;
+	cursor: default!important;
 }
 .login-form form a,
 .login-form form span{

@@ -2,61 +2,60 @@
 
 <head>
     <meta charset="utf-8">
-    <title>美优萌宠</title>
+    <title>美优萌宠—注册</title>
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-    <link rel="shortcut icon" href="http://www.meipet.com.cn/static/img/favicon.png" />
-    <link rel="stylesheet" href="http://www.meipet.com.cn/static/bootstrap/css/bootstrap.min.css" type="text/css" />
-    <link rel="stylesheet" href="http://www.meipet.com.cn/static/css/module/form.css" type="text/css" />
+    <link rel="shortcut icon" href="/static/img/favicon.png" />
+    <link rel="stylesheet" type="text/css" href="/static/css/global/reset.css" />
+    <link rel="stylesheet" type="text/css" href="/static/css/global/layout.css" />
+    <link rel="stylesheet" type="text/css" href="/static/css/module/form.css" />
+
+     <link rel="stylesheet" type="text/css" href="/static/css/module/footer.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/page/login/v1.css" />
 </head>
 
 <body>
-    <div class="row">
-        <div class="col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-4">
-            <div class="page-login-form box login">
-                <div class="login-description text-center">欢迎来到美优萌宠</div>
-                <form action="http://www.meipet.com.cn/index.php/Home/Reg/doReg" method="post" class="form-validate">
-                    <div class="form-group">
-                        <div class="group-control">
-                            <input type="text" name="mobile" id="mobile" value="" class="validate-username required" size="25" placeholder="手机号" aria-required="true" />
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <div class="group-control">
-                            <input type="text" name="yanzhengma" id="username" value="" class="validate-username required" size="6" placeholder="短信验证码" aria-required="true" style="width: 120px; float: left" />
-                            <button class="btn" type="button" id='code' style="margin-top: 3px; margin-left: 50px;">获取验证码</button>
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <div class="group-control">
-                            <input type="password" name="password" id="password" value="" placeholder="密码" class="validate-password required" size="25" maxlength="99" aria-required="true" />
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <div class="group-control">
-                            <input type="password" name="password2" id="password" value="" placeholder="密码确认" class="validate-password required" size="25" maxlength="99" aria-required="true" />
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <button type="submit" class="btn btn-success btn-lg btn-block btn-login">
-                            注&nbsp;&nbsp;册</button>
-                    </div>
-                </form>
+    <div id="doc">
+        <div class="login-logo">
+            <div class="layout-990">
+                <h4>
+                    <a href="/">
+                        <img src="/static/img/logo.png"/>
+                    </a>
+                    <span class="txt">注册</span>
+                </h4>
+            </div>
+        </div>
+        <div class="logo-container">
+            <div class="layout-990">
+                <div class="login-form">
+                    <div class="message ms-yh" id="message">注册美优萌宠</div>
+                    <form method="post">
+                        <input type="text" id="mobile" value="" placeholder="手机号"/>
+                        <input type="text" id="identify-code" value="" placeholder="短信验证码"/>
+                        <span id="get-identify-code">获取验证码</span>
+                        <input type="password" id="password" placeholder="密码"/>
+                        <input type="password" id="password2" placeholder="密码确认"/>
+                        <span class="do" id="do-reg">注&nbsp;册</span>
+                    </form>
+                    <ul>
+                        <li>已有账号？<a href="/log">直接登录</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div id="footer" class="ms-yh">
+            <div class="layout-1190">
+                <span class="copyright">
+                Copyright&nbsp;©&nbsp;<a href="#" target="_self">杭州美呦科技有限公司</a>&nbsp;&nbsp;2015-2018&nbsp;&nbsp;版权所有
+            </span>
+                <br>
+                <a href="#">关于美优</a>&nbsp;|&nbsp;<a href="#">团队介绍</a>&nbsp;|&nbsp;<a href="#">加入我们</a>
             </div>
         </div>
     </div>
 </body>
-<script src="http://www.meipet.com.cn/static/jquery/jquery.min.js"></script>
-<script src="http://www.meipet.com.cn/static/bootstrap/js/bootstrap.min.js"></script>
-<script type="text/javascript">
-$("#code").click(
-    function() {
-        var mobile = $("#mobile").val();
-        if (mobile == '') {
-            alert('对不起,手机号不能为空');
-            return;
-        }
-        window.open('http://www.meipet.com.cn/index.php/Home/Reg/Verifycode?callback=xxxxxxxx&mobile=' + mobile);
-    });
-</script>
-
+<script src="/static/jquery/jquery.min.js"></script>
+<script src="/static/gallery/dialog.js"></script>
+<script type="text/javascript" src="/static/js/page/reg/v1.js"></script>
 </html>
