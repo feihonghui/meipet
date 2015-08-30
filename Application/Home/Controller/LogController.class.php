@@ -44,6 +44,13 @@ class LogController extends Controller {
 		$logUrl = 'http://www.meipet.com.cn/index.php/Home/Log/index';
 		
 		$date->result=false;
+		
+		$search ='/^1[3|4|5|7|8][0-9]\d{4,8}$/';
+		
+		if(!preg_match($search,$mobile)) {
+			$date->reason="账号或密码有误";
+			$this->ajaxReturn ( $date , 'JSONP' );
+		}
 
 		if (empty ( $mobile ) || empty ( $password )) {
 			$date->reason="账号或密码为空";
@@ -62,7 +69,7 @@ class LogController extends Controller {
 		$passwordMd5 = $user ["password"];
 		
 		if (md5 ( $password ) != $passwordMd5) {
-			$date->reason="账号和密码错误";
+			$date->reason="账号或密码有误";
 			return $this->ajaxReturn ( $date , 'JSONP' );
 		}
 		

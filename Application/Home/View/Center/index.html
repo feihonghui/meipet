@@ -52,10 +52,10 @@
         <div class="layout-990">
             <div class="mod-user">
                 <div class="box">
-                    <img onerror="this.src='http://i04.c.aliimg.com/cms/upload/2014/821/102/2201128_1754507855.png'" src="http://img.taobaocdn.com/i3/T1YeSiXk8eXXb1upjX.jpg"/>
+                    <img onerror="this.src='http://i04.c.aliimg.com/cms/upload/2014/821/102/2201128_1754507855.png'" src="{$user.face_img}"/>
                 </div>
-                <h3>阿猫阿狗宠物店</h3>
-                <p>店铺宣言：阿猫阿狗宠物店阿猫阿狗宠物店阿猫阿狗宠物店阿猫阿狗宠物店。</p>
+                <h3>{$store.name}</h3>
+                <p>{$store.dec}</p>
             </div>
             <div class="mod-content fd-clr">
                     <ul class="tab-title">
@@ -257,24 +257,37 @@
             <div class="mod-shop">
                 <h3>店铺基本情况</h3>
                 <div class="box">
-                    <img src="http://i.epetbar.com/nowater/2015-05/26/231b0c0213f2f271df839fcc2073dc4c.jpg-400-200-c.jpg">
+                    <img src="{$store.img}">
                 </div>
                 <ul>
                     <li class="fd-clr first">
                         <span class="title">店铺资质:</span>
-                        <span class="description">个体经营</span>
+                        <span class="description">{$user.type}</span>
                     </li>
                     <li class="fd-clr">
                         <span class="title">联系电话:</span>
-                        <span class="description">18757103785</span>
+                        <span class="description">{$store.phone}</span>
                     </li>
                     <li class="fd-clr">
                         <span class="title">主营业务:</span>
-                        <span class="description">领养、美容、洗护、医疗</span>
+                        <span class="description">
+	                        <if condition="($store.adopt eq 'Y')">
+	                            <em>领养</em>
+	                        </if>
+							<if condition="($store.cosmet eq 'Y')">
+							    <em>美容</em>
+							</if>
+							<if condition="($store.wash eq 'Y')">
+							    <em>洗护</em>
+							</if>
+							<if condition="($store.medical eq 'Y')">
+							    <em>医疗</em>
+							</if>
+                        </span>
                     </li>
                     <li class="fd-clr">
                         <span class="title">所在区域:</span>
-                        <span class="description">杭州市滨江区</span>
+                        <span class="description">{$user.area} {$user.address}</span>
                     </li>
                 </ul>
             </div>
