@@ -4,10 +4,10 @@
     <meta charset="utf-8">
     <title>美优萌宠</title>
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-    <link rel="shortcut icon" href="http://www.meipet.com.cn/static/img/favicon.png" />
-    <link rel="stylesheet" type="text/css" href="http://www.meipet.com.cn/static/css/global/reset.css" />
-    <link rel="stylesheet" type="text/css" href="http://www.meipet.com.cn/static/css/page/index/index-offer-list.css" />
-    <link rel="stylesheet" type="text/css" href="http://www.meipet.com.cn/static/css/page/index/v1.css" />
+    <link rel="shortcut icon" href="/static/img/favicon.png" />
+    <link rel="stylesheet" type="text/css" href="/static/css/global/reset.css" />
+    <link rel="stylesheet" type="text/css" href="/static/css/page/index/index-offer-list.css" />
+    <link rel="stylesheet" type="text/css" href="/static/css/page/index/v1.css" />
 </head>
 
 <body>
@@ -16,7 +16,7 @@
             <div class="bar-content">
                 <h1>
                 <a href="#" title="美优萌宠">
-                    <img src="http://www.meipet.com.cn/static/img/logo.png">
+                    <img src="/static/img/logo.png">
                 </a>
             </h1>
                 <ul class="ms-yh">
@@ -57,7 +57,7 @@
                             <ul class="index-offer-list fd-clr">
                                 <li>
                                     <a href="#">
-                                        <div class="img-box" style="background-image: url(http://www.meipet.com.cn/static/img/temp1.png);">
+                                        <div class="img-box" style="background-image: url(/static/img/temp1.png);">
                                             <div class="info ms-yh">
                                                 <span class="price">价格<br/>&yen;2000.00</span>
                                                 <span class="age">年龄<br/>&le;3个月</span>
@@ -71,7 +71,7 @@
                                 </li>
                                 <li>
                                     <a href="#">
-                                        <div class="img-box" style="background-image: url(http://www.meipet.com.cn/static/img/temp2.jpeg);">
+                                        <div class="img-box" style="background-image: url(/static/img/temp2.jpeg);">
                                             <div class="info ms-yh">
                                                 <span class="price">价格<br/>&yen;2000.00</span>
                                                 <span class="age">年龄<br/>&le;3个月</span>
@@ -85,7 +85,7 @@
                                 </li>
                                 <li>
                                     <a href="#">
-                                        <div class="img-box" style="background-image: url(http://www.meipet.com.cn/static/img/temp3.jpeg);">
+                                        <div class="img-box" style="background-image: url(/static/img/temp3.jpeg);">
                                             <div class="info ms-yh">
                                                 <span class="price">价格<br/>&yen;2000.00</span>
                                                 <span class="age">年龄<br/>&le;3个月</span>
@@ -99,7 +99,7 @@
                                 </li>
                                 <li>
                                     <a href="#">
-                                        <div class="img-box" style="background-image: url(http://www.meipet.com.cn/static/img/temp4.jpeg);">
+                                        <div class="img-box" style="background-image: url(/static/img/temp4.jpeg);">
                                             <div class="info ms-yh">
                                                 <span class="price">价格<br/>&yen;2000.00</span>
                                                 <span class="age">年龄<br/>&le;3个月</span>
@@ -113,7 +113,7 @@
                                 </li>
                                 <li>
                                     <a href="#">
-                                        <div class="img-box" style="background-image: url(http://www.meipet.com.cn/static/img/temp5.jpeg);">
+                                        <div class="img-box" style="background-image: url(/static/img/temp5.jpeg);">
                                             <div class="info ms-yh">
                                                 <span class="price">价格<br/>&yen;2000.00</span>
                                                 <span class="age">年龄<br/>&le;3个月</span>
@@ -127,7 +127,7 @@
                                 </li>
                                 <li>
                                     <a href="#">
-                                        <div class="img-box" style="background-image: url(http://www.meipet.com.cn/static/img/temp6.jpeg);">
+                                        <div class="img-box" style="background-image: url(/static/img/temp6.jpeg);">
                                             <div class="info ms-yh">
                                                 <span class="price">价格<br/>&yen;2000.00</span>
                                                 <span class="age">年龄<br/>&le;3个月</span>
@@ -141,7 +141,7 @@
                                 </li>
                                 <li>
                                     <a href="#">
-                                        <div class="img-box" style="background-image: url(http://www.meipet.com.cn/static/img/temp7.jpeg);">
+                                        <div class="img-box" style="background-image: url(/static/img/temp7.jpeg);">
                                             <div class="info ms-yh">
                                                 <span class="price">价格<br/>&yen;3000.00</span>
                                                 <span class="age">年龄<br/>&le;3个月</span>
@@ -155,7 +155,7 @@
                                 </li>
                                 <li>
                                     <a href="#">
-                                        <div class="img-box" style="background-image: url(http://www.meipet.com.cn/static/img/temp7.jpeg);">
+                                        <div class="img-box" style="background-image: url(/static/img/temp7.jpeg);">
                                             <div class="info ms-yh">
                                                 <span class="price">价格<br/>&yen;0.00</span>
                                                 <span class="age">年龄<br/>&le;3个月</span>
@@ -188,7 +188,7 @@
                             <ul class="index-offer-list fd-clr">
                                 <li>
                                     <a href="#">
-                                        <div class="img-box" style="background-image: url(http://www.meipet.com.cn/static/img/temp1.png);">
+                                        <div class="img-box" style="background-image: url(/static/img/temp1.png);">
                                             <div class="info ms-yh">
                                                 <span class="price">价格<br/>&yen;0.00</span>
                                                 <span class="age">年龄<br/>&le;3个月</span>
@@ -202,7 +202,7 @@
                                 </li>
                                 <li>
                                     <a href="#">
-                                        <div class="img-box" style="background-image: url(http://www.meipet.com.cn/static/img/temp2.jpeg);">
+                                        <div class="img-box" style="background-image: url(/static/img/temp2.jpeg);">
                                             <div class="info ms-yh">
                                                 <span class="price">价格<br/>&yen;0.00</span>
                                                 <span class="age">年龄<br/>&le;3个月</span>
@@ -216,7 +216,7 @@
                                 </li>
                                 <li>
                                     <a href="#">
-                                        <div class="img-box" style="background-image: url(http://www.meipet.com.cn/static/img/temp3.jpeg);">
+                                        <div class="img-box" style="background-image: url(/static/img/temp3.jpeg);">
                                             <div class="info ms-yh">
                                                 <span class="price">价格<br/>&yen;0.00</span>
                                                 <span class="age">年龄<br/>&le;3个月</span>
@@ -230,7 +230,7 @@
                                 </li>
                                 <li>
                                     <a href="#">
-                                        <div class="img-box" style="background-image: url(http://www.meipet.com.cn/static/img/temp4.jpeg);">
+                                        <div class="img-box" style="background-image: url(/static/img/temp4.jpeg);">
                                             <div class="info ms-yh">
                                                 <span class="price">价格<br/>&yen;0.00</span>
                                                 <span class="age">年龄<br/>&le;3个月</span>
@@ -244,7 +244,7 @@
                                 </li>
                                 <li>
                                     <a href="#">
-                                        <div class="img-box" style="background-image: url(http://www.meipet.com.cn/static/img/temp5.jpeg);">
+                                        <div class="img-box" style="background-image: url(/static/img/temp5.jpeg);">
                                             <div class="info ms-yh">
                                                 <span class="price">价格<br/>&yen;0.00</span>
                                                 <span class="age">年龄<br/>&le;3个月</span>
@@ -258,7 +258,7 @@
                                 </li>
                                 <li>
                                     <a href="#">
-                                        <div class="img-box" style="background-image: url(http://www.meipet.com.cn/static/img/temp6.jpeg);">
+                                        <div class="img-box" style="background-image: url(/static/img/temp6.jpeg);">
                                             <div class="info ms-yh">
                                                 <span class="price">价格<br/>&yen;0.00</span>
                                                 <span class="age">年龄<br/>&le;3个月</span>
@@ -272,7 +272,7 @@
                                 </li>
                                 <li>
                                     <a href="#">
-                                        <div class="img-box" style="background-image: url(http://www.meipet.com.cn/static/img/temp7.jpeg);">
+                                        <div class="img-box" style="background-image: url(/static/img/temp7.jpeg);">
                                             <div class="info ms-yh">
                                                 <span class="price">价格<br/>&yen;0.00</span>
                                                 <span class="age">年龄<br/>&le;3个月</span>
@@ -286,7 +286,7 @@
                                 </li>
                                 <li>
                                     <a href="#">
-                                        <div class="img-box" style="background-image: url(http://www.meipet.com.cn/static/img/temp7.jpeg);">
+                                        <div class="img-box" style="background-image: url(/static/img/temp7.jpeg);">
                                             <div class="info ms-yh">
                                                 <span class="price">价格<br/>&yen;0.00</span>
                                                 <span class="age">年龄<br/>&le;3个月</span>
@@ -303,32 +303,32 @@
                     </div>
                     <div class="content-box">
                         <div class="content-container">
-                            <img src="http://www.meipet.com.cn/static/img/comingsoon.png" style="width:687px;border-radius: 5px;">
+                            <img src="/static/img/comingsoon.png" style="width:687px;border-radius: 5px;">
                         </div>
                     </div>
                     <div class="content-box">
                         <div class="content-container">
-                            <img src="http://www.meipet.com.cn/static/img/comingsoon.png" style="width:687px;border-radius: 5px;">
+                            <img src="/static/img/comingsoon.png" style="width:687px;border-radius: 5px;">
                         </div>
                     </div>
                     <div class="content-box">
                         <div class="content-container">
-                            <img src="http://www.meipet.com.cn/static/img/comingsoon.png" style="width:687px;border-radius: 5px;">
+                            <img src="/static/img/comingsoon.png" style="width:687px;border-radius: 5px;">
                         </div>
                     </div>
                     <div class="content-box">
                         <div class="content-container">
-                            <img src="http://www.meipet.com.cn/static/img/comingsoon.png" style="width:687px;border-radius: 5px;">
+                            <img src="/static/img/comingsoon.png" style="width:687px;border-radius: 5px;">
                         </div>
                     </div>
                     <div class="content-box">
                         <div class="content-container">
-                            <img src="http://www.meipet.com.cn/static/img/comingsoon.png" style="width:687px;border-radius: 5px;">
+                            <img src="/static/img/comingsoon.png" style="width:687px;border-radius: 5px;">
                         </div>
                     </div>
                     <div class="content-box">
                         <div class="content-container">
-                            <img src="http://www.meipet.com.cn/static/img/comingsoon.png" style="width:687px;border-radius: 5px;">
+                            <img src="/static/img/comingsoon.png" style="width:687px;border-radius: 5px;">
                         </div>
                     </div>
                 </div>
@@ -341,7 +341,7 @@
         </div>
     </div>
 </body>
-<script src="http://www.meipet.com.cn/static/jquery/jquery.min.js"></script>
-<script type="text/javascript" src="http://www.meipet.com.cn/static/js/page/index/v1.js"></script>
+<script src="/static/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="/static/js/page/index/v1.js"></script>
 
 </html>

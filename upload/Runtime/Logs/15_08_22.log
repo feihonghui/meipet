@@ -518,3 +518,34 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTrace [ RunTime:0.001624s ]
 INFO: [ app_end ] --END-- [ RunTime:0.001672s ]
 
+[ 2015-08-22T22:16:15+08:00 ] 127.0.0.1 /upload.php/Home/Pic/upload
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000595s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001240s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000179s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.007886s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007980s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000240s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000330s ]
+
+[ 2015-08-22T22:16:18+08:00 ] 127.0.0.1 /upload.php/Home/Pic/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000948s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001529s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000195s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.004569s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004638s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000101s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000130s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000297s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000328s ]
+
