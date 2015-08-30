@@ -10,7 +10,7 @@ class DetailController extends Controller {
 		header ( "Content-Type:text/html; charset=utf-8" );
 		$id = $_GET ["id"];
 		if(empty($id)){
-			$this->display();
+			header("location: http://www.meipet.com.cn");
 			return;
 		}
 		$Dao = M ( "pet" );
