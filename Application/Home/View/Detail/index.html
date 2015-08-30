@@ -20,9 +20,9 @@
         <div class="layout-990">
             <h1><a href="#" title="美优萌宠"><img src="http://www.meipet.com.cn/static/img/logo.png"></a></h1>
             <ul class="nav ms-yh">
-                <li><a href="#">首页</a></li>
-                <li class="current"><a href="#">有偿领养</a></li>
-                <li><a href="#">无偿领养</a></li>
+                <li><a href="/">首页</a></li>
+                <li class="current"><a href="/list">有偿领养</a></li>
+                <li><a href="/list">无偿领养</a></li>
             </ul>
             <div class="user-center">
                 <a class="no-login" href="#" target="_self">登录</a>
@@ -52,7 +52,7 @@
         <div class="layout-990">
             <div class="main-content">
                 <h3 class="ms-yh">
-                    <span>好猫猫好猫猫好猫猫好猫猫好猫猫好猫猫好猫猫好猫猫好</span>
+                    <span>{$pet.subject}</span>
                     <span class="bdsharebuttonbox">
                         <a href="#" class="bds_more" data-cmd="more"></a>
                         <a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a>
@@ -60,69 +60,69 @@
                         <a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
                     </span>
                 </h3>
-                <p class="description">家长寄语：好猫猫好猫猫好猫猫好猫猫好猫猫好猫猫好猫猫好猫猫好猫猫好猫猫好猫猫好猫猫好猫猫好猫猫好猫猫好猫猫好猫猫好猫猫好猫猫好猫猫好。</p>
+                <p class="description">{$pet.description}</p>
                 <p>
-                    <img src="http://youta.oss-cn-hangzhou.aliyuncs.com/system/product_image/image/1965/display_3404470491795200304.jpg">
+                    <img src="{$pet.img}">
                 </p>
-                <p>
-                    <span>好猫猫好猫猫好猫猫好猫猫好猫猫好猫猫好猫猫好猫猫好猫猫好猫猫好猫猫好猫猫好。</span>
-                    <img src="http://youta.oss-cn-hangzhou.aliyuncs.com/system/product_image/image/1966/display_5658369052699875474.jpg">
-                </p>
+                <volist name="imgList" id="vo">
+	                <p>
+		                <notempty name="vo.dec">
+		                    <span>{$vo.dec}</span>
+	                    </notempty>
+	                    <img src="{$vo.img_url}">
+	                </p>
+				</volist>
+               
 
-                <p>
-                    <span>好猫猫好猫猫好猫猫好猫猫好猫猫好猫猫好猫猫好猫猫好猫猫好猫猫好猫猫好猫猫好。</span>
-                    <img src="http://youta.oss-cn-hangzhou.aliyuncs.com/system/product_image/image/1965/display_3404470491795200304.jpg">
-                </p>
-                <p>
-                    <img src="http://youta.oss-cn-hangzhou.aliyuncs.com/system/product_image/image/1486/display_1.jpg">
-                </p>
             </div>
 
             <div class="main-info">
                 <h3 class="ms-yh">萌宠详细信息</h3>
                 <ul>
                     <li>
-                        <span class="title">萌宠品类:</span>
-                        <span class="info">金毛犬</span>
+                        <span class="title">萌宠种类:</span>
+                        <if condition="($pet.category eq 'cat') ">
+                            <span class="info">喵星人</span>
+						<elseif condition="($pet.category eq 'dog')"/>
+							<span class="info">汪星人</span> 
+						</if>
                     </li>
                     <li>
-                        <span class="title">萌宠生日:</span>
-                        <span class="info">2015年4月5日</span>
+                        <span class="title">萌宠品种:</span>
+                        <span class="info">{$pet.pinzhong}</span>
                     </li>
                     <li>
                         <span class="title">萌宠性别:</span>
-                        <span class="info">公</span>
+                        <if condition="($pet.sex eq 'M') ">
+                            <span class="info">公</span>
+						<elseif condition="($pet.sex eq 'F')"/>
+							<span class="info">母</span> 
+						</if>
                     </li>
                     <li>
                         <span class="title">萌宠颜色:</span>
-                        <span class="info">黄色</span>
+                        <span class="info">{$pet.color}</span>
                     </li>
                     <li>
-                        <span class="title">萌宠体形:</span>
-                        <span class="info">中型犬</span>
+                        <span class="title">萌宠生日:</span>
+                        <span class="info">{$birthday}</span>
                     </li>
                     <li>
                         <span class="title">健康状态:</span>
-                        <span class="info">健康</span>
+                        <span class="info">良好</span>
                     </li>
-                    <li>
-                        <span class="title">免疫驱虫:</span>
-                        <span class="info">疫苗1针&nbsp;驱虫1次</span>
-                    </li>
+
                     <li>
                         <span class="title">参考价格:</span>
-                        <span class="info">&yen;2500</span>
+                        <span class="info">&yen;{$price}</span>
                     </li>
-                    <li>
-                        <span class="title">是否纯种:</span>
-                        <span class="info">金毛串哈士奇</span>
-                    </li>
+
                     <li>
                         <span class="title">所在区域:</span>
-                        <span class="info">杭州市滨江区</span>
+                        <span class="info">{$pet.area} {$pet.address}</span>
                     </li>
                 </ul>
-                <span class="get-now">立即领养</span>
+                <span class="get-now" data-name="{$user.name}" data-phone="{$user.mobile}">立即领养</span>
             </div>
         </div>
     </div>

@@ -10,5 +10,9 @@ RewriteRule ^center/(.*)$ index.php/Center/$1 [QSA,PT,L]
 
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^store/(.*)$ index.php/Store/$1 [QSA,PT,L]
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^(.*)$ index.php/Home/$1 [QSA,PT,L]
 </IfModule>
