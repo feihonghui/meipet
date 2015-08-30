@@ -43,3 +43,7 @@
 宠物列表接口：
 
 	http://www.meipet.com.cn/list/getPet?category=dog&area=%E6%BB%A8%E6%B1%9F%E5%8C%BA&city=%E6%9D%AD%E5%B7%9E&page=2&size=1
+	
+	
+个人商店宠物接口  	
+http://www.meipet.com.cn/store/getPet?userId=2&callback=aaa&adoptId=&page=&size
