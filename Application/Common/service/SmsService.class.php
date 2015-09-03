@@ -5,7 +5,7 @@
  */
 class SmsService {
 	protected static $name = "13777427154";
-	protected static $pwd = "BC6B7ACA7D2920EAEB0C2C0659EB";
+	protected static $pwd = "E8C03AAB5B968DF05EED4BDAFD8C";
 	protected static $sign = "美优萌宠";
 	static public function getUserModel() {
 		$loginId = LoginService::getLoginId ();
