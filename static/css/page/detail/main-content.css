@@ -36,9 +36,9 @@ html{
 .main-content p.description{
 	padding: 15px 18px;
 	border:solid #eee 1px;
-	background: #ffeadd;
+	background: #fef1e9;
 	border-radius: 6px;
-	color:#333;
+	color:#000;
 }
 .main-content p span{
 	display: inline-block;
