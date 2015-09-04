@@ -19,10 +19,9 @@ input[type="tel"],
 input[type="color"],
 .uneditable-input {
   display: block;
-  height: 34px;
+  height: 38px;
   padding: 0px 12px;
   font-size: 14px;
-  line-height: 1.428571429;
   color: #555555;
   background-color: #fff;
   background-image: none;
@@ -38,7 +37,6 @@ input[type="color"],
   background-color: rgba(229,229,229,0.051);
   border-color: #e5e5e5;
   border-radius: 1px;
-  min-height: 40px;
 }
 select:focus,
 textarea:focus,
