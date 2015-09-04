@@ -3,7 +3,7 @@ html {
   background-size: 100%;
 }
 #content{
-	padding: 150px 0;
+	padding: 70px 0 150px;
 }
 .p-title{
 	font-size: 32px;
@@ -16,10 +16,11 @@ html {
 	font-size: 22px;
 	line-height: 50px;
 }
-.p-content span{
+
+.p-content span.about{
 	display: inline-block;
-	font-size: 18px;
-	line-height: 30px;
+	font-size: 25px;
+	line-height: 50px;
 }
 .group-title{
 	height: 40px;
@@ -77,4 +78,43 @@ html {
 }
 .group-box .item p .description{
 	padding-top: 5px;
+}
+
+.position{
+	background: rgba(0,0,0,0.2);
+	padding: 50px 70px;
+	border-radius: 10px;
+	color:#eee;
+}
+.position a{
+	color:#eee;
+}
+.position .description{
+	float: left;
+	font-size: 16px;
+}
+.position .description h3{
+	font-size: 22px;
+	color:#ddd;
+	padding-bottom: 15px;
+}
+.position .description h3 span{
+	font-size: 16px;
+}
+.position .description p{
+	line-height: 27px;
+}
+.erweima{
+	float: right;
+	text-align: center;
+}
+.erweima span{
+	display: inline-block;
+	font-size:16px;
+	padding-left: 50px;
+}
+.erweima img{
+	margin-top: 5px;
+	border-radius: 5px;
+	width: 168px;
 }

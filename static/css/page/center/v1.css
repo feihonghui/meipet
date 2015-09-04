@@ -202,15 +202,15 @@ html{
 
 .offer-item .other{
 	width: 190px;
-	color:#666;
+	color:#777;
 	position: relative;
 }
 .offer-item .other .description{
 	display: inline-block;
 	width: 180px;
-	line-height: 18px;
+	line-height: 20px;
 	padding: 0 5px;
-	height: 36px;
+	height: 40px;
 	overflow: hidden;
 	margin-top: 8px;
 }
