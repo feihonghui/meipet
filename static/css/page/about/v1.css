@@ -2,6 +2,9 @@ html {
   background: url(../../img/usbg.jpg) no-repeat fixed #2e2f41;
   background-size: 100%;
 }
+#header{
+	box-shadow: none;
+}
 #content{
 	padding: 70px 0 150px;
 }
