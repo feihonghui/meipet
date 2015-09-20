@@ -12,18 +12,20 @@
 				user = data.user;
 
 			if(result && user){
+				var name = user.name || user.login_id,
+					headUrl = user.face_img || 'http://meipet.com.cn/static/defaulthead.png';
 				var isLoginHtml = '<div class="is-login">'+
 						'                <div class="user">'+
 						'                    <a href="/tuan/myInfo.htm">'+
 						'                        <img onerror="this.src=\'http://i04.c.aliimg.com/cms/upload/2014/821/102/2201128_1754507855.png\'" src="http://img.taobaocdn.com/i3/T1YeSiXk8eXXb1upjX.jpg"/>'+
-						'                        <span class="name">&nbsp;&nbsp;水牛儿27</span>'+
+						'                        <span class="name">&nbsp;&nbsp;'+name+'</span>'+
 						'                    </a>'+
 						'                </div>'+
 						'                <div class="operation">'+
 						'                    <em></em>'+
 						'                    <ul>'+
 						'                        <li class="no-border">'+
-						'                            <a href="/tuan/myInfo.htm">个人中心</a>'+
+						'                            <a href="/center/myInfo.htm">个人中心</a>'+
 						'                        </li>'+
 						'                        <li>'+
 						'                            <a href="" class="checkout" target="_self" >退出登录</a>'+

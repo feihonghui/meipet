@@ -95,8 +95,9 @@
 }
 
 .release .img-upload-box .img-box .img-item input{
-	width: 100%;
+	width: 440px;
 	margin-top: 5px;
+	box-sizing:content-box;
 	height: 26px;
 	border: solid #ddd 1px;
 	padding: 0 10px;
