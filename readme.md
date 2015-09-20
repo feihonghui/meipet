@@ -47,3 +47,13 @@
 	
 个人商店宠物接口  	
 http://www.meipet.com.cn/store/getPet?userId=2&callback=aaa&adoptId=&page=&size
+
+
+获取城市列表
+http://www.meipet.com.cn/attribute/getCityList
+
+获取区域列表
+http://www.meipet.com.cn/attribute/getAreaList?city=%E6%9D%AD%E5%B7%9E
+
+获取种类品种
+http://www.meipet.com.cn/attribute/getPinzhongList?category=cat
