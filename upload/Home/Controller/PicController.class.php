@@ -10,9 +10,9 @@ class PicController extends Controller {
 	private $domain = "http://www.meipet.com.cn/";
 	
 	public function index() {
-		/* if (! \LoginService::isLogin ()) {
+		 if (! \LoginService::isLogin ()) {
 			$this->error ( "请登录！", $this->loginUrl );
-		} */
+		} 
 		header ( "Content-Type:text/html; charset=utf-8" );
 		$this->display ();
 	}
@@ -22,12 +22,12 @@ class PicController extends Controller {
 		header ( "Content-Type:text/html; charset=utf-8" );
 		$result = array();
 		
-		/* if (! \LoginService::isLogin ()) {
+		 if (! \LoginService::isLogin ()) {
 			$result['errorCode']   =    "not_login";
 			$this->ajaxReturn($result,"JSONP");
-		} */
-		//$userId = \LoginService::getUserId ();
-		$userId=123123;
+		} 
+		$userId = \LoginService::getUserId ();
+		//$userId=123123;
 		$today = date ( 'Ymd', time () );
 		$savePath = 'data/pic/' . $userId . "/"; // 设置附件上传（子）目录
 	
@@ -88,13 +88,13 @@ class PicController extends Controller {
 	
 	public function upload() {
 		header ( "Content-Type:text/html; charset=utf-8" );
-		/* if (! \LoginService::isLogin ()) {
+		 if (! \LoginService::isLogin ()) {
 			$this->error ( "请登录！", $loginUrl );
-		} */
+		} 
 		
 		
-		//$userId = \LoginService::getUserId ();
-		$userId=12313;
+		$userId = \LoginService::getUserId ();
+		//$userId=12313;
 		$today = date ( 'Ymd', time () );
 		$savePath = 'data/pic/' . $userId . "/"; // 设置附件上传（子）目录
 		
