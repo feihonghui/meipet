@@ -18,14 +18,14 @@
 <body>
     <div id="header">
         <div class="layout-990">
-            <h1><a href="#" title="美优萌宠"><img src="/static/img/logo.png"></a></h1>
+            <h1><a href="/" title="美优萌宠"><img src="/static/img/logo.png"></a></h1>
             <ul class="nav ms-yh">
                 <li><a href="/">首页</a></li>
                 <li class="current"><a href="/list">有偿领养</a></li>
                 <li><a href="/list">无偿领养</a></li>
             </ul>
             <div class="user-center">
-                <a class="no-login" href="#" target="_self">登录</a>
+                <a class="no-login" href="/log" target="_self">登录</a>
                 <!-- <div class="is-login">
                 <div class="user">
                     <a href="#">
@@ -60,16 +60,16 @@
                         <a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
                     </span>
                 </h3>
-                <p class="description">{$pet.description}</p>
-                <p>
+                <p class="description">寄语：{$pet.description}</p>
+                <!-- <p>
                     <img src="{$pet.img}">
-                </p>
+                </p> -->
                 <volist name="imgList" id="vo">
 	                <p>
-		                <notempty name="vo.dec">
-		                    <span>{$vo.dec}</span>
-	                    </notempty>
 	                    <img src="{$vo.img_url}">
+                        <notempty name="vo.dec">
+                            <span>描述：{$vo.dec}</span>
+                        </notempty>
 	                </p>
 				</volist>
                
@@ -77,7 +77,7 @@
             </div>
 
             <div class="main-info">
-                <h3 class="ms-yh">萌宠详细信息</h3>
+                <h3 class="ms-yh">萌宠基本信息</h3>
                 <ul>
                     <li>
                         <span class="title">萌宠种类:</span>
@@ -129,15 +129,16 @@
     <div id="footer" class="ms-yh">
         <div class="layout-990">
             <span class="copyright">
-            Copyright&nbsp;©&nbsp;<a href="#" target="_self">杭州美呦科技有限公司</a>&nbsp;&nbsp;2015-2018&nbsp;&nbsp;版权所有
+            Copyright&nbsp;©&nbsp;<a href="/" target="_self">杭州美呦科技有限公司</a>&nbsp;&nbsp;2015-2025&nbsp;&nbsp;版权所有
         </span>
             <br>
-            <a href="#">关于美优</a>&nbsp;|&nbsp;<a href="#">团队介绍</a>&nbsp;|&nbsp;<a href="#">加入我们</a>
+            <a href="/static/us.html">团队介绍</a>&nbsp;|&nbsp;<a href="/static/contact.html">联系我们</a>
         </div>
     </div>
 </body>
 <!-- global-->
 <script type="text/javascript" src="/static/jquery/jquery.min.js"></script>
+<script src="/static/js/module/header/v1.js"></script>
 <script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":["weixin","qzone","douban","tqq","tsina","sqq","kaixin001","tqf","tieba","diandian","huaban","mail"],"bdPic":"","bdStyle":"0","bdSize":"16"},"share":{},"selectShare":{"bdContainerClass":null,"bdSelectMiniList":["weixin","qzone","tsina"]}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
 <!-- module-->
 <!-- page-->

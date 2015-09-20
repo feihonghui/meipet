@@ -4,7 +4,13 @@
 			password = $('#password'),
 			doLog = $('#do-log'),
 			message = $('#message'),
-			loginForm = $('.login-form');
+			loginForm = $('.login-form'),
+			fromUrl = decodeURI(Meipet.util.getParamValue('from'));
+
+
+		if(fromUrl === 'undefined'){
+			fromUrl = '/';
+		}
 
 		var mobileRex = /^1[3|4|5|8][0-9]\d{4,8}$/;
 
@@ -35,11 +41,11 @@
 				}
 			})
 			.done(function(data) {
-				console.log(data);
+				// console.log(data);
 				var result = data.result,
 					reason = data.reason;
 				if(result){
-					window.location.href = '/';
+					window.location.href = fromUrl;
 				}else{
 					message.text(reason);
 				}

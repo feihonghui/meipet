@@ -47,10 +47,6 @@ html{
 }
 .login-form input{
 	width: 288px;
-	height: 30px;
-	line-height: 30px;
-	padding-top: 5px;
-	padding-bottom: 5px; 
 	margin-top: 15px;
 	border:solid #eee 1px;
 	border-radius: 5px;
