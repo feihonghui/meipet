@@ -24,19 +24,22 @@ html{
 	position: relative;
 }
 .mod-user h3{
-	margin-top: 30px;
+	margin-top: 20px;
 	float: left;
 	height: 40px;
 	line-height: 40px;
-	width: 843px;
+	width: 970px;
 	font-size: 23px;
-	padding-left: 15px;
+	padding-left: 10px;
+	color: #333;
 }
 .mod-user p{
 	height: 30px;
 	line-height: 30px;
 	float: left;
-	padding-left: 15px;
+	padding-left: 10px;
+	width: 970px;
+	color:#666;
 }
 .mod-shop{
 	border: solid #ddd 1px;
@@ -89,7 +92,7 @@ html{
 .mod-content{
 	width: 690px;
 	float: left;
-	margin-top: 35px;
+	margin-top: 25px;
 	overflow: hidden;
 }
 .mod-content ul{

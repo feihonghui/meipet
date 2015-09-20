@@ -25,7 +25,7 @@
 						'                    <em></em>'+
 						'                    <ul>'+
 						'                        <li class="no-border">'+
-						'                            <a href="/center/myInfo.htm">个人中心</a>'+
+						'                            <a href="/center?userId=2">个人中心</a>'+
 						'                        </li>'+
 						'                        <li>'+
 						'                            <a href="" class="checkout" target="_self" >退出登录</a>'+
