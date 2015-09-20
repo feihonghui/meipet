@@ -1,0 +1,58 @@
+html{
+	background: url(../../img/loginbg.jpg);
+}
+#content{
+	padding-top: 80px;
+	padding-bottom: 20px;
+}
+
+.right-nav{
+	width: 108px;
+	padding: 0 15px;
+	background: #fff;
+	float: right;
+	border:solid #d9d9d9 1px;
+	border-radius: 5px;
+}
+
+.right-nav li{
+	height: 45px;
+	line-height: 45px;
+	text-align: center;
+	border-top:dashed #ddd 1px;
+}
+.right-nav li.first{
+	border-top: none;
+}
+.right-nav li a{
+	color:#666;
+	font-size: 15px;
+}
+.right-nav li a.current{
+	color:#fd5e00;
+}
+.right-nav li a i{
+	font-size: 18px;
+}
+.left-content{
+	width: 778px;
+	padding: 10px 30px;
+	float: left;
+	background: #fff;
+	border-radius: 5px;
+	border:solid #ddd 1px;
+}
+.left-content input{
+	height: 32px;
+	border-radius: 5px;
+	border:solid #ccc 1px;
+}
+.left-content h3{
+	height: 40px;
+	line-height: 40px;
+	padding: 0 10px 5px;
+	border-bottom: dotted 1px #ddd;
+	font-size: 16px;
+	color:#666;
+	font-weight: 700;
+}

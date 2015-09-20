@@ -1,0 +1,126 @@
+.release{
+	width: 778px;
+	padding: 30px 0 20px;
+}
+.release .row{
+	padding-bottom: 20px;
+}
+.release .form-label{
+	float: left;
+	width: 60px;
+	padding: 0 10px;
+	height: 32px;
+	line-height: 32px;
+	text-align: right;
+	font-size: 14px;
+	color:#333;
+}
+.release .formControls{
+	width: 210px;
+	float: left;
+}
+.release .formControls input{
+	width: 200px;
+	padding: 0 10px;
+}
+.width-430{
+	width: 430px!important;
+}
+.width-430 input{
+	width: 420px!important;
+}
+.release .formControls .select-box{
+	border-radius: 5px;
+	width: 200px;
+}
+.release .form-tip{
+	float: left;
+	width: 216px;
+	height: 20px;
+	padding: 6px;
+}
+.release .formControls .radio-box{
+	float: left;
+	padding: 0;
+}
+.release .formControls .radio-box input{
+	width: 20px;
+	margin-top: 0px;
+	float: left;
+}
+.release .formControls .radio-box label{
+	float: left;
+	height: 32px;
+	line-height: 32px;
+	color: #666;
+	padding-left: 5px;
+	padding-right: 30px;
+}
+.margin-top-10{
+	margin-top: 10px;
+}
+.release textarea{
+	border-radius: 5px;
+}
+.release .select-control{
+	width: 210px;
+}
+.release .select-tip{
+	width: 476px;
+}
+.release .img-upload-box{
+	width: 460px;
+	padding: 20px;
+	border: dashed 1px #ddd;
+	border-radius: 5px;
+	float: left;
+	text-align: center;
+}
+.release .img-upload-box .add-img{
+	color:#00b7ee;
+	font-size: 14px;
+	height: 30px;
+	line-height:30px;
+	position: relative;
+	cursor: pointer;
+}
+.release .img-upload-box .add-img label,
+.release .img-upload-box .add-img div{
+	cursor: pointer;
+}
+.release .img-upload-box .img-box .img-item{
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	border-bottom: dashed 1px #eee;
+}
+
+.release .img-upload-box .img-box .img-item input{
+	width: 100%;
+	margin-top: 5px;
+	height: 26px;
+	border: solid #ddd 1px;
+	padding: 0 10px;
+	font-size: 12px;
+	color:#888;
+}
+.release .img-upload-box input.webuploader-element-invisible{
+	display: none;
+}
+.release .img-upload-box .img-box img{
+	width: 100%;
+	border-radius: 5px;
+}
+.release .btn-box{
+	text-align: center;
+	padding-top: 10px;
+}
+.release .btn-box .btn-release{
+	padding: 0;
+	width: 160px;
+	font-size: 16px;
+	height: 36px;
+	background: #fd5e00;
+	color:#fff;
+	border:solid #fd5e00 1px;
+	cursor: pointer;
+}
