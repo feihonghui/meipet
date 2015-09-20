@@ -16,8 +16,8 @@
 					headUrl = user.face_img || 'http://meipet.com.cn/static/defaulthead.png';
 				var isLoginHtml = '<div class="is-login">'+
 						'                <div class="user">'+
-						'                    <a href="/tuan/myInfo.htm">'+
-						'                        <img onerror="this.src=\'http://i04.c.aliimg.com/cms/upload/2014/821/102/2201128_1754507855.png\'" src="http://img.taobaocdn.com/i3/T1YeSiXk8eXXb1upjX.jpg"/>'+
+						'                    <a href="/center?userId=2">'+
+						'                        <img src="' + headUrl + '"/>'+
 						'                        <span class="name">&nbsp;&nbsp;'+name+'</span>'+
 						'                    </a>'+
 						'                </div>'+
