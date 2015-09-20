@@ -1,3 +1,11 @@
+.left-content{
+	width: 778px;
+	padding: 10px 30px;
+	float: left;
+	background: #fff;
+	border-radius: 5px;
+	border:solid #ddd 1px;
+}
 .release{
 	width: 778px;
 	padding: 30px 0 20px;
