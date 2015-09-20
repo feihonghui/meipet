@@ -57,3 +57,6 @@ http://www.meipet.com.cn/attribute/getAreaList?city=%E6%9D%AD%E5%B7%9E
 
 获取种类品种
 http://www.meipet.com.cn/attribute/getPinzhongList?category=cat
+
+发布宠物页面
+http://www.meipet.com.cn/admin/PetManage/newpet
