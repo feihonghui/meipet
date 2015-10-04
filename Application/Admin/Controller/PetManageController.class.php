@@ -58,6 +58,7 @@ class PetManageController extends AdminBaseController {
 			$Dao->user_id = $user ['id'];
 			$Dao->status = 'open';
 			$Dao->img=$imgArray[0];
+			$Dao->price=100 * $Dao->price;
 			$result = $Dao->add ();
 			
 			if (!$result) {

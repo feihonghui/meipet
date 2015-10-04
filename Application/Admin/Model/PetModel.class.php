@@ -7,7 +7,7 @@ class PetModel extends Model {
 	// 自动验证设置
 	protected $_validate = array(
 			array('subject', 'require', '标题不能为空！', 1),//1为必须验证
-			array("subject","1,5","标题不能超过32个字符",0,"length"),
+			array("subject","1,32","标题不能超过32个字符",0,"length"),
 			array('category', 'require', '类目不能为空！', 1),//1为必须验证
 			array('pinzhong', 'require', '品种不能为空！', 1),//1为必须验证
 			array('city', 'require', '城市不能为空！', 1),//1为必须验证
