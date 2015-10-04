@@ -102,9 +102,42 @@ class PetManageController extends AdminBaseController {
 		$condition ['id'] = $petid;
 		$pet = $Dao->where ( $condition )->find ();
 		$this->assign ( "pet", $pet );
+		
+		$petImgDao = M ( "pet_img" );
+		$condition2 ['pet_id'] = $petid;
+		$imgLit=$petImgDao->where ( $condition2 )->select ();
+		$img_urls=$this->getImgUrls($imgLit);
+		$slogans=$this->getSlogans($imgLit);
+		$this->assign ( "img_urls", $img_urls );
+		$this->assign ( "slogans", $slogans );
 		// 输出模板
 		$this->display ();
 	}
+	
+	private function getImgUrls($imgLit) {
+		$result="";
+		for ($i= 0;$i< count($imgLit); $i++){
+			if($i!=0){
+				$result=$result.$this->span;
+			}
+			$img= $imgLit[$i];
+			$result=$result.$img["img_url"];
+		}
+		return $result;
+	}
+	
+	private function getSlogans($imgLit) {
+		$result="";
+		for ($i= 0;$i< count($imgLit); $i++){
+			if($i!=0){
+				$result=$result.$this->span;
+			}
+			$img= $imgLit[$i];
+			$result=$result.$img["dec"];
+		}
+		return $result;
+	}
+	
 	public function update() {
 		header ( "Content-Type:text/html; charset=utf-8" );
 		if (! \LoginService::isLogin ()) {
