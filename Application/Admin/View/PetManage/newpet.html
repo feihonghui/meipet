@@ -38,8 +38,8 @@
                             <div class="formControls select-control">
                                 <span class="select-box">
                                     <select name='category' class="select" size="1" datatype="*" nullmsg="请选择种类">
-                                        <option value="" selected>请选择种类</option>
-                                        <option value ="cat">喵星人</option>
+                                        <option value="">请选择种类</option>
+                                        <option value ="cat" selected>喵星人</option>
 									    <option value ="dog">汪星人</option>
                                     </select>
                                 </span>
@@ -50,10 +50,9 @@
                             <label class="form-label">品种：</label>
                             <div class="formControls select-control">
                                 <span class="select-box">
-                                    <select name='pinzhong' class="select" size="1" datatype="*" nullmsg="请选择种类">
-                                        <option value="" selected>请选择种类</option>
-                                        <option value ="英短">英短</option>
-                                        <option value ="英短">美短</option>
+                                    <select name='pinzhong' class="select" size="1" datatype="*" nullmsg="请选择品种">
+                                        <!-- <option value="" selected>请选择品种</option> -->
+                                        <option value="168" selected>美国短毛猫</option>
                                     </select>
                                 </span>
                             </div>
@@ -93,9 +92,7 @@
                                 <span class="select-box">
                                     <select class="select" size="1" datatype="*" nullmsg="请选择所在城市!" name='city'>
                                         <option value="" selected>请选择城市</option>
-                                        <option value="北京">北京</option>
-                                        <option value="上海">上海</option>
-                                        <option value="广州">广州</option>
+                                        <!-- <option value="杭州" selected>杭州</option> -->
                                     </select>
                                 </span>
                             </div>
@@ -105,14 +102,7 @@
                                 <span class="select-box">
                                     <select class="select" size="1" datatype="*" nullmsg="请选择所在地区!" name='area'>
                                         <option value="" selected>请选择区域</option>
-                                          <option value ="上城区">上城区</option>
-									      <option value ="下城区">下城区</option>
-									      <option value ="拱墅区">拱墅区</option>
-									      <option value ="江干区">江干区</option>
-									      <option value ="西湖区">西湖区</option>
-										  <option value ="滨江区">滨江区</option>
-										  <option value ="余杭区">余杭区</option>
-										  <option value ="萧山区">萧山区</option>
+                                        <!-- <option value="下城区" selected>下城区</option> -->
                                     </select>
                                 </span>
                             </div>
@@ -140,7 +130,7 @@
 
                         <div class="row fd-clr">
                             <label class="form-label">图片：</label>
-                            <div class="img-upload-box">
+                            <div class="formControls img-upload-box">
                                 <div class="img-box">
 
                                 </div>
@@ -148,11 +138,11 @@
                                     <i class="iconfont">&#xe605;</i>
                                     <span>添加一张图片</span>
                                 </div>
+                                <input type="hidden" name="img_urls" datatype="*" nullmsg="至少添加一张图片" value="http://www.meipet.com.cn/data/pic/2/20150920/55fe99ee72e12.png__span__http://www.meipet.com.cn/data/pic/2/20150920/55fe99f430cc2.png">
+                                <input type="hidden" name="slogans" value="aasdada1__span__asdsadsad2">
                             </div>
+                            <div class="form-tip" style="width:180px;"></div>
                         </div>
-                        
-                        <input type="hidden" name="img_urls" value="http://www.meipet.com.cn/data/pic/2/20150920/55fe99ee72e12.png__span__http://www.meipet.com.cn/data/pic/2/20150920/55fe99f430cc2.png">
-                        <input type="hidden" name="slogans" value="aasdada1__span__asdsadsad2">
                         
                         <div class="fd-clr btn-box">
                             <input class="btn btn-release" type="submit" value="提交发布">

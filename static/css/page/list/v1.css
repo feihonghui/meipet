@@ -3,6 +3,7 @@ html{
 }
 #content{
     padding-top: 60px;
+    min-height: 777px;
 }
 .no-more{
 	display: block;
@@ -11,6 +12,6 @@ html{
 	width: 100%;
 	text-align: center;
 	margin: 0 auto;
-	margin-bottom: 10px;
+    padding-bottom: 10px;
 	color:#666;
 }

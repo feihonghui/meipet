@@ -34,7 +34,7 @@
             this.selectVisible = $('select:visible');
         }
 
-        this.show = function(){
+        this.show = function(conf){
             var that = this,
                 config = that.config,
                 win = $(window);
@@ -46,7 +46,15 @@
                     'visibility': 'hidden'
                 });
             }
-            this.modal(config.mask,config.minWidth);
+            if(typeof conf !== 'undefined' && conf.showMask === false){
+
+            }else{
+                this.modal(config.mask,config.minWidth);
+                $('html').css({
+                    overflow:'hidden'
+                });
+            }
+
             this.center(config.elm);
             win.on('resize.'+config.id, function(event) {
                 that.modal(config.mask,config.minWidth);
@@ -61,10 +69,11 @@
                     },val.time));
                 });
                 config.timersId = timersId;
-            }
+            };
+
         };
 
-        this.hide = function(){
+        this.hide = function(conf){
             var config = this.config,
                 win = $(window),
                 timersId = config.timersId;
@@ -75,10 +84,16 @@
                     'visibility': 'visible'
                 });
             }
-
-            config.mask.hide(0);
-            config.elm.hide(0);
             win.off('resize.'+config.id);
+            if(typeof conf !== 'undefined' && conf.hideMask === false){
+
+            }else{
+                config.mask.hide(0);
+                $('html').css({
+                    overflow:'auto'
+                });
+            }
+            config.elm.hide(0);
             if(typeof timersId !== 'undefined'){
                 $.each(timersId, function(index, val) {
                     clearInterval(val);
@@ -137,12 +152,12 @@
         mask.appendTo('body');
         mask.css({
             'position': 'absolute',
-            'background': '#000',
+            'background': '#333',
             'top': '0px',
             'left': '0px',
             'z-index': config.zindex - 1
         }).animate({
-            opacity:.3
+            opacity:.7
         },0);
 
         config.id = 'dialog'+new Date().getTime();
@@ -163,6 +178,8 @@
             buttons:config.buttons,
             zindex:config.zindex
         };
+
+
         return new dialog.prototype.init(dialogConfig);
     };
 

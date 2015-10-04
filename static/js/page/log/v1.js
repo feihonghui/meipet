@@ -5,8 +5,7 @@
 			doLog = $('#do-log'),
 			message = $('#message'),
 			loginForm = $('.login-form'),
-			fromUrl = decodeURI(Meipet.util.getParamValue('from'));
-
+			fromUrl = decodeURI(Meipet.urlTool.paramsToJSON()['from']);
 
 		if(fromUrl === 'undefined'){
 			fromUrl = '/';
