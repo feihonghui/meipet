@@ -26,7 +26,7 @@ class PetManageController extends AdminBaseController {
 		// 输出模板
 		$this->display ();
 	}
-	public function newpet() {
+	public function publish() {
 		if (! \LoginService::isLogin ()) {
 			$this->error ( "请登录！", $this->loginUrl );
 		}

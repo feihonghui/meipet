@@ -15,6 +15,7 @@ class ListController extends Controller {
 		$category = $_GET ["category"];
 		$area = $_GET ["area"];
 		$city = $_GET ["city"];
+		$price = $_GET ["price"];
 		$page = $_GET ["page"];
 		$size = $_GET ["size"];
 		
@@ -37,6 +38,10 @@ class ListController extends Controller {
 		}
 		if(!empty($city)){
 			$condition ['city'] = $city;
+		}
+		
+		if(!empty($price)){
+			$condition ['price'] = $price;
 		}
 		
 		$petList = $Dao->where ( $condition )->limit($limit)->select();
