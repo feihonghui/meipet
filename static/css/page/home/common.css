@@ -35,12 +35,8 @@ html{
 	font-size: 18px;
 }
 .left-content{
-	width: 778px;
-	padding: 10px 30px;
+	width: 840px;
 	float: left;
-	background: #fff;
-	border-radius: 5px;
-	border:solid #ddd 1px;
 }
 .left-content input{
 	height: 32px;

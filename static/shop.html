@@ -34,72 +34,64 @@
     <div id="content">
         <div class="layout-990">
             <div class="left-content">
-                <h3>发布宠物</h3>
+                <h3>开通店铺</h3>
                 <div class="release">
                     <form action="" method="post" id="releasepet">
                         <div class="row fd-clr">
-                            <label class="form-label">标题：</label>
-                            <div class="formControls width-430">
+                            <label class="form-label">店铺名称：</label>
+                            <div class="formControls">
                                 <input type="text" class="input-text" placeholder="不能超过25个字符" name="username" id="username" datatype="*1-25" nullmsg="标题不能为空">
                             </div>
                             <div class="form-tip"></div>
                         </div>
                         <div class="row fd-clr">
-                            <label class="form-label">种类：</label>
+                            <label class="form-label">店铺资质：</label>
                             <div class="formControls select-control">
                                 <span class="select-box">
                                     <select class="select" size="1" datatype="*" nullmsg="请选择种类">
-                                        <option value="" selected>请选择种类</option>
-                                        <option value="1">汪星人</option>
-                                        <option value="2">喵星人</option>
+                                        <option value="" selected>请选择年龄段</option>
+                                        <option value="1">70前</option>
+                                        <option value="1">70后</option>
+                                        <option value="2">80后</option>
+                                        <option value="2">90后</option>
+                                        <option value="2">00后</option>
                                     </select>
                                 </span>
                             </div>
                             <div class="form-tip"></div>
                         </div>
                         <div class="row fd-clr">
-                            <label class="form-label">品种：</label>
-                            <div class="formControls select-control">
-                                <span class="select-box">
-                                    <select class="select" size="1" datatype="*" nullmsg="请选择种类">
-                                        <option value="" selected>请选择种类</option>
-                                        <option value="1">汪星人</option>
-                                        <option value="2">喵星人</option>
-                                    </select>
-                                </span>
-                            </div>
-                            <div class="form-tip"></div>
-                        </div>
-                        <div class="row fd-clr">
-                            <label class="form-label">生日：</label>
-                            <div class="formControls">
-                                <input type="text" class="input-text" onClick="WdatePicker({readOnly:true})" placeholder="请选择生日" name="username" id="username" datatype="*" nullmsg="生日不能为空">
-                            </div>
-                            <div class="form-tip"></div>
-                        </div>
-                        <div class="row fd-clr">
-                            <label class="form-label">颜色：</label>
-                            <div class="formControls">
-                                <input type="text" class="input-text" placeholder="请输入颜色" name="username" id="username" datatype="*" nullmsg="颜色不能为空">
-                            </div>
-                            <div class="form-tip"></div>
-                        </div>
-                        <div class="row fd-clr">
-                            <label class="form-label">性别：</label>
-                            <div class="formControls">
-                                <div class="radio-box">
-                                    <input type="radio" id="sex-1" name="sex" datatype="*" nullmsg="请选择性别！">
-                                    <label for="sex-1">GG</label>
+                            <label class="form-label">主营业务：</label>
+                            <div class="formControls width-430">
+                                <div class="check-box">
+                                    <input type="checkbox" id="checkbox-1" name="checkbox2" datatype="*" nullmsg="主营业务不能为空！">
+                                    <label for="checkbox-1">领养</label>
                                 </div>
-                                <div class="radio-box">
-                                    <input type="radio" id="sex-2" name="sex">
-                                    <label for="sex-2">MM</label>
+                                <div class="check-box">
+                                    <input type="checkbox" id="checkbox-2" name="checkbox2">
+                                    <label for="checkbox-2">洗护</label>
+                                </div>
+                                <div class="check-box">
+                                    <input type="checkbox" id="checkbox-3" name="checkbox2">
+                                    <label for="checkbox-3">造型</label>
+                                </div>
+                                <div class="check-box">
+                                    <input type="checkbox" id="checkbox-3" name="checkbox2">
+                                    <label for="checkbox-3">医疗</label>
+                                </div>
+                                <div class="check-box">
+                                    <input type="checkbox" id="checkbox-4" name="checkbox2">
+                                    <label for="checkbox-4">寄养</label>
+                                </div>
+                                <div class="check-box">
+                                    <input type="checkbox" id="checkbox-4" name="checkbox2">
+                                    <label for="checkbox-4">宠物百货</label>
                                 </div>
                             </div>
                             <div class="form-tip"></div>
                         </div>
                         <div class="row fd-clr">
-                            <label class="form-label">位置：</label>
+                            <label class="form-label">店铺地址：</label>
                             <div class="formControls select-control">
                                 <span class="select-box">
                                     <select class="select" size="1" datatype="*" nullmsg="请选择所在城市!">
@@ -130,22 +122,7 @@
                             <div class="form-tip margin-top-10"></div>
                         </div>
                         <div class="row fd-clr">
-                            <label class="form-label">价格：</label>
-                            <div class="formControls">
-                                <input type="text" class="input-text" placeholder="价格必须为数字" name="username" id="username" datatype="n" nullmsg="价格必须为数字">
-                            </div>
-                            <div class="form-tip"></div>
-                        </div>
-                        <div class="row fd-clr">
-                            <label class="form-label">寄语：</label>
-                            <div class="formControls width-430">
-                                <textarea class="textarea" placeholder="寄语不能超过240个字符" datatype="*0-240" errormsg="寄语不能超过240个字符"></textarea>
-                            </div>
-                            <div class="form-tip"></div>
-                        </div>
-
-                        <div class="row fd-clr">
-                            <label class="form-label">图片：</label>
+                            <label class="form-label">店铺招牌：</label>
                             <div class="img-upload-box">
                                 <div class="img-box">
 
@@ -157,7 +134,7 @@
                             </div>
                         </div>
                         <div class="fd-clr btn-box">
-                            <input class="btn btn-release" type="submit" value="提交发布">
+                            <input class="btn btn-release" type="submit" value="提交">
                         </div>
                     </form>
                 </div>
@@ -165,7 +142,7 @@
             <div class="right-nav">
                 <ul>
                     <li class="first">
-                        <a class="current" href="">
+                        <a href="">
                             <i class="iconfont">&#xe602;</i>&nbsp;&nbsp;发布萌宠
                         </a>
                     </li>
@@ -176,7 +153,7 @@
                         <a href=""><i class="iconfont">&#xe603;</i>&nbsp;&nbsp;个人资料</a>
                     </li>
                     <li>
-                        <a href=""><i class="iconfont">&#xe601;</i>&nbsp;&nbsp;开通店铺</a>
+                        <a href="" class="current"><i class="iconfont">&#xe601;</i>&nbsp;&nbsp;开通店铺</a>
                     </li>
                 </ul>
             </div>

@@ -35,350 +35,49 @@
         <div class="layout-990 offer-sn">
             <div class="sn-item">
                 <span class="title">种类：&nbsp;</span>
-                <a href="#" class="selected">猫咪</a>
-                <a href="#">狗狗</a>
+                <a href="/list" class="all selected">全部</a>
+                <a href="/list?category=cat" class="cat">猫咪</a>
+                <a href="/list?category=dog" class="dog">狗狗</a>
             </div>
             <div class="position">
                 <span class="title">地区：&nbsp;</span>
-                <span class="city">杭州</span>
+                <span class="city"></span>
                 <a href="#" class="swich-city">切换城市</a>
                 <div class="zone">
-                    <a href="#" class="selected">全部</a>
-                    <a href="#">滨江区</a>
-                    <a href="#">西湖区</a>
-                    <a href="#">江干区</a>
-                    <a href="#">富阳区</a>
-                    <a href="#">萧山区</a>
+
                 </div>
             </div>
         </div>
         <div class="layout-990">
-            <div class="offer-list">
-                <div class="offer-item">
-                    <a href="/detail?id=1">
-                        <div class="item-box" style="background-image: url(/static/img/temp1.png);">
-                            <div class="price-age">
-                                <span class="price">价格<br/>&yen;2000.00</span>
-                                <span class="age">年龄<br/>&le;3个月</span>
+            <script id="list-template" type="text/html">
+
+                <% for( var key in data){ %>
+                    <% var pet = data[key] %>
+                    <div class="offer-item">
+                        <a href="/detail?id=<%= pet.id %>" target="_blank">
+                            <div class="item-box" style="background-image: url(<%= pet.img %>);">
+                                <div class="price-age">
+                                    <span class="price">价格<br/>&yen;<%= pet.price/100 %></span>
+                                    <span class="age">年龄<br/>&le;3个月</span>
+                                </div>
                             </div>
-                        </div>
-                        <div class="other"> 
-                            <span class="description">
-                                美优美宠猫猫美优美宠猫猫优美宠猫猫优美宠猫猫
-                            </span>
-                            <span class="button">立即领养</span>
-                        </div>
-                    </a>
-                </div>
-                <div class="offer-item">
-                    <a href="/detail?id=1">
-                        <div class="item-box" style="background-image: url(/static/img/temp2.jpeg);">
-                            <div class="price-age">
-                                <span class="price">价格<br/>&yen;2000.00</span>
-                                <span class="age">年龄<br/>&le;3个月</span>
+                            <div class="other">
+                                    <span class="description">
+                                        <%= pet.subject %>
+                                    </span>
+                                <span class="button">立即领养</span>
                             </div>
-                        </div>
-                        <div class="other"> 
-                            <span class="description">
-                                美优美宠猫猫美优美宠猫猫优美宠猫猫优美宠猫猫
-                            </span>
-                            <span class="button">立即领养</span>
-                        </div>
-                    </a>
-                </div>
-                <div class="offer-item">
-                    <a href="/detail?id=1">
-                        <div class="item-box" style="background-image: url(/static/img/temp3.jpeg);">
-                            <div class="price-age">
-                                <span class="price">价格<br/>&yen;2000.00</span>
-                                <span class="age">年龄<br/>&le;3个月</span>
-                            </div>
-                        </div>
-                        <div class="other"> 
-                            <span class="description">
-                                美优美宠猫猫美优美宠猫猫优美宠猫猫优美宠猫猫
-                            </span>
-                            <span class="button">立即领养</span>
-                        </div>
-                    </a>
-                </div>
-                <div class="offer-item">
-                    <a href="/detail?id=1">
-                        <div class="item-box" style="background-image: url(/static/img/temp4.jpeg);">
-                            <div class="price-age">
-                                <span class="price">价格<br/>&yen;2000.00</span>
-                                <span class="age">年龄<br/>&le;3个月</span>
-                            </div>
-                        </div>
-                        <div class="other"> 
-                            <span class="description">
-                                美优美宠猫猫美优美宠猫猫优美宠猫猫优美宠猫猫
-                            </span>
-                            <span class="button">立即领养</span>
-                        </div>
-                    </a>
-                </div>
-                <div class="offer-item">
-                    <a href="/detail?id=1">
-                        <div class="item-box" style="background-image: url(/static/img/temp5.jpeg);">
-                            <div class="price-age">
-                                <span class="price">价格<br/>&yen;2000.00</span>
-                                <span class="age">年龄<br/>&le;3个月</span>
-                            </div>
-                        </div>
-                        <div class="other"> 
-                            <span class="description">
-                                美优美宠猫猫美优美宠猫猫优美宠猫猫优美宠猫猫
-                            </span>
-                            <span class="button">立即领养</span>
-                        </div>
-                    </a>
-                </div>
-                <div class="offer-item">
-                    <a href="/detail?id=1">
-                        <div class="item-box" style="background-image: url(/static/img/temp6.jpeg);">
-                            <div class="price-age">
-                                <span class="price">价格<br/>&yen;2000.00</span>
-                                <span class="age">年龄<br/>&le;3个月</span>
-                            </div>
-                        </div>
-                        <div class="other"> 
-                            <span class="description">
-                                美优美宠猫猫美优美宠猫猫优美宠猫猫优美宠猫猫
-                            </span>
-                            <span class="button">立即领养</span>
-                        </div>
-                    </a>
-                </div>
-                <div class="offer-item">
-                    <a href="/detail?id=1">
-                        <div class="item-box" style="background-image: url(/static/img/temp7.jpeg);">
-                            <div class="price-age">
-                                <span class="price">价格<br/>&yen;2000.00</span>
-                                <span class="age">年龄<br/>&le;3个月</span>
-                            </div>
-                        </div>
-                        <div class="other"> 
-                            <span class="description">
-                                美优美宠猫猫美优美宠猫猫优美宠猫猫优美宠猫猫
-                            </span>
-                            <span class="button">立即领养</span>
-                        </div>
-                    </a>
-                </div>
-                <div class="offer-item">
-                    <a href="/detail?id=1">
-                        <div class="item-box" style="background-image: url(/static/img/temp6.jpeg);">
-                            <div class="price-age">
-                                <span class="price">价格<br/>&yen;2000.00</span>
-                                <span class="age">年龄<br/>&le;3个月</span>
-                            </div>
-                        </div>
-                        <div class="other"> 
-                            <span class="description">
-                                美优美宠猫猫美优美宠猫猫优美宠猫猫优美宠猫猫
-                            </span>
-                            <span class="button">立即领养</span>
-                        </div>
-                    </a>
-                </div>
-                <div class="offer-item">
-                    <a href="/detail?id=1">
-                        <div class="item-box" style="background-image: url(/static/img/temp5.jpeg);">
-                            <div class="price-age">
-                                <span class="price">价格<br/>&yen;2000.00</span>
-                                <span class="age">年龄<br/>&le;3个月</span>
-                            </div>
-                        </div>
-                        <div class="other"> 
-                            <span class="description">
-                                美优美宠猫猫美优美宠猫猫优美宠猫猫优美宠猫猫
-                            </span>
-                            <span class="button">立即领养</span>
-                        </div>
-                    </a>
-                </div>
-                <div class="offer-item">
-                    <a href="/detail?id=1">
-                        <div class="item-box" style="background-image: url(/static/img/temp4.jpeg);">
-                            <div class="price-age">
-                                <span class="price">价格<br/>&yen;2000.00</span>
-                                <span class="age">年龄<br/>&le;3个月</span>
-                            </div>
-                        </div>
-                        <div class="other"> 
-                            <span class="description">
-                                美优美宠猫猫美优美宠猫猫优美宠猫猫优美宠猫猫
-                            </span>
-                            <span class="button">立即领养</span>
-                        </div>
-                    </a>
-                </div>
-                <div class="offer-item">
-                    <a href="/detail?id=1">
-                        <div class="item-box" style="background-image: url(/static/img/temp3.jpeg);">
-                            <div class="price-age">
-                                <span class="price">价格<br/>&yen;2000.00</span>
-                                <span class="age">年龄<br/>&le;3个月</span>
-                            </div>
-                        </div>
-                        <div class="other"> 
-                            <span class="description">
-                                美优美宠猫猫美优美宠猫猫优美宠猫猫优美宠猫猫
-                            </span>
-                            <span class="button">立即领养</span>
-                        </div>
-                    </a>
-                </div>
-                <div class="offer-item">
-                    <a href="/detail?id=1">
-                        <div class="item-box" style="background-image: url(/static/img/temp2.jpeg);">
-                            <div class="price-age">
-                                <span class="price">价格<br/>&yen;2000.00</span>
-                                <span class="age">年龄<br/>&le;3个月</span>
-                            </div>
-                        </div>
-                        <div class="other"> 
-                            <span class="description">
-                                美优美宠猫猫美优美宠猫猫优美宠猫猫优美宠猫猫
-                            </span>
-                            <span class="button">立即领养</span>
-                        </div>
-                    </a>
-                </div>
-                <div class="offer-item">
-                    <a href="/detail?id=1">
-                        <div class="item-box" style="background-image: url(/static/img/temp4.jpeg);">
-                            <div class="price-age">
-                                <span class="price">价格<br/>&yen;2000.00</span>
-                                <span class="age">年龄<br/>&le;3个月</span>
-                            </div>
-                        </div>
-                        <div class="other"> 
-                            <span class="description">
-                                美优美宠猫猫美优美宠猫猫优美宠猫猫优美宠猫猫
-                            </span>
-                            <span class="button">立即领养</span>
-                        </div>
-                    </a>
-                </div>
-                <div class="offer-item">
-                    <a href="/detail?id=1">
-                        <div class="item-box" style="background-image: url(/static/img/temp3.jpeg);">
-                            <div class="price-age">
-                                <span class="price">价格<br/>&yen;2000.00</span>
-                                <span class="age">年龄<br/>&le;3个月</span>
-                            </div>
-                        </div>
-                        <div class="other"> 
-                            <span class="description">
-                                美优美宠猫猫美优美宠猫猫优美宠猫猫优美宠猫猫
-                            </span>
-                            <span class="button">立即领养</span>
-                        </div>
-                    </a>
-                </div>
-                <div class="offer-item">
-                    <a href="/detail?id=1">
-                        <div class="item-box" style="background-image: url(/static/img/temp2.jpeg);">
-                            <div class="price-age">
-                                <span class="price">价格<br/>&yen;2000.00</span>
-                                <span class="age">年龄<br/>&le;3个月</span>
-                            </div>
-                        </div>
-                        <div class="other"> 
-                            <span class="description">
-                                美优美宠猫猫美优美宠猫猫优美宠猫猫优美宠猫猫
-                            </span>
-                            <span class="button">立即领养</span>
-                        </div>
-                    </a>
-                </div>
-                <div class="offer-item">
-                    <a href="/detail?id=1">
-                        <div class="item-box" style="background-image: url(/static/img/temp3.jpeg);">
-                            <div class="price-age">
-                                <span class="price">价格<br/>&yen;2000.00</span>
-                                <span class="age">年龄<br/>&le;3个月</span>
-                            </div>
-                        </div>
-                        <div class="other"> 
-                            <span class="description">
-                                美优美宠猫猫美优美宠猫猫优美宠猫猫优美宠猫猫
-                            </span>
-                            <span class="button">立即领养</span>
-                        </div>
-                    </a>
-                </div>
-                <div class="offer-item">
-                    <a href="/detail?id=1">
-                        <div class="item-box" style="background-image: url(/static/img/temp2.jpeg);">
-                            <div class="price-age">
-                                <span class="price">价格<br/>&yen;2000.00</span>
-                                <span class="age">年龄<br/>&le;3个月</span>
-                            </div>
-                        </div>
-                        <div class="other"> 
-                            <span class="description">
-                                美优美宠猫猫美优美宠猫猫优美宠猫猫优美宠猫猫
-                            </span>
-                            <span class="button">立即领养</span>
-                        </div>
-                    </a>
-                </div>
-                <div class="offer-item">
-                    <a href="/detail?id=1">
-                        <div class="item-box" style="background-image: url(/static/img/temp4.jpeg);">
-                            <div class="price-age">
-                                <span class="price">价格<br/>&yen;2000.00</span>
-                                <span class="age">年龄<br/>&le;3个月</span>
-                            </div>
-                        </div>
-                        <div class="other"> 
-                            <span class="description">
-                                美优美宠猫猫美优美宠猫猫优美宠猫猫优美宠猫猫
-                            </span>
-                            <span class="button">立即领养</span>
-                        </div>
-                    </a>
-                </div>
-                <div class="offer-item">
-                    <a href="/detail?id=1">
-                        <div class="item-box" style="background-image: url(/static/img/temp3.jpeg);">
-                            <div class="price-age">
-                                <span class="price">价格<br/>&yen;2000.00</span>
-                                <span class="age">年龄<br/>&le;3个月</span>
-                            </div>
-                        </div>
-                        <div class="other"> 
-                            <span class="description">
-                                美优美宠猫猫美优美宠猫猫优美宠猫猫优美宠猫猫
-                            </span>
-                            <span class="button">立即领养</span>
-                        </div>
-                    </a>
-                </div>
-                <div class="offer-item">
-                    <a href="/detail?id=1">
-                        <div class="item-box" style="background-image: url(/static/img/temp2.jpeg);">
-                            <div class="price-age">
-                                <span class="price">价格<br/>&yen;2000.00</span>
-                                <span class="age">年龄<br/>&le;3个月</span>
-                            </div>
-                        </div>
-                        <div class="other"> 
-                            <span class="description">
-                                美优美宠猫猫美优美宠猫猫优美宠猫猫优美宠猫猫
-                            </span>
-                            <span class="button">立即领养</span>
-                        </div>
-                    </a>
-                </div>
+                        </a>
+                    </div>
+                <% } %>
+
+            </script>
+            <div class="offer-list fd-clr">
             </div>
         </div>
-        <div class="layout-1190">
+        <div class="layout-990">
             <span class="no-more">
-                没有更多了...
+
             </span>
         </div>
     </div>
@@ -392,10 +91,13 @@
         </div>
     </div>
 </body>
-<!-- global-->
-<script type="text/javascript" src="/static/jquery/jquery.min.js"></script>
+
+<script src="/static/jquery/jquery.min.js"></script>
+<script src="/static/gallery/store.js"></script>
+<script src="/static/gallery/datalazyload.js"></script>
+<script src="/static/gallery/template.js"></script>
+<script src="/static/js/global/util.js"></script>
 <script src="/static/js/module/header/v1.js"></script>
-<!-- module-->
-<!-- page-->
+<script src="/static/js/page/list.js"></script>
 
 </html>

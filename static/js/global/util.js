@@ -1,38 +1,65 @@
-var Meipet = {};
+(function($){
 
-Meipet.util = {};
+    $.extend({
+        'namespace':function(str){
+            var strArr = str.split('.'),
+                size = strArr.length,
+                temp = {};
 
-
-// 获取地址栏的参数数组
-Meipet.util.getUrlParams = function(){
-    var search = window.location.search ; 
-    // 写入数据字典
-    var tmparray = search.substr(1,search.length).split("&");
-    var paramsArray = new Array; 
-    if( tmparray != null){
-        for(var i = 0;i<tmparray.length;i++){
-            var reg = /[=|^==]/;    // 用=进行拆分，但不包括==
-            var set1 = tmparray[i].replace(reg,'&');
-            var tmpStr2 = set1.split('&');
-            var array = new Array ; 
-            array[tmpStr2[0]] = tmpStr2[1] ; 
-            paramsArray.push(array);
-        }
-    }
-    // 将参数数组进行返回
-    return paramsArray ;     
-};
-
-// 根据参数名称获取参数值
-Meipet.util.getParamValue = function(name){
-    var paramsArray = Meipet.util.getUrlParams();
-    if(paramsArray != null){
-        for(var i = 0 ; i < paramsArray.length ; i ++ ){
-            for(var  j in paramsArray[i] ){
-                if( j == name ){
-                    return paramsArray[i][j] ; 
+            for(var i = 0; i < size; i++){
+                if(i === 0){
+                    window[strArr[i]] = {};
+                    temp = window[strArr[i]];
+                }else{
+                    temp[strArr[i]] = {};
+                    temp = temp[strArr[i]];
                 }
             }
         }
-    } 
-}
+    });
+
+    $.namespace('Meipet.urlTool');
+    $.extend(Meipet.urlTool, {
+        paramsToJSON: function(){
+            var $u = location.search.slice(1),
+                r = {};
+            if( !!$u ){
+                $u = $u.split("&");
+            } else {
+                return r;
+            }
+            $.each($u, function ( i, el ){
+                var $n = el.split("=");
+                r[$n.shift()] = $n.join('=');
+            });
+            return r;
+        },
+        jsonToParams: function( obj ){
+            var $l = location.protocol + "//" + location.hostname + location.pathname;
+            if($.isPlainObject(obj) && !$.isEmptyObject(obj)){
+                var $k = [],
+                    $v = [],
+                    $r = "",
+                    $max;
+
+                for(var key in obj){
+                    $k.push(key);
+                    $v.push(obj[key]);
+                };
+
+                $max = $k.length - 1;
+
+                $.each($k, function (i,el){
+                    $r = $r + el + "=" + $v[i];
+                    if( i < $max ){
+                        $r += "&";
+                    }
+                });
+                return $l + "?" + $r + location.hash;
+            } else {
+                return $l + location.hash;
+            }
+        }
+    });
+
+})(jQuery);

@@ -528,11 +528,11 @@ label,
 
 /*文本框的错误状态*/
 
-.Validform_error {
+/*.Validform_error {
     background-color: #fbe2e2!important;
     border-color: #c66161!important;
     color: #c00!important;
-}
+}*/
 
 .Validform_wrong,
 .Validform_right,

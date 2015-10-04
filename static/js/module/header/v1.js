@@ -7,7 +7,7 @@
 			url: '/log/getUserInfo',
 			dataType: 'jsonp'
 		}).done(function(data){
-			console.log(data);
+			//console.log(data);
 			var result = data.result,
 				user = data.user;
 
@@ -43,7 +43,6 @@
 						dataType: 'jsonp'
 					})
 					.done(function(data) {
-						// console.log(data);
 						window.location.href = '/';
 					});
 					

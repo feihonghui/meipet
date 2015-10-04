@@ -1,3 +1,11 @@
+.left-content{
+	width: 778px;
+	padding: 10px 30px;
+	float: left;
+	background: #fff;
+	border-radius: 5px;
+	border:solid #ddd 1px;
+}
 .release{
 	width: 778px;
 	padding: 30px 0 20px;
@@ -7,8 +15,8 @@
 }
 .release .form-label{
 	float: left;
-	width: 60px;
-	padding: 0 10px;
+	width: 80px;
+	text-align: right;
 	height: 32px;
 	line-height: 32px;
 	text-align: right;
@@ -47,6 +55,7 @@
 	width: 20px;
 	margin-top: 0px;
 	float: left;
+	border: none;
 }
 .release .formControls .radio-box label{
 	float: left;
@@ -92,8 +101,31 @@
 	padding-bottom: 10px;
 	margin-bottom: 10px;
 	border-bottom: dashed 1px #eee;
+	position: relative;
 }
-
+.release .img-upload-box .img-box .img-item a{
+	height: 24px;
+	width: 24px;
+	line-height: 24px;
+	border-radius: 5px;
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	background: rgba(0,0,0,.6);
+	text-align: center;
+	z-index: 3;
+	display: none;
+}
+.release .img-upload-box .img-box .img-item a .iconfont{
+	font-size: 18px;
+	color:#fff!important;
+}
+.release .img-upload-box .img-box .img-item:hover a{
+	display: inline-block;
+}
+.release .img-upload-box .img-box .img-item:hover img{
+	opacity: 0.7;
+}
 .release .img-upload-box .img-box .img-item input{
 	width: 440px;
 	margin-top: 5px;
@@ -124,4 +156,24 @@
 	color:#fff;
 	border:solid #fd5e00 1px;
 	cursor: pointer;
+}
+.release .check-box{
+	float: left;
+	display: inline-block;
+	padding: 0px;
+	padding-right: 20px;
+}
+.release .check-box input{
+	width: 20px!important;
+	margin-top: 0px;
+	float: left;
+	border: none;
+}
+.release .check-box label{
+	display: inline-block;
+	height: 32px;
+	line-height: 32px;
+	padding-left: 5px;
+	color:#666;
+	float: left;
 }
