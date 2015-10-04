@@ -57,6 +57,8 @@ class PetManageController extends AdminBaseController {
 			$Dao->gmt_create = date ( 'Y-m-d H:i:s', time () );
 			$Dao->user_id = $user ['id'];
 			$Dao->status = 'open';
+			$Dao->img=$imgArray[0];
+			$Dao->price=100 * $Dao->price;
 			$result = $Dao->add ();
 			
 			if (!$result) {

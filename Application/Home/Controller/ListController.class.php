@@ -45,9 +45,16 @@ class ListController extends Controller {
 		}
 		
 		$petList = $Dao->where ( $condition )->limit($limit)->select();
+		$array = array();
+		if(!empty($petList)){
+			foreach ($petList as $pet){
+				$pet['month']=floor((time()-strtotime($pet['birthday']))/3600/24/30);
+				array_push($array, $pet);
+			}
+		}
 	    //echo 	$Dao->getLastSql();
 		$data->result = true;
-	    $data->data=$petList;
+	    $data->data=$array;
 		$this->ajaxReturn($data,"JSONP");
 	}
 }
