@@ -2,13 +2,28 @@
     <div class="layout-990">
         <h1><a href="/" title="美优萌宠"><img src="/static/img/logo.png"></a></h1>
         <ul class="nav ms-yh">
+          <if condition="$head_tab eq '1' ">
+            <li class="current"><a href="/">首页</a></li>
+          <else/>
             <li><a href="/">首页</a></li>
+          </if>
+          
+          <if condition="$head_tab eq '2' ">
             <li class="current"><a href="/list">有偿领养</a></li>
-            <li><a href="/list">无偿领养</a></li>
+          <else/>
+            <li><a href="/list">有偿领养</a></li>
+          </if>
+          
+          <if condition="$head_tab eq '3' ">
+            <li class="current"><a href="/freelist">无偿领养</a></li>
+          <else/>
+            <li><a href="/freelist">无偿领养</a></li>
+          </if>
         </ul>
         <div class="user-center">
             <a class="no-login" href="/log" target="_self">登录</a>
         </div>
     </div>
 </div>
+
 <script src="/static/js/module/header/v1.js"></script>
