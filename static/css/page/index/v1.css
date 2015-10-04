@@ -178,12 +178,14 @@ html{
     margin-top: 2px;
     margin-left: 10px;
     padding-left: 12px;
-    border-left: solid #bbb 1px;
+    /*border-left: solid #bbb 1px;*/
     font-size: 12px;
 
 }
 #indexContent .content-top .see-all a{
-    color:#fe6600;
+    /*color:#fe6600;*/
+    color:#333;
+    font-size: 15px;
 }
 #indexContent .content-top ul.select-box {
     float: right;
@@ -256,4 +258,52 @@ html{
 
 #beautyFooter .copyright a:hover {
     color: #ff7300;
+}
+
+.user-info{
+    float: left;
+    background: #fff;
+    background: rgba(255,255,255,0.90);
+    width: 70px;
+    padding: 5px;
+    margin-left: 10px;
+    border-radius: 15px;
+}
+.user-info ul{
+    padding: 5px 0;
+    text-align: center;
+}
+.user-info ul li{
+    height: 27px;
+    line-height: 27px;
+}
+.user-info ul li a{
+    color:#666;
+    font-size: 13px;
+}
+.user-info .nologin-head {
+    border-radius: 15px;
+    background: rgba(254, 102, 0, .77);
+    border: solid #fff 1px;
+    background-position: center;
+    color: #fff;
+    font-size: 16px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.user-info .head-img{
+    border-radius: 30px;
+    border: solid #fff 1px;
+    background-position: center;
+    color: #fff;
+    font-size: 16px;
+    background-size: cover;
+    width: 68px;
+    height: 68px;
+    line-height: 68px;
+    text-align: center;
+    overflow: hidden;
 }
