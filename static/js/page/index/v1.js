@@ -61,7 +61,6 @@
             url: '/log/getUserInfo',
             dataType: 'jsonp'
         }).done(function(data){
-          
             var result = data.result,
                 user = data.user;
                 //console.log(data);

@@ -163,7 +163,7 @@ html{
     height: 25px;
     padding: 0 7px;
     width: 673px;
-    border-bottom: dotted #f5f5f5 1px;
+    border-bottom: dotted #FFFFFF 1px;
     padding-bottom: 5px;
     margin-bottom: 8px;
 }
@@ -267,7 +267,7 @@ html{
     width: 70px;
     padding: 8px 3px 5px;
     margin-left: 10px;
-    border-radius: 15px;
+    border-radius: 10px;
 }
 .user-info ul{
     text-align: center;

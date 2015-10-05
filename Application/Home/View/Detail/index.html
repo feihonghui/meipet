@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-    <title>美优萌宠</title>
+    <title>{$pet.subject} | 美优萌宠</title>
     <link rel="shortcut icon" href="/static/img/favicon.png" />
     <!-- global-->
     <link rel="stylesheet" type="text/css" href="/static/css/global/reset.css">
@@ -100,10 +100,10 @@
 
                     <li>
                         <span class="title">所在区域:</span>
-                        <span class="info">{$pet.area} {$pet.address}</span>
+                        <span class="info">{$pet.city} {$pet.area}</span>
                     </li>
                 </ul>
-                <span class="get-now" data-name="{$user.name}" data-phone="{$user.mobile}">立即领养</span>
+                <a class="get-now" data-id="{$user.id}" href="/log?from=http://www.meipet.com.cn/detail?id={$user.id}">立即领养</a>
             </div>
         </div>
     </div>
@@ -117,11 +117,8 @@
         </div>
     </div>
 </body>
-<!-- global-->
 <script type="text/javascript" src="/static/jquery/jquery.min.js"></script>
 <script src="/static/js/module/header/v1.js"></script>
-<script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":["weixin","qzone","douban","tqq","tsina","sqq","kaixin001","tqf","tieba","diandian","huaban","mail"],"bdPic":"","bdStyle":"0","bdSize":"16"},"share":{},"selectShare":{"bdContainerClass":null,"bdSelectMiniList":["weixin","qzone","tsina"]}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
-<!-- module-->
-<!-- page-->
-
+<script src="/static/js/page/detail.js"></script>
+<script src="/static/module/share.js"></script>
 </html>
