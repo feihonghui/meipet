@@ -1,68 +1,209 @@
 
 
-<form action="__URL__/update" method="post">
-  <input type="hidden" name="id" value="{$pet['id']}">
-  <p>标题：<input type="text" name="subject" value="{$pet['subject']}"/></p>
-  <p>种类：
-    <select name='category'>
-      <if condition="$pet['category'] eq 'cat' ">
-         <option value ="cat">喵星人</option>
-         <option value ="dog">汪星人</option>
-	  <else/>
-         <option value ="dog">汪星人</option>
-         <option value ="cat">喵星人</option>
-	  </if>
-	</select>
-  </p>
-  
-  <p>品种：
-    <select name='pinzhong' data-pz="{'cat':['英短','美短'],'dog':['金毛','国美']}">
-	  <option value ="{$pet['pinzhong']}">{$pet['pinzhong']}</option>
-	</select>
-  </p>
-  <p>颜色：
-    <select name='color'>
-      <option value ="{$pet['color']}" >{$pet['color']}</option>
-	  <option value ="白色" >白色</option>
-	  <option value ="黑色" >黑色</option>
-	  <option value ="棕色">棕色</option>
-	</select>
-  </p>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <title>美优萌宠</title>
+    <link rel="shortcut icon" href="/static/img/favicon.png" />
+    <!-- global-->
+    <link rel="stylesheet" type="text/css" href="/static/css/global/reset.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/global/layout.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/global/iconfont.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/module/header.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/module/footer.css">
+    <!-- page-->
+    <link rel="stylesheet" type="text/css" href="/static/gallery/form/form.css" />
+    <link rel="stylesheet" type="text/css" href="/static/css/page/home/common.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/page/home/release.css">
+    
+</head>
+
+<body>
+    <include file="./Application/Public/View/Header/v1.html" />
+    
+    <div id="content">
+        <div class="layout-990">
+            <div class="left-content">
+                <h3>发布宠物</h3>
+                <div class="release">
+                    <form action="__URL__/update" method="post" id="releasepet">
+                        <input type="hidden" name="id" value="{$pet['id']}">
+                        <div class="row fd-clr">
+                            <label class="form-label">标题：</label>
+                            <div class="formControls width-430">
+                                <input type="text" class="input-text" placeholder="不能超过25个字符"  name="subject" value="{$pet['subject']}" id="username" datatype="*1-25" nullmsg="标题不能为空">
+                            </div>
+                            <div class="form-tip"></div>
+                        </div>
+                        <div class="row fd-clr">
+                            <label class="form-label">种类：</label>
+                            <div class="formControls select-control">
+                                <span class="select-box">
+                                    <select name='category' class="select" size="1" datatype="*" nullmsg="请选择种类">
+                                         <if condition="$pet['category'] eq 'cat' ">
+									         <option value ="cat">喵星人</option>
+									         <option value ="dog">汪星人</option>
+										  <else/>
+									         <option value ="dog">汪星人</option>
+									         <option value ="cat">喵星人</option>
+										  </if>
+                                    </select>
+                                </span>
+                            </div>
+                            <div class="form-tip"></div>
+                        </div>
+                        <div class="row fd-clr">
+                            <label class="form-label">品种：</label>
+                            <div class="formControls select-control">
+                                <span class="select-box">
+                                    <select name='pinzhong' class="select" size="1" datatype="*" nullmsg="请选择种类">
+                                        <option value ="{$pet['pinzhong']}" selected>{$pet['pinzhong']}</option>
+                                    </select>
+                                </span>
+                            </div>
+                            <div class="form-tip"></div>
+                        </div>
+                        <div class="row fd-clr">
+                            <label class="form-label">生日：</label>
+                            <div class="formControls">
+                                <input type="text" class="input-text" value="{$pet['birthday']}" onClick="WdatePicker({readOnly:true})" placeholder="请选择生日" name="birthday" id="username" datatype="*" nullmsg="生日不能为空">
+                            </div>
+                            <div class="form-tip"></div>
+                        </div>
+                        <div class="row fd-clr">
+                            <label class="form-label">颜色：</label>
+                            <div class="formControls">
+                                <input type="text" class="input-text" value="{$pet['color']}" placeholder="请输入颜色" name="color" id="username" datatype="*" nullmsg="颜色不能为空">
+                            </div>
+                            <div class="form-tip"></div>
+                        </div>
+                        <div class="row fd-clr">
+                            <label class="form-label">性别：</label>
+                            <div class="formControls">
+                                <div class="radio-box">
+                                  <if condition="$pet['sex'] eq 'M' ">
+                                      <input type="radio" id="sex-1" name="sex" datatype="*" nullmsg="请选择性别！" value="M"  checked="checked">
+                                  <else/>
+                                      <input type="radio" id="sex-1" name="sex" datatype="*" nullmsg="请选择性别！" value="M">
+                                  </if>
+                                    <label for="sex-1">GG</label>
+                                </div>
+                                <div class="radio-box">
+                                    <if condition="$pet['sex'] eq 'F' ">
+                                        <input type="radio" id="sex-2" name="sex" value="F"  checked="checked">
+                                    <else/>
+                                        <input type="radio" id="sex-2" name="sex" value="F">
+                                    </if>
+                                    <label for="sex-2">MM</label>
+                                </div>
+                            </div>
+                            <div class="form-tip"></div>
+                        </div>
+                        <div class="row fd-clr">
+                            <label class="form-label">位置：</label>
+                            <div class="formControls select-control">
+                                <span class="select-box">
+                                    <select class="select" size="1" datatype="*" nullmsg="请选择所在城市!" name='city'>
+                                        <option value="{$pet['city']}" selected>{$pet['city']}</option>
+                                        <option value="北京">北京</option>
+                                        <option value="上海">上海</option>
+                                        <option value="广州">广州</option>
+                                    </select>
+                                </span>
+                            </div>
+                            <div class="form-tip select-tip"></div>
+                            <label class="form-label margin-top-10"></label>
+                            <div class="formControls select-control margin-top-10">
+                                <span class="select-box">
+                                    <select class="select" size="1" datatype="*" nullmsg="请选择所在地区!" name='area'>
+                                         <option value="{$pet['area']}" selected>{$pet['area']}</option>
+                                          <option value ="上城区">上城区</option>
+									      <option value ="下城区">下城区</option>
+									      <option value ="拱墅区">拱墅区</option>
+									      <option value ="江干区">江干区</option>
+									      <option value ="西湖区">西湖区</option>
+										  <option value ="滨江区">滨江区</option>
+										  <option value ="余杭区">余杭区</option>
+										  <option value ="萧山区">萧山区</option>
+                                    </select>
+                                </span>
+                            </div>
+                            <div class="form-tip select-tip margin-top-10"></div>
+                            <label class="form-label margin-top-10"></label>
+                            <div class="formControls width-430 margin-top-10">
+                                <input type="text" class="input-text" placeholder="详细地址" value="{$pet['address']}" name="address" id="username" datatype="*" nullmsg="详细地址不能为空">
+                            </div>
+                            <div class="form-tip margin-top-10"></div>
+                        </div>
+                        <div class="row fd-clr">
+                            <label class="form-label">价格：</label>
+                            <div class="formControls">
+                                <input type="text" class="input-text" placeholder="价格必须为数字" name="price" id="username" datatype="n" nullmsg="价格必须为数字" value="{$pet['price']/100}">
+                            </div>
+                            <div class="form-tip"></div>
+                        </div>
+                        <div class="row fd-clr">
+                            <label class="form-label">寄语：</label>
+                            <div class="formControls width-430">
+                                <textarea name="description" class="textarea" placeholder="寄语不能超过240个字符" datatype="*0-240" errormsg="寄语不能超过240个字符" >{$pet['description']}</textarea>
+                            </div>
+                            <div class="form-tip"></div>
+                        </div>
+
+                        <div class="row fd-clr">
+                            <label class="form-label">图片：</label>
+                            <div class="img-upload-box">
+                                <div class="img-box">
+
+                                </div>
+                                <div class="add-img">
+                                    <i class="iconfont">&#xe605;</i>
+                                    <span>添加一张图片</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <input type="hidden" name="img_urls" value="{$img_urls}">
+                        <input type="hidden" name="slogans" value="{$slogans}">
+                        
+                        <div class="fd-clr btn-box">
+                            <input class="btn btn-release" type="submit" value="保存修改">
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="right-nav">
+                <ul>
+                    <li class="first">
+                        <a class="current" href="">
+                            <i class="iconfont">&#xe602;</i>&nbsp;&nbsp;发布萌宠
+                        </a>
+                    </li>
+                    <li>
+                        <a href=""><i class="iconfont">&#xe604;</i>&nbsp;&nbsp;我发布的</a>
+                    </li>
+                    <li>
+                        <a href=""><i class="iconfont">&#xe603;</i>&nbsp;&nbsp;个人资料</a>
+                    </li>
+                    <li>
+                        <a href=""><i class="iconfont">&#xe601;</i>&nbsp;&nbsp;开通店铺</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    <include file="./Application/Public/View/Footer/v1.html" />
+
+</body>
 
 
-  <p>城市：
-    <select  name='city'>
-	  <option value ="杭州">杭州</option>
-	</select>
-  </p>
-  <p>县/区：
-    <select name='area'>
-      <option value ="{$pet['area']}">{$pet['area']}</option>
-      <option value ="上城区">上城区</option>
-      <option value ="下城区">下城区</option>
-      <option value ="拱墅区">拱墅区</option>
-      <option value ="江干区">江干区</option>
-      <option value ="西湖区">西湖区</option>
-	  <option value ="滨江区">滨江区</option>
-	  <option value ="余杭区">余杭区</option>
-	  <option value ="萧山区">萧山区</option>
-	</select>
-  </p>
-  <p>详细地址 ：<input type="text" name="address" value="" placeholder="例如：钱龙大厦1单元513室"/>{$pet['address']}</p>
-  
-  <p>照片：<input type="text" name="img" placeholder="照片url" />{$pet['img']}</p>
-  <p>性别：
-    <select name='sex'>
-      <if condition="$pet['sex'] eq 'M' ">
-         <option value ="M">公</option>
-	     <option value ="F">母</option>
-	  <else/>
-	     <option value ="F">母</option>
-         <option value ="M">公</option>
-	  </if>
-	</select>
-  </p>
-  <p>生日：<input type="text" name="birthday" value="{$pet['birthday']}"/></p>
+<script src="http://www.meipet.com.cn/static/gallery/webuploader/webuploader.min.js"></script>
+<script type="text/javascript" src="/static/gallery/validform.js"></script>
+<script type="text/javascript" src="/static/gallery/datepicker/WdatePicker.js"></script>
+<script src="/static/js/page/home/publish.js"></script>
 
-  <input type="submit" value="提交" />
-</form>
+</html>
+

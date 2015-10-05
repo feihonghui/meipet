@@ -16,6 +16,7 @@ class UserController extends AdminBaseController {
 		
 		$this->assign ( "user", $user );
 		$this->assign ( "user_sex", $user ['sex'] );
+		$this->assign ( "generation", $user ['generation'] );
 		// 输出模板
 		$this->display ();
 	}
