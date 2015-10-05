@@ -31,7 +31,7 @@
                         <div class="row fd-clr">
                             <label class="form-label">昵称：</label>
                             <div class="formControls">
-                                <input type="text" class="input-text" placeholder="不能超过25个字符" name="username" id="username" datatype="*1-25" nullmsg="标题不能为空">
+                                <input type="text" class="input-text" value="{$user['name']}" placeholder="不能超过25个字符" name="name" id="username" datatype="*1-25" nullmsg="标题不能为空">
                             </div>
                             <div class="form-tip"></div>
                         </div>
@@ -39,13 +39,13 @@
                             <label class="form-label">年龄：</label>
                             <div class="formControls select-control">
                                 <span class="select-box">
-                                    <select class="select" size="1" datatype="*" nullmsg="请选择种类">
-                                        <option value="" selected>请选择年龄段</option>
-                                        <option value="1">70前</option>
-                                        <option value="1">70后</option>
-                                        <option value="2">80后</option>
-                                        <option value="2">90后</option>
-                                        <option value="2">00后</option>
+                                    <select class="select" name="generation" size="1" datatype="*" nullmsg="请选择种类">
+                                       <empty name="generation">  <option value="" selected>请选择年龄段</option> <else /> <option selected value="{$generation}">{$generation}</option> </empty>
+                                        <option value="70前">70前</option>
+                                        <option value="70后">70后</option>
+                                        <option value="80后">80后</option>
+                                        <option value="90后">90后</option>
+                                        <option value="00后">00后</option>
                                     </select>
                                 </span>
                             </div>
@@ -55,11 +55,19 @@
                             <label class="form-label">性别：</label>
                             <div class="formControls">
                                 <div class="radio-box">
-                                    <input type="radio" id="sex-1" name="sex" datatype="*" nullmsg="请选择性别！">
+                                    <if condition="$user['sex'] eq 'M' ">
+                                        <input type="radio" id="sex-1" name="sex" datatype="*" nullmsg="请选择性别！" value="M"  checked="checked">
+                                    <else/>
+                                         <input type="radio" id="sex-1" name="sex" datatype="*" nullmsg="请选择性别！" value="M">
+                                    </if>
                                     <label for="sex-1">男</label>
                                 </div>
                                 <div class="radio-box">
-                                    <input type="radio" id="sex-2" name="sex">
+                                    <if condition="$user['sex'] eq 'F' ">
+                                        <input type="radio" id="sex-2" name="sex" value="F"  checked="checked">
+                                    <else/>
+                                        <input type="radio" id="sex-2" name="sex" value="F" >
+                                    </if>
                                     <label for="sex-2">女</label>
                                 </div>
                             </div>
@@ -68,7 +76,7 @@
                         <div class="row fd-clr">
                             <label class="form-label">电话：</label>
                             <div class="formControls">
-                                <input type="text" class="input-text" placeholder="价格必须为数字" name="username" id="username" datatype="n" nullmsg="价格必须为数字">
+                                <input type="text" class="input-text" placeholder="价格必须为数字" name="mobile" id="username" datatype="n" nullmsg="价格必须为数字" value="{$user['mobile']}">
                             </div>
                             <div class="form-tip"></div>
                         </div>
@@ -76,11 +84,11 @@
                             <label class="form-label">地址：</label>
                             <div class="formControls select-control">
                                 <span class="select-box">
-                                    <select class="select" size="1" datatype="*" nullmsg="请选择所在城市!">
-                                        <option value="" selected>请选择城市</option>
-                                        <option value="1">北京</option>
-                                        <option value="2">上海</option>
-                                        <option value="3">广州</option>
+                                    <select class="select" size="1" datatype="*" nullmsg="请选择所在城市!" name="city">
+                                        <option value="<?php if(!empty($user['city'])){echo $user['city'];} ?>" selected><?php if(!empty($user['city'])){echo $user['city'];}else{echo "请选择城市";} ?></option>
+                                        <option value="北京">北京</option>
+                                        <option value="上海">上海</option>
+                                        <option value="广州">广州</option>
                                     </select>
                                 </span>
                             </div>
@@ -88,33 +96,32 @@
                             <label class="form-label margin-top-10"></label>
                             <div class="formControls select-control margin-top-10">
                                 <span class="select-box">
-                                    <select class="select" size="1" datatype="*" nullmsg="请选择所在地区!">
-                                        <option value="" selected>请选择城市</option>
-                                        <option value="1">北京</option>
-                                        <option value="2">上海</option>
-                                        <option value="3">广州</option>
+                                    <select class="select" size="1" datatype="*" nullmsg="请选择所在地区!" name="area">
+                                        <option value="<?php if(!empty($user['area'])){echo $user['area'];} ?>" selected><?php if(!empty($user['area'])){echo $user['area'];}else{echo "请选择地区";} ?></option>
+                                        <option value="1">滨江区</option>
+                                        <option value="2">上城区</option>
+                                        <option value="3">下城区</option>
                                     </select>
                                 </span>
                             </div>
                             <div class="form-tip select-tip margin-top-10"></div>
                             <label class="form-label margin-top-10"></label>
                             <div class="formControls width-430 margin-top-10">
-                                <input type="text" class="input-text" placeholder="详细地址" name="username" id="username" datatype="*" nullmsg="详细地址不能为空">
+                                <input type="text" class="input-text" placeholder="详细地址" name="address" id="username" datatype="*" nullmsg="详细地址不能为空" value="{$user['address']}">
                             </div>
                             <div class="form-tip margin-top-10"></div>
                         </div>
                         <div class="row fd-clr">
                             <label class="form-label">头像：</label>
                             <div class="img-upload-box">
-                                <div class="img-box">
-
-                                </div>
+                                
                                 <div class="add-img">
                                     <i class="iconfont">&#xe605;</i>
                                     <span>添加一张图片</span>
                                 </div>
                             </div>
                         </div>
+                        ：                                                      <input type="hidden" name="face_img" value="http://www.meipet.com.cn/data/pic/2/20151005/5612387c99f2b.jpg" />
                         <div class="fd-clr btn-box">
                             <input class="btn btn-release" type="submit" value="确认">
                         </div>
@@ -148,58 +155,3 @@
 
 
 
-
-
-<form action="__URL__/update" method="post">
-  <input type="hidden" name="id" value="{$user['id']}">
-  <p>登陆名称：{$user['login_id']}</p>
-  <p>昵称 ：<input type="text" name="name" value="{$user['name']}"/></p>
-  <p>城市：
-    <select  name='city'>
-	  <option value ="杭州">杭州</option>
-	</select>
-  </p>
-  <p>县/区：
-    <select name='area'>
-      <option value ="{$user['area']}">{$user['area']}</option>
-      <option value ="上城区">上城区</option>
-      <option value ="下城区">下城区</option>
-      <option value ="拱墅区">拱墅区</option>
-      <option value ="江干区">江干区</option>
-      <option value ="西湖区">西湖区</option>
-	  <option value ="滨江区">滨江区</option>
-	  <option value ="余杭区">余杭区</option>
-	  <option value ="萧山区">萧山区</option>
-	</select>
-  </p>
-  <p>详细地址 ：<input type="text" name="address" value="{$user['address']}" placeholder="例如：钱龙大厦1单元513室"/></p>
-  <p>头像：<input type="text" name="face_img" />{$user['face_img']}</p>
-  <p>性别：
-    <select name='sex'>
-      <if condition="$user_sex eq 'F' ">
-         <option value ="F">女</option>
-	  <elseif condition="'M' eq $user_sex"/>
-	     <option value ="M">男</option>
-	  </if>
-	  <option value ="M">男</option>
-	  <option value ="F">女</option>
-	</select>
-  </p>
-  <p>类型：
-    <select name='type'>
-	  <option value ="{$user['type']}">{$user['type']}</option>
-	  <option value ="大型门店">大型门店</option>
-	  <option value ="中型门店">中型门店</option>
-	  <option value ="小型门店">小型门店</option>
-	  <option value ="个人">个人</option>
-	  <option value ="公益组织">公益组织</option>
-	  <option value ="政府机构">政府机构</option>
-	</select>
-  </p>
-  
-  <p>生日：<input type="text" name="birthday" value="{$user['birthday']}"/></p>
-  <p>邮箱：<input type="text" name="mail" value="{$user['mail']}"/></p>
-  <p>手机：<input type="text" name="mobile"  value="{$user['mobile']}"/></p>
-  <p>qq号：：<input type="text" name="qq"  value="{$user['qq']}"/></p>
-  <input type="submit" value="Submit" />
-</form>
