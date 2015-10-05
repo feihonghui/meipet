@@ -106,3 +106,6 @@ html{
 	text-align: center;
 	cursor: pointer;
 }
+.main-info a.get-now:hover{
+	color:#fff!important;
+}

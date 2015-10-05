@@ -7,12 +7,15 @@
                 temp = {};
 
             for(var i = 0; i < size; i++){
-                if(i === 0){
-                    window[strArr[i]] = {};
-                    temp = window[strArr[i]];
-                }else{
-                    temp[strArr[i]] = {};
-                    temp = temp[strArr[i]];
+                var curVal = strArr[i];
+                if(typeof window[curVal] === 'undefined') {
+                    if (i === 0) {
+                        window[curVal] = {};
+                        temp = window[strArr[i]];
+                    } else {
+                        temp[curVal] = {};
+                        temp = temp[curVal];
+                    }
                 }
             }
         }
