@@ -3,7 +3,8 @@ namespace Home\Controller;
 use Think\Controller;
 
 import('ORG.Util.Date');
-
+include_once DOC_ROOT . '/Application/Common/service/LoginService.class.php';
+include_once DOC_ROOT . '/Application/Common/service/HtmlRenderService.class.php';
 // 通用组件模块
 class DetailController extends Controller {
 	public function index() {
@@ -44,6 +45,32 @@ class DetailController extends Controller {
 		$price="".$pet["price"]/100;
 		$this->assign('price',$price);
 		$this->display();
+	}
+	
+	//用户名称，联系方式，
+	public  function adopt() {
+		$petid = $_GET ["petid"];
+		if(empty($petid)){
+			$this->ajaxReturn ( \HtmlRenderService::errorJson("param_error"), "JSONP" );
+		}
+		
+		if (! \LoginService::isLogin ()) {
+			$this->ajaxReturn ( \HtmlRenderService::errorJson("not_login"), "JSONP" );
+		}
+		
+		$Dao = M ( "pet" );
+		$pet=$Dao->where (" id= ".$petid) ->find();
+		if(empty($pet)){
+			$this->ajaxReturn ( \HtmlRenderService::errorJson("pet_not_exist"), "JSONP" );
+		}
+		
+		
+		$userDao = M ( "user" );
+		$seller=$userDao->where (" id= ".$pet['user_id']) ->find();
+	
+		$resutl["phone"]=$seller["login_id"];
+		$resutl["address"]=$pet["address"];
+		return $this->ajaxReturn ( \HtmlRenderService::successJson($resutl), "JSONP" );
 	}
 	
 }

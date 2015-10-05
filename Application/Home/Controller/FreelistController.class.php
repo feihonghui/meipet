@@ -4,7 +4,7 @@ use Think\Controller;
 
 
 // 通用组件模块
-class ListController extends Controller {
+class FreelistController extends Controller {
 	public function index() {
 		header ( "Content-Type:text/html; charset=utf-8" );
 		$this->display();
@@ -29,22 +29,20 @@ class ListController extends Controller {
 		
 		
 		$Dao = M ( "pet" );
-		$sql_where="price>0 ";
 		if(!empty($category)){
-			$sql_where=$sql_where." and category='".$category."'";
-			//$condition ['category'] = $category;
+			$condition ['category'] = $category;
 		}
 		if(!empty($area)){
-			$sql_where=$sql_where." and area='".$area."'";
-		   //$condition ['area'] = $area;
+		   $condition ['area'] = $area;
 		}
 		if(!empty($city)){
-			$sql_where=$sql_where." and city='".$city."'";
-			//$condition ['city'] = $city;
+			$condition ['city'] = $city;
 		}
 
-		$petList = $Dao->where ( $sql_where )->limit($limit)->select();
-		//echo  $Dao->getLastSql();
+		$condition ['price'] = 0;
+		
+		$petList = $Dao->where ( $condition )->limit($limit)->select();
+		echo  $Dao->getLastSql();
 		$array = array();
 		if(!empty($petList)){
 			foreach ($petList as $pet){
