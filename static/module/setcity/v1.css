@@ -1,0 +1,33 @@
+#set-city-dialog{
+    background: #fff;
+    width: 360px;
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+}
+
+#set-city-dialog h3{
+    height: 35px;
+    line-height: 35px;
+    font-size: 14px;
+    padding: 0 15px;
+    border-bottom: solid #ddd 1px;
+    color: #666;
+    background: #eeeeee;
+}
+#set-city-dialog ul{
+    padding: 20px;
+}
+#set-city-dialog ul li{
+    float: left;
+    padding-right: 25px;
+}
+#set-city-dialog ul li a{
+    color:#444;
+}
+#set-city-dialog .close{
+    position: absolute;
+    right: 10px;
+    top: 7px;
+    color:#666;
+}
