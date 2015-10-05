@@ -60,3 +60,6 @@ http://www.meipet.com.cn/attribute/getPinzhongList?category=cat
 
 发布宠物页面
 http://www.meipet.com.cn/admin/PetManage/newpet
+
+立即领养接口
+http://www.meipet.com.cn/detail/adopt?petid=3620

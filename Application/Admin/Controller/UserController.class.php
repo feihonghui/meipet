@@ -13,9 +13,6 @@ class UserController extends AdminBaseController {
 		}
 		
 		$user = \LoginService::getUserModel ();
-		$userId=$user["id"];
-		$Dao = M ( "User" );
-		$user=$Dao->where("id=".$userId)->find();
 		
 		$this->assign ( "user", $user );
 		$this->assign ( "user_sex", $user ['sex'] );
