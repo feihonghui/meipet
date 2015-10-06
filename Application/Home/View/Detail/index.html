@@ -76,7 +76,7 @@
                     </li>
                     <li>
                         <span class="title">萌宠生日:</span>
-                        <span class="info">{$pet['birthday']|date='Y-m-d',###}</span>
+                        <span class="info"><?php echo substr($pet['birthday'],0,10); ?></span>
                     </li>
                     <li>
                         <span class="title">健康状态:</span>
