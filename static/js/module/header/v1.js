@@ -16,7 +16,7 @@
 				var isLoginHtml = '<div class="is-login">'+
 						'                <div class="user">'+
 						'                    <a href="/admin/manage/petlist">'+
-						'                        <img src="' + headUrl + '"/>'+
+						'                        <div class="head-img-box" style="background-image:url('+ headUrl +');"/>'+
 						'                        <span class="name">&nbsp;&nbsp;'+name+'</span>'+
 						'                    </a>'+
 						'                </div>'+
