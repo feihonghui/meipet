@@ -20,6 +20,11 @@
             page: 1,
             size: 20
         };
+        var url = '/list/getPet';
+
+        if(window.location.pathname === '/freelist'){
+            url = '/freelist/getPet';
+        }
 
         function initSn(){
             var snItem = $('.sn-item');
@@ -92,7 +97,7 @@
             noMore = $('.no-more');
         function rendOffer(){
             $.ajax({
-                url: '/list/getPet',
+                url: url,
                 dataType: 'jsonp',
                 data: requestParams
             }).done(function(dataIn) {

@@ -111,12 +111,16 @@
             if( dataIn.result && data && data.length > 0){
                 var html = '';
                 $.each(data, function(index, val) {
+                    if(val.month < 1){
+                        val.month = 1;
+                    }
+
                     html = html + '<li>'+
                         '                      <a href="/detail?id='+val.id+'">'+
                         '                         <div class="img-box" style="background-image: url('+val.img +');">'+
                         '                              <div class="info ms-yh">'+
                         '                                   <span class="price">价格<br/>&yen;'+val.price/100+'</span>'+
-                        '                                   <span class="age">年龄<br/>&le;'+val.month+'</span>'+
+                        '                                   <span class="age">年龄<br/>&le;'+val.month+'月</span>'+
                         '                              </div>'+
                         '                              <div class="description">'+
                         '                                   <span class="text">'+ val.subject +'</span>'+

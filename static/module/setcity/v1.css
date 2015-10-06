@@ -4,6 +4,7 @@
     border-radius: 5px;
     overflow: hidden;
     position: relative;
+    display: none;
 }
 
 #set-city-dialog h3{

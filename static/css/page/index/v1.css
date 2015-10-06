@@ -33,6 +33,7 @@ html{
 
 #beautyBar ul {
     float: right;
+    padding-right: 77px;
 }
 
 #beautyBar ul li {

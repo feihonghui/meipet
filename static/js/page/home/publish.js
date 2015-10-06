@@ -141,7 +141,9 @@
             var initHtml = '';
             if(imgUrlArr.length > 0){
                 $.each(imgUrlArr, function(index, val) {
-                     initHtml = initHtml + '<div class="img-item"><a class="delete" href="#"><i class="iconfont">&#xe606;</i></a><img src="' + val + '"><input placeholder="图片描述不能超过50个字符" value="' + slogansArr[index] + '"></div>';
+                    if(val !== '') {
+                        initHtml = initHtml + '<div class="img-item"><a class="delete" href="#"><i class="iconfont">&#xe606;</i></a><img src="' + val + '"><input placeholder="图片描述不能超过50个字符" value="' + slogansArr[index] + '"></div>';
+                    }
                 });
 
                 imgBox.html(initHtml);

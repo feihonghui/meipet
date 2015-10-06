@@ -128,7 +128,7 @@
 				if(result){
 					var dialog = $.dialog({
 							minWidth:1000,
-							html: '<div style="height:45px;width:270px;text-align:center;line-height:45px;background:rgba(0,0,0,0.77);color:#fff;">注册成功，正在跳转到登录页面！</div>',
+							html: '<div style="height:45px;width:270px;text-align:center;line-height:45px;background:rgb(255,255,255);color:#fff;">注册成功，正在跳转到登录页面！</div>',
 			              	timers:[
 				                {
 									callback: function(){

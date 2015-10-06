@@ -45,12 +45,13 @@
 
                 <% for( var key in data){ %>
                     <% var pet = data[key] %>
+                    <% if(pet.month<1) { pet.month = 1 } %>
                     <div class="offer-item">
                         <a href="/detail?id=<%= pet.id %>" target="_blank">
                             <div class="item-box" style="background-image: url(<%= pet.img %>);">
                                 <div class="price-age">
                                     <span class="price">价格<br/>&yen;<%= pet.price/100 %></span>
-                                    <span class="age">年龄<br/>&le;<%= pet.month %></span>
+                                    <span class="age">年龄<br/>&le;<%= pet.month %>月</span>
                                 </div>
                             </div>
                             <div class="other">
