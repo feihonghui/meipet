@@ -65,11 +65,14 @@
 #header .user-center .no-login:hover{
     border:solid #fd5e00 1px;
 }
-#header .user-center .is-login img{
+#header .user-center .is-login .head-img-box{
     float: left;
     margin-top: 12px;
     height: 36px;
     width: 36px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     border-radius: 18px;
 }
 #header .user-center .is-login .name{
@@ -80,7 +83,8 @@
 }
 #header .user-center .is-login .user{
     cursor: pointer;
-}#header .user-center .is-login .user a{
+}
+#header .user-center .is-login .user a{
     color:#888;
 }
 #header .user-center .operation{
