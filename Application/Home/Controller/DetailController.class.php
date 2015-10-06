@@ -69,7 +69,7 @@ class DetailController extends Controller {
 		$seller=$userDao->where (" id= ".$pet['user_id']) ->find();
 	
 		$resutl["phone"]=$seller["login_id"];
-		$resutl["address"]=$pet["address"];
+		$resutl["address"]=$pet["city"].$pet["area"].$pet["address"];
 		return $this->ajaxReturn ( \HtmlRenderService::successJson($resutl), "JSONP" );
 	}
 	
