@@ -40,8 +40,9 @@ class FreelistController extends Controller {
 		}
 
 		$condition ['price'] = 0;
+		$condition ['status']="open";
 		
-		$petList = $Dao->where ( $condition )->limit($limit)->select();
+		$petList = $Dao->where ( $condition )->order("gmt_modified desc")->limit($limit)->select();
 		//echo  $Dao->getLastSql();
 		$array = array();
 		if(!empty($petList)){

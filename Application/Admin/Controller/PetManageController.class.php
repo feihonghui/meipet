@@ -5,6 +5,8 @@ namespace Admin\Controller;
 use Think\Controller;
 
 include_once DOC_ROOT . '/Application/Common/service/LoginService.class.php';
+include_once DOC_ROOT . '/Application/Common/service/HtmlRenderService.class.php';
+
 class PetManageController extends AdminBaseController {
 	protected $newpeturl = "http://www.meipet.com.cn/index.php/Admin/PetManage/newpet";
 	protected $petlisturl = "http://www.meipet.com.cn/index.php/Admin/PetManage/petlist";
@@ -26,6 +28,67 @@ class PetManageController extends AdminBaseController {
 		// 输出模板
 		$this->display ();
 	}
+	
+	//我发布的列表
+	public function myPetlist() {
+		header ( "Content-Type:text/html; charset=utf-8" );
+		if (! \LoginService::isLogin ()) {
+			return $this->ajaxReturn ( \HtmlRenderService::errorJson("not_login"), "JSONP" );
+		}
+		$page = $_GET ["page"];
+		$size = $_GET ["size"];
+		if(empty($page)){
+			$page=1;
+		}
+		if(empty($size)){
+			$size=20;
+		}
+		$limit=($page-1)*$size.",".$size;
+		$Dao = M ( "pet" );
+		$condition ['user_id'] =  \LoginService::getUserId();
+		$condition ['status']="open";
+		
+		$petList = $Dao->where ( $condition )->order("gmt_modified desc")->limit($limit)->select();
+
+		$array = array();
+		if(!empty($petList)){
+			foreach ($petList as $pet){
+				$pet['month']=floor((time()-strtotime($pet['birthday']))/3600/24/30);
+				array_push($array, $pet);
+			}
+		}
+		return $this->ajaxReturn ( \HtmlRenderService::successJson($petList), "JSONP" );
+	}
+	
+	
+	//我发布的列表
+	public function delPet() {
+		header ( "Content-Type:text/html; charset=utf-8" );
+		if (! \LoginService::isLogin ()) {
+			return $this->ajaxReturn ( \HtmlRenderService::errorJson("not_login"), "JSONP" );
+		}
+		$petid = $_GET ["petid"];
+		
+		if(empty($petid)){
+			return $this->ajaxReturn ( \HtmlRenderService::errorJson("param_error"), "JSONP" );
+		}
+
+		$Dao = M ( "pet" );
+		$condition ['user_id'] =  \LoginService::getUserId();
+		$condition ['id']=$petid;
+	
+		
+		$pet = $Dao->where ( $condition )->find();
+	    if(empty($pet)){
+	    	return $this->ajaxReturn ( \HtmlRenderService::errorJson("pet_not_exist"), "JSONP" );
+	    }
+	    
+	    $pet["status"]="closed";
+	    $pet["gmt_create"] = date ( 'Y-m-d H:i:s', time () );
+	    $Dao->where('id='.$petid)->save($pet);
+		return $this->ajaxReturn ( \HtmlRenderService::successJson(NULL), "JSONP" );
+	}
+	
 	public function publish() {
 		if (! \LoginService::isLogin ()) {
 			$this->error ( "请登录！", $this->loginUrl );
@@ -149,6 +212,9 @@ class PetManageController extends AdminBaseController {
 		$slogans = $_POST ["slogans"];
 		$petid = $_POST ["id"];
 		
+		echo $img_urls;
+		echo $slogans;
+		
 		$imgArray = split($this->span,$img_urls);
 		$imgArrayCount= count($imgArray);
 		$sloganArray = split($this->span,$slogans);
@@ -162,6 +228,7 @@ class PetManageController extends AdminBaseController {
 			$Dao->gmt_modified = date ( 'Y-m-d H:i:s', time () );
 			
 			$Dao->price=100 * $Dao->price;
+			$Dao->img=$imgArray[0];
 			$result = $Dao->save ();
 				
 			if (!$result) {
@@ -175,10 +242,14 @@ class PetManageController extends AdminBaseController {
 		    
 		    
 			for ($i = 0; $i < $imgArrayCount; $i++) {
+				if(empty($imgArray[$i]))
+				{
+					continue;
+				}
 				// 构建写入的数据数组
 				$data ["gmt_create"] = date ( 'Y-m-d H:i:s', time () );
 				$data ["gmt_modified"] = date ( 'Y-m-d H:i:s', time () );
-				$data ["pet_id"] = $result;
+				$data ["pet_id"] = $petid;
 				$data ["img_url"] = $imgArray[$i];
 				$data ["dec"] = $sloganArray[$i];
 				// 写入数据
