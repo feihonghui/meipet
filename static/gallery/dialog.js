@@ -1,4 +1,5 @@
 !(function($){
+
     function Dialog(config){
         var buttons = config.buttons,
             elm = config.elm,
@@ -123,11 +124,36 @@
     };
 
     Dialog.prototype.center = function(elm,minWidth){
+        function client(){
+            var winWidth,
+                winHeight;
+            //获取窗口宽度
+            if (window.innerWidth){
+                winWidth = window.innerWidth;
+            } else if ((document.body) && (document.body.clientWidth)){
+                winWidth = document.body.clientWidth;
+            }
+
+            //获取窗口高度
+            if (window.innerHeight){
+                winHeight = window.innerHeight;
+            } else if ((document.body) && (document.body.clientHeight)){
+                winHeight = document.body.clientHeight;
+            }
+
+            return {
+                width: winWidth,
+                height: winHeight
+            }
+        };
+
         var win = $(window),
             height = elm.height(),
-            width = elm.width(),
-            winWidth = win.width(),
-            winHeight = win.height();
+            width = elm.width();
+        var client = client();
+            winWidth = client.width,
+            winHeight = client.height;
+
 
         if(typeof minWidth !== 'undefined' && minWidth > winWidth){
             winWidth = minWidth;

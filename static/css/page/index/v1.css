@@ -17,7 +17,7 @@ html{
 
 #beautyBar .bar-content {
     height: 80px;
-    width: 990px;
+    width: 910px;
     margin: 0 auto;
 }
 
@@ -33,6 +33,7 @@ html{
 
 #beautyBar ul {
     float: right;
+    padding-right: 77px;
 }
 
 #beautyBar ul li {
@@ -73,7 +74,7 @@ html{
 }
 
 #indexContent .option {
-    width: 990px;
+    width: 910px;
     height: 400px;
     margin: auto;
     margin-top: 150px;
@@ -163,7 +164,7 @@ html{
     height: 25px;
     padding: 0 7px;
     width: 673px;
-    border-bottom: dotted #f5f5f5 1px;
+    border-bottom: dotted #FFFFFF 1px;
     padding-bottom: 5px;
     margin-bottom: 8px;
 }
@@ -178,12 +179,14 @@ html{
     margin-top: 2px;
     margin-left: 10px;
     padding-left: 12px;
-    border-left: solid #bbb 1px;
+    /*border-left: solid #bbb 1px;*/
     font-size: 12px;
 
 }
 #indexContent .content-top .see-all a{
-    color:#fe6600;
+    /*color:#fe6600;*/
+    color:#666;
+    font-size: 15px;
 }
 #indexContent .content-top ul.select-box {
     float: right;
@@ -256,4 +259,50 @@ html{
 
 #beautyFooter .copyright a:hover {
     color: #ff7300;
+}
+
+.user-info{
+    float: left;
+    background: #fff;
+    background: rgba(255,255,255,0.90);
+    width: 70px;
+    padding: 8px 3px 5px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+.user-info ul{
+    text-align: center;
+    padding-top: 5px;
+}
+.user-info ul li{
+    height: 27px;
+    line-height: 27px;
+}
+.user-info ul li a{
+    color:#666;
+    font-size: 13px;
+}
+.user-info .nologin-head {
+    border-radius: 15px;
+    background: rgba(254, 102, 0, .77);
+    border: solid #fff 1px;
+    background-position: center;
+    color: #fff;
+    font-size: 16px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.user-info .head-img{
+    border-radius: 10px;
+    margin-left: 6px;
+    background-position: center;
+    color: #fff;
+    background-size: cover;
+    width: 58px;
+    height: 58px;
+    text-align: center;
+    overflow: hidden;
 }

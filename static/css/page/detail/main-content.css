@@ -106,3 +106,22 @@ html{
 	text-align: center;
 	cursor: pointer;
 }
+.main-info a.get-now:hover{
+	color:#fff!important;
+}
+#get-now-dialog{
+	width: 330px;
+}
+#get-now-dialog .content span{
+	float: left;
+	color:#666;
+	line-height: 20px;
+	padding: 5px 0;
+}
+#get-now-dialog .content span.title{
+	width: 80px;
+	text-align: right;
+}
+#get-now-dialog .content span.text{
+	width: 210px;
+}

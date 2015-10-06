@@ -1,15 +1,17 @@
 <html lang="zh-CN">
 
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta charset="UTF-8" />
     <title>美优萌宠</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <link rel="shortcut icon" href="/static/img/favicon.png" />
     <!-- global-->
     <link rel="stylesheet" type="text/css" href="/static/css/global/reset.css">
     <link rel="stylesheet" type="text/css" href="/static/css/global/layout.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/global/iconfont.css">
     <!-- module-->
     <link rel="stylesheet" type="text/css" href="/static/css/module/header.css">
+    <link rel="stylesheet" type="text/css" href="/static/module/setcity/v1.css">
     <link rel="stylesheet" type="text/css" href="/static/css/module/footer.css">
     <!-- page-->
     <link rel="stylesheet" type="text/css" href="/static/css/page/list/offer-sn.css">
@@ -43,12 +45,13 @@
 
                 <% for( var key in data){ %>
                     <% var pet = data[key] %>
+                    <% if(pet.month<1) { pet.month = 1 } %>
                     <div class="offer-item">
                         <a href="/detail?id=<%= pet.id %>" target="_blank">
                             <div class="item-box" style="background-image: url(<%= pet.img %>);">
                                 <div class="price-age">
                                     <span class="price">价格<br/>&yen;<%= pet.price/100 %></span>
-                                    <span class="age">年龄<br/>&le;3个月</span>
+                                    <span class="age">年龄<br/>&le;<%= pet.month %>月</span>
                                 </div>
                             </div>
                             <div class="other">
@@ -80,14 +83,40 @@
             <a href="/static/us.html">团队介绍</a>&nbsp;|&nbsp;<a href="/static/contact.html">联系我们</a>
         </div>
     </div>
+    <div id="set-city-dialog" class="ms-yh">
+        <h3>选择城市</h3>
+        <a href="" class="close">
+            <i class="iconfont">&#xe607;</i>
+        </a>
+        <div class="content fd-clr">
+            <ul class="fd-clr city-box">
+                <li>
+                    <a href="" data-city="杭州">杭州</a>
+                </li>
+                <li>
+                    <a href="" data-city="北京">北京</a>
+                </li>
+                <li>
+                    <a href="" data-city="上海">上海</a>
+                </li>
+                <li>
+                    <a href="" data-city="广州">广州</a>
+                </li>
+                <li>
+                    <a href="" data-city="深圳">深圳</a>
+                </li>
+            </ul>
+        </div>
+    </div>
 </body>
 
 <script src="/static/jquery/jquery.min.js"></script>
 <script src="/static/gallery/store.js"></script>
+<script src="/static/gallery/dialog.js"></script>
 <script src="/static/gallery/datalazyload.js"></script>
 <script src="/static/gallery/template.js"></script>
 <script src="/static/js/global/util.js"></script>
 <script src="/static/js/module/header/v1.js"></script>
+<script src="/static/module/setcity/v1.js"></script>
 <script src="/static/js/page/list.js"></script>
-
 </html>

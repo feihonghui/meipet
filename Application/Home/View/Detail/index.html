@@ -3,11 +3,13 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-    <title>美优萌宠</title>
+    <title>{$pet.subject} | 美优萌宠</title>
     <link rel="shortcut icon" href="/static/img/favicon.png" />
     <!-- global-->
     <link rel="stylesheet" type="text/css" href="/static/css/global/reset.css">
     <link rel="stylesheet" type="text/css" href="/static/css/global/layout.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/global/iconfont.css">
+    <link rel="stylesheet" type="text/css" href="/static/module/dialog/v1.css">
     <!-- module-->
     <link rel="stylesheet" type="text/css" href="/static/css/module/header.css">
     <link rel="stylesheet" type="text/css" href="/static/css/module/footer.css">
@@ -21,8 +23,8 @@
             <h1><a href="/" title="美优萌宠"><img src="/static/img/logo.png"></a></h1>
             <ul class="nav ms-yh">
                 <li><a href="/">首页</a></li>
-                <li class="current"><a href="/list">有偿领养</a></li>
-                <li><a href="/list">无偿领养</a></li>
+                <li><a href="/list">有偿领养</a></li>
+                <li><a href="/freelist">无偿领养</a></li>
             </ul>
             <div class="user-center">
                 <a class="no-login" href="/log" target="_self">登录</a>
@@ -86,7 +88,7 @@
                     </li>
                     <li>
                         <span class="title">萌宠生日:</span>
-                        <span class="info">{$birthday}</span>
+                        <span class="info">{$pet.birthday}</span>
                     </li>
                     <li>
                         <span class="title">健康状态:</span>
@@ -100,10 +102,10 @@
 
                     <li>
                         <span class="title">所在区域:</span>
-                        <span class="info">{$pet.area} {$pet.address}</span>
+                        <span class="info">{$pet.city} {$pet.area}</span>
                     </li>
                 </ul>
-                <span class="get-now" data-name="{$user.name}" data-phone="{$user.mobile}">立即领养</span>
+                <a class="get-now" data-id="{$pet.id}" href="/log?from=http://www.meipet.com.cn/detail?id={$pet.id}">立即领养</a>
             </div>
         </div>
     </div>
@@ -116,12 +118,26 @@
             <a href="/static/us.html">团队介绍</a>&nbsp;|&nbsp;<a href="/static/contact.html">联系我们</a>
         </div>
     </div>
+    <div id="get-now-dialog" class="ms-yh dialog-box">
+        <h3>萌宠详细联系方式</h3>
+        <a href="" class="close">
+            <i class="iconfont">&#xe607;</i>
+        </a>
+        <div class="content fd-clr">
+            <div class="fd-clr">
+                <span class="title">联系电话：</span>
+                <span class="text"></span>
+            </div>
+            <div class="fd-clr">
+                <span class="title">详细地址：</span>
+                <span class="text"></span>
+            </div>
+        </div>
+    </div>
 </body>
-<!-- global-->
 <script type="text/javascript" src="/static/jquery/jquery.min.js"></script>
+<script src="/static/gallery/dialog.js"></script>
 <script src="/static/js/module/header/v1.js"></script>
-<script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":["weixin","qzone","douban","tqq","tsina","sqq","kaixin001","tqf","tieba","diandian","huaban","mail"],"bdPic":"","bdStyle":"0","bdSize":"16"},"share":{},"selectShare":{"bdContainerClass":null,"bdSelectMiniList":["weixin","qzone","tsina"]}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
-<!-- module-->
-<!-- page-->
-
+<script src="/static/js/page/detail.js"></script>
+<script src="/static/module/share.js"></script>
 </html>

@@ -10,6 +10,7 @@
 
         if(city === ''){
             city = '杭州';
+            Meipet.setCity.show();
         };
         
         var requestParams = {
@@ -19,6 +20,11 @@
             page: 1,
             size: 20
         };
+        var url = '/list/getPet';
+
+        if(window.location.pathname === '/freelist'){
+            url = '/freelist/getPet';
+        }
 
         function initSn(){
             var snItem = $('.sn-item');
@@ -34,7 +40,10 @@
                 zoneBox = positionBox.find('.zone'),
                 html = '';
             var urlParams = urlTool.paramsToJSON();
-
+            positionBox.on('click','.swich-city',function(event){
+                event.preventDefault();
+                Meipet.setCity.show();
+            });
             cityElm.text(city);
 
             $.ajax({
@@ -45,9 +54,12 @@
                 }
             }).done(function(dataIn) {
                 var cityList = dataIn.data;
+                if(!cityList){
+                    return;
+                }
                 cityList.splice(0,0,{
                     area: "全部",
-                    city: "杭州",
+                    city: city,
                     id: 0,
                     order: 0
                 });
@@ -85,7 +97,7 @@
             noMore = $('.no-more');
         function rendOffer(){
             $.ajax({
-                url: '/list/getPet',
+                url: url,
                 dataType: 'jsonp',
                 data: requestParams
             }).done(function(dataIn) {
