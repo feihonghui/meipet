@@ -68,7 +68,7 @@
                         <div class="row fd-clr">
                             <label class="form-label">生日：</label>
                             <div class="formControls">
-                                <input type="text" class="input-text" value="{$pet['birthday']}" onClick="WdatePicker({readOnly:true})" placeholder="请选择生日" name="birthday" id="username" datatype="*" nullmsg="生日不能为空">
+                                <input type="text" class="input-text" value="{$pet['birthday']|date='Y-m-d',###}" onClick="WdatePicker({readOnly:true})" placeholder="请选择生日" name="birthday" id="username" datatype="*" nullmsg="生日不能为空">
                             </div>
                             <div class="form-tip"></div>
                         </div>
@@ -174,6 +174,7 @@
                     </form>
                 </div>
             </div>
+            
             <assign name="right_tab" value="1" />
             <include file="./Application/Public/View/Component/right_menu.html"/>
         </div>
