@@ -142,6 +142,6 @@
         var rewardRecom = $('.reward-recom');
         rendRecom(rewardRecom,'/list/getPet');
         var freeRecom = $('.free-recom');
-        rendRecom(freeRecom,'/list/getPet');
+        rendRecom(freeRecom,'/freelist/getPet');
     });
 })(jQuery);
