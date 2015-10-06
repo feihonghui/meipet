@@ -50,6 +50,8 @@
 	删除宠物接口：
 	http://www.meipet.com.cn/admin/manage/delPet?petid=1
 	
+	首页配置宠物id
+	http://www.meipet.com.cn/list/getPetById?ids=3,1,3
 	
 个人商店宠物接口  	
 http://www.meipet.com.cn/store/getPet?userId=2&callback=aaa&adoptId=&page=&size
