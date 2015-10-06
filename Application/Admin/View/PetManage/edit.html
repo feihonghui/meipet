@@ -68,7 +68,7 @@
                         <div class="row fd-clr">
                             <label class="form-label">生日：</label>
                             <div class="formControls">
-                                <input type="text" class="input-text" value="{$pet['birthday']|date='Y-m-d',###}" onClick="WdatePicker({readOnly:true})" placeholder="请选择生日" name="birthday" id="username" datatype="*" nullmsg="生日不能为空">
+                                <input type="text" class="input-text" value="<?php echo substr($pet['birthday'],0,10); ?>" onClick="WdatePicker({readOnly:true})" placeholder="请选择生日" name="birthday" id="username" datatype="*" nullmsg="生日不能为空">
                             </div>
                             <div class="form-tip"></div>
                         </div>
