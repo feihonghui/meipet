@@ -7,7 +7,6 @@
 			url: '/log/getUserInfo',
 			dataType: 'jsonp'
 		}).done(function(data){
-			//console.log(data);
 			var result = data.result,
 				user = data.user;
 
@@ -16,7 +15,7 @@
 					headUrl = user.face_img || 'http://meipet.com.cn/static/defaulthead.png';
 				var isLoginHtml = '<div class="is-login">'+
 						'                <div class="user">'+
-						'                    <a href="/center?userId=2">'+
+						'                    <a href="/admin/manage/petlist">'+
 						'                        <img src="' + headUrl + '"/>'+
 						'                        <span class="name">&nbsp;&nbsp;'+name+'</span>'+
 						'                    </a>'+
@@ -25,7 +24,7 @@
 						'                    <em></em>'+
 						'                    <ul>'+
 						'                        <li class="no-border">'+
-						'                            <a href="/center?userId=2">个人中心</a>'+
+						'                            <a href="/admin/manage/petlist">个人中心</a>'+
 						'                        </li>'+
 						'                        <li>'+
 						'                            <a href="" class="checkout" target="_self" >退出登录</a>'+

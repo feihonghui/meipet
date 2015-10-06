@@ -66,17 +66,17 @@
                 //console.log(data);
             if(result && user){
                 var headUrl = user.face_img || 'http://meipet.com.cn/static/defaulthead.png';
-                var isLoginHtml = '<a href=""><div class="head-img" style="background-image:url('+headUrl+');">'+
+                var isLoginHtml = '<a href="/admin/manage/petlist"><div class="head-img" style="background-image:url('+headUrl+');">'+
                         '                    </div></a>'+
                         '                    <ul>'+
                         '                        <li>'+
-                        '                            <a href="">个人中心</a>'+
+                        '                            <a href="/admin/manage/petlist">个人中心</a>'+
                         '                        </li>'+
                         '                        <li>'+
                         '                            <a href="/admin/manage/publish" target="_blank">发布宠物</a>'+
                         '                        </li>'+
                         '                        <li>'+
-                        '                            <a href="" class="checkout">退出登录</a>'+
+                        '                            <a href="/" class="checkout">退出登录</a>'+
                         '                        </li>'+
                         '                    </ul>';
 
@@ -120,7 +120,7 @@
                         '                         <div class="img-box" style="background-image: url('+val.img +');">'+
                         '                              <div class="info ms-yh">'+
                         '                                   <span class="price">价格<br/>&yen;'+val.price/100+'</span>'+
-                        '                                   <span class="age">年龄<br/>&le;'+val.month+'月</span>'+
+                        '                                   <span class="age">年龄<br/>&le;'+val.month+'个月</span>'+
                         '                              </div>'+
                         '                              <div class="description">'+
                         '                                   <span class="text">'+ val.subject +'</span>'+

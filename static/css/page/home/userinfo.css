@@ -1,0 +1,48 @@
+.big-img,
+.small-img{
+	background-position: center;
+	background-size: cover;
+	border-radius: 5px;
+	overflow: hidden;
+}
+
+.big-img{
+	height: 300px;
+	width: 300px;
+	float: left;
+}
+
+.big-img span{
+	display: inline-block;
+	height: 300px;
+	line-height: 300px;
+	width: 300px;
+	text-align: center;
+}
+
+.big-img span i{
+	font-size: 24px;
+	color:#fd5e00;
+	display: none;
+}
+.big-img:hover i{
+	display: inline-block;
+}
+.small-img{
+	height: 120px;
+	width: 120px;
+	float: right;
+}
+
+#add-img{
+	width: 300px;
+	padding-top: 10px;
+	height: 45px;
+}
+
+#add-img span{
+	height: 45px;
+	width: 300px;
+	line-height: 45px;
+	color:#fd5e00;
+}
