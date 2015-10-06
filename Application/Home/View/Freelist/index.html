@@ -28,8 +28,8 @@
             <div class="sn-item">
                 <span class="title">种类：&nbsp;</span>
                 <a href="/freelist" class="all selected">全部</a>
-                <a href="/freelist?category=cat" class="cat">猫咪</a>
                 <a href="/freelist?category=dog" class="dog">狗狗</a>
+                <a href="/freelist?category=cat" class="cat">猫咪</a>
             </div>
             <div class="position">
                 <span class="title">地区：&nbsp;</span>
@@ -42,15 +42,15 @@
         </div>
         <div class="layout-990">
             <script id="list-template" type="text/html">
-
                 <% for( var key in data){ %>
                     <% var pet = data[key] %>
+                    <% if( pet.month < 1){ pet.month = 1 } %>
                     <div class="offer-item">
                         <a href="/detail?id=<%= pet.id %>" target="_blank">
                             <div class="item-box" style="background-image: url(<%= pet.img %>);">
                                 <div class="price-age">
                                     <span class="price">价格<br/>&yen;<%= pet.price/100 %></span>
-                                    <span class="age">年龄<br/>&le;3个月</span>
+                                    <span class="age">年龄<br/>&le;<%= pet.month %>个月</span>
                                 </div>
                             </div>
                             <div class="other">

@@ -28,11 +28,11 @@
                     if(success){
                         $.each(data, function(index, val) {
                             
-                            if(val.order === pinzhongVal){
+                            if(val.pinzhong === pinzhongVal){
                                 selected = 'selected';
-                                pzHtml = pzHtml + '<option value="'+val.order+'" '+selected+' >'+val.pinzhong+'</option>';
+                                pzHtml = pzHtml + '<option value="'+val.pinzhong+'" '+selected+' >'+val.pinzhong+'</option>';
                             }else{
-                                pzHtml = pzHtml + '<option value="'+val.order+'" >'+val.pinzhong+'</option>';
+                                pzHtml = pzHtml + '<option value="'+val.pinzhong+'" >'+val.pinzhong+'</option>';
                             }
                         });
                     }

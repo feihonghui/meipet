@@ -1,18 +1,18 @@
 <div class="right-nav">
     <ul>
         <li class="first">
+          <if condition="$right_tab eq '2' ">
+              <a class="current" href="/admin/manage/petlist"><i class="iconfont">&#xe604;</i>&nbsp;&nbsp;我发布的</a>
+          <else/>
+              <a href="/admin/manage/petlist"><i class="iconfont">&#xe604;</i>&nbsp;&nbsp;我发布的</a>
+          </if>
+        </li>
+        <li>
             <if condition="$right_tab eq '1' ">
                 <a class="current" href="/admin/manage/publish"><i class="iconfont">&#xe602;</i>&nbsp;&nbsp;发布萌宠</a>
             <else/>
                 <a href="/admin/manage/publish"><i class="iconfont">&#xe602;</i>&nbsp;&nbsp;发布萌宠</a>
             </if>
-        </li>
-        <li>
-	        <if condition="$right_tab eq '2' ">
-	            <a class="current" href="/admin/manage/petlist"><i class="iconfont">&#xe604;</i>&nbsp;&nbsp;我发布的</a>
-	        <else/>
-	            <a href="/admin/manage/petlist"><i class="iconfont">&#xe604;</i>&nbsp;&nbsp;我发布的</a>
-	        </if>
         </li>
         <li>
 	        <if condition="$right_tab eq '3' ">
@@ -22,9 +22,9 @@
             </if>
         </li>
         <?php 
-           if('Y'==$user['shop']){
+           //if('Y'==$user['shop']){
        ?>
-       <li>
+       <!-- <li>
 	       <if condition="$right_tab eq '5' ">
 	            <a class="current" href="/admin/shop/set"><i class="iconfont">&#xe601;</i>&nbsp;&nbsp;设置店铺</a>
 	       <else/>
@@ -37,19 +37,19 @@
 	       <else/>
 	      		 <a href="/center"><i class="iconfont">&#xe601;</i>&nbsp;&nbsp;我的店铺</a>
 	       </if>
-        </li>
+        </li> -->
        <?php 
-           }else{
+           //}else{
        ?>
-        <li>
+        <!-- <li>
 	       <if condition="$right_tab eq '4' ">
 	            <a class="current" href="/admin/shop/open"><i class="iconfont">&#xe601;</i>&nbsp;&nbsp;开通店铺</a>
 	       <else/>
 	      		 <a href="/admin/shop/open"><i class="iconfont">&#xe601;</i>&nbsp;&nbsp;开通店铺</a>
 	       </if>
-        </li>
+        </li> -->
        <?php 
-           }
+           //}
         ?>
        
     </ul>

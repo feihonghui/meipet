@@ -26,7 +26,7 @@
     <div id="content">
         <div class="layout-990">
             <div class="left-content">
-                <h3>发布宠物</h3>
+                <h3>宠物修改</h3>
                 <div class="release">
                     <form action="__URL__/update" method="post" id="releasepet">
                         <input type="hidden" name="id" value="{$pet['id']}">
@@ -154,7 +154,7 @@
 
                         <div class="row fd-clr">
                             <label class="form-label">图片：</label>
-                            <div class="img-upload-box">
+                            <div class="formControls img-upload-box">
                                 <div class="img-box">
 
                                 </div>
@@ -162,11 +162,11 @@
                                     <i class="iconfont">&#xe605;</i>
                                     <span>添加一张图片</span>
                                 </div>
+                                <input type="hidden" name="img_urls" datatype="*" nullmsg="至少添加一张图片" value="">
+                                <input type="hidden" name="slogans" value="">
                             </div>
+                            <div class="form-tip" style="width:180px;"></div>
                         </div>
-                        
-                        <input type="hidden" name="img_urls" value="{$img_urls}">
-                        <input type="hidden" name="slogans" value="{$slogans}">
                         
                         <div class="fd-clr btn-box">
                             <input class="btn btn-release" type="submit" value="保存修改">
@@ -174,35 +174,17 @@
                     </form>
                 </div>
             </div>
-            <div class="right-nav">
-                <ul>
-                    <li class="first">
-                        <a class="current" href="">
-                            <i class="iconfont">&#xe602;</i>&nbsp;&nbsp;发布萌宠
-                        </a>
-                    </li>
-                    <li>
-                        <a href=""><i class="iconfont">&#xe604;</i>&nbsp;&nbsp;我发布的</a>
-                    </li>
-                    <li>
-                        <a href=""><i class="iconfont">&#xe603;</i>&nbsp;&nbsp;个人资料</a>
-                    </li>
-                    <li>
-                        <a href=""><i class="iconfont">&#xe601;</i>&nbsp;&nbsp;开通店铺</a>
-                    </li>
-                </ul>
-            </div>
+            <assign name="right_tab" value="1" />
+            <include file="./Application/Public/View/Component/right_menu.html"/>
         </div>
     </div>
-    
     <include file="./Application/Public/View/Footer/v1.html" />
-
 </body>
 
 
-<script src="http://www.meipet.com.cn/static/gallery/webuploader/webuploader.min.js"></script>
-<script type="text/javascript" src="/static/gallery/validform.js"></script>
-<script type="text/javascript" src="/static/gallery/datepicker/WdatePicker.js"></script>
+<script src="/static/gallery/webuploader/webuploader.min.js"></script>
+<script src="/static/gallery/validform.js"></script>
+<script src="/static/gallery/datepicker/WdatePicker.js"></script>
 <script src="/static/js/page/home/publish.js"></script>
 
 </html>
