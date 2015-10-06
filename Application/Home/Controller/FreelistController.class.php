@@ -42,7 +42,7 @@ class FreelistController extends Controller {
 		$condition ['price'] = 0;
 		
 		$petList = $Dao->where ( $condition )->limit($limit)->select();
-		echo  $Dao->getLastSql();
+		//echo  $Dao->getLastSql();
 		$array = array();
 		if(!empty($petList)){
 			foreach ($petList as $pet){

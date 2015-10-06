@@ -15,10 +15,14 @@ class LoginService {
 	 * @return void +----------------------------------------------------------
 	 */
 	static public function saveUser($user) {
+		session(array('name'=>'login_id','expire'=>604800));
+		session(array('name'=>'user_id','expire'=>604800));
 		session ( 'login_id', $user ['login_id'] );
 		session ( 'user_id', $user ['id'] );
 	}
 	static public function checkout() {
+		session(array('name'=>'login_id','expire'=>604800));
+		session(array('name'=>'user_id','expire'=>604800));
 		session ( 'login_id', null );
 		session ( 'user_id', null );
 	}
