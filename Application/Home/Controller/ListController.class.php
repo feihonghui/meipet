@@ -29,7 +29,7 @@ class ListController extends Controller {
 		
 		
 		$Dao = M ( "pet" );
-		$sql_where="price>0 ";
+		$sql_where="price>0 and `status`='open'";
 		if(!empty($category)){
 			$sql_where=$sql_where." and category='".$category."'";
 			//$condition ['category'] = $category;
@@ -43,7 +43,7 @@ class ListController extends Controller {
 			//$condition ['city'] = $city;
 		}
 
-		$petList = $Dao->where ( $sql_where )->limit($limit)->select();
+		$petList = $Dao->where ( $sql_where )->order("gmt_modified desc")->limit($limit)->select();
 		//echo  $Dao->getLastSql();
 		$array = array();
 		if(!empty($petList)){
