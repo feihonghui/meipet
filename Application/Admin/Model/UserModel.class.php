@@ -7,7 +7,7 @@ class UserModel extends Model {
 	// 自动验证设置
 	protected $_validate = array(
 			array('name', 'require', '昵称不能为空！', 1),//1为必须验证
-			array("name","1,5","长度不能超过5个字符",0,"length"),
+			array("name","1,16","长度不能超过16个字符",0,"length"),
 			array('city', 'require', '城市不能为空！', 1),//1为必须验证
 			array('area', 'require', '区/县不能为空！', 1),//1为必须验证
 			array('sex', 'require', '性别不能为空！', 1),//1为必须验证
