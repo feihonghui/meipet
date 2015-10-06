@@ -8,8 +8,9 @@ class StoreModel extends Model {
 	protected $_validate = array(
 			array('name', 'require', '名称不能为空！', 1),//1为必须验证
 			array("name","1,16","名称不能超过16个字符",0,"length"),
-			array('phone', 'require', '电话不能为空！', 1),//1为必须验证
-			
+			array('city', 'require', '城市不能为空！', 1),//1为必须验证
+			array('area', 'require', '地区不能为空！', 1),//1为必须验证
+			array('level', 'require', '店铺资质不能为空！', 1),//1为必须验证
 	);
 	// 自动填充设置
 	protected $_auto = array(
