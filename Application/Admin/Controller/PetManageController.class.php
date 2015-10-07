@@ -54,10 +54,12 @@ class PetManageController extends AdminBaseController {
 		if(!empty($petList)){
 			foreach ($petList as $pet){
 				$pet['month']=floor((time()-strtotime($pet['birthday']))/3600/24/30);
+				$pet['birthday']=substr($pet['birthday'],0,10);
+				//echo  substr($pet['birthday'],0,10);
 				array_push($array, $pet);
 			}
 		}
-		return $this->ajaxReturn ( \HtmlRenderService::successJson($petList), "JSONP" );
+		return $this->ajaxReturn ( \HtmlRenderService::successJson($array), "JSONP" );
 	}
 	
 	
@@ -163,7 +165,12 @@ class PetManageController extends AdminBaseController {
 		
 		$Dao = M ( "pet" );
 		$condition ['id'] = $petid;
+		$condition['user_id']=$user['id'];
 		$pet = $Dao->where ( $condition )->find ();
+		if(empty($pet)){
+			$this->display ();
+			return;
+		}
 		$this->assign ( "pet", $pet );
 		
 		$petImgDao = M ( "pet_img" );
@@ -212,8 +219,17 @@ class PetManageController extends AdminBaseController {
 		$slogans = $_POST ["slogans"];
 		$petid = $_POST ["id"];
 		
-		echo $img_urls;
-		echo $slogans;
+		$petDao = M ( "pet" );
+		$condition ['id'] = $petid;
+		$condition['user_id']=$user['id'];
+		$pet = $petDao->where ( $condition )->find ();
+		if(empty($pet)){
+			$this->error ( "您无权操作", $this->petlisturl );
+			return;
+		}
+		
+		//echo $img_urls;
+		//echo $slogans;
 		
 		$imgArray = split($this->span,$img_urls);
 		$imgArrayCount= count($imgArray);
