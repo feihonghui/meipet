@@ -1,5 +1,6 @@
 .left-content{
 	width: 778px;
+	min-height: 900px;
 	padding: 10px 30px;
 	float: left;
 	background: #fff;

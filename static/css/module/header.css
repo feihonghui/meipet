@@ -120,15 +120,17 @@
 #header .user-center .operation ul{
     border:solid #ddd 1px;
     border-radius: 5px;
+    padding: 0 10px;
     background-color: #fff;
     overflow: hidden;
 }
 #header .user-center .operation li{
     height: 32px;
+    border-top: dashed #ddd 1px;
     text-align: center;
 }
-#header .user-center .operation li:first-child{
-    border-bottom: dashed #eee 1px;
+#header .user-center .operation li.no-border{
+    border:none;
 }
 #header .user-center .operation li a{
     color:#777;

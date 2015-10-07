@@ -26,6 +26,7 @@
 						'                        <li class="no-border">'+
 						'                            <a href="/admin/manage/petlist">个人中心</a>'+
 						'                        </li>'+
+						'						<li><a href="/admin/manage/publish">发布宠物</a></li>	'+
 						'                        <li>'+
 						'                            <a href="" class="checkout" target="_self" >退出登录</a>'+
 						'                        </li>'+
