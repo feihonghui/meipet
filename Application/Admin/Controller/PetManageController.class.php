@@ -144,7 +144,7 @@ class PetManageController extends AdminBaseController {
 				$lastInsId = $petImgDao->add ( $data );
 			}  
 			
-			$this->success ( "创建成功", "$petlisturl" );
+			$this->success ( "创建成功", $this->petlisturl );
 			
 		} else {
 			exit ( $Dao->getError () . ' [ <a href="javascript:history.back()">返 回</a> ]' );
@@ -160,7 +160,7 @@ class PetManageController extends AdminBaseController {
 		
 		$petid = $_GET ["petid"];
 		if ($petid == null || $petid == "") {
-			$this->error ( "参数错误", "$petlisturl" );
+			$this->error ( "参数错误", $this->petlisturl );
 		}
 		
 		$Dao = M ( "pet" );
@@ -272,7 +272,7 @@ class PetManageController extends AdminBaseController {
 				$lastInsId = $petImgDao->add ( $data );
 			}
 				
-			$this->success ( "修改成功", "$petlisturl" );
+			$this->success ( "修改成功", $this->petlisturl );
 				
 		} else {
 			exit ( $Dao->getError () . ' [ <a href="javascript:history.back()">返 回</a> ]' );
