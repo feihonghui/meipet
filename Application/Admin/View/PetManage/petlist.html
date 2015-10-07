@@ -23,6 +23,8 @@
         <script id="list-template" type="text/html">
             <% for( var key in data){ %>
                 <% var pet = data[key] %>
+                <% if(pet.category == 'cat'){pet.category='喵星人'}%>
+                <% if(pet.category == 'dog'){pet.category='汪星人'}%>
                 <div class="list-item fd-clr">
                     <div class="img-box" style="background-image:url(<%= pet.img %>);">
                     </div>
@@ -60,6 +62,9 @@
                     <div class="item-description">
                         寄语：<%= pet.description %>
                     </div>
+                    <!--<a href="#" class="close action-button" data-id="<%= pet.id %>">
+                        <i class="iconfont">&#xe60c;</i>
+                    </a>-->
                     <a href="#" class="delete action-button" data-id="<%= pet.id %>">
                         <i class="iconfont">&#xe608;</i>
                     </a>
@@ -78,6 +83,13 @@
             </div>
             <assign name="right_tab" value="2" />
             <include file="./Application/Public/View/Component/right_menu.html"/>
+            <div class="left-more">
+                <p class="has-none">
+                    <i class="iconfont">&#xe60e;</i>
+                    <span>主银，你目前还没有发布宠物！</span>
+                    <a href="/admin/manage/publish">点击立即发布</a>
+                </p>
+            </div>
         </div>
     </div>
     <include file="./Application/Public/View/Footer/v1.html" />

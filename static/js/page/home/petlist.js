@@ -2,7 +2,8 @@
 	$(function(){
 		var myPetList = $('#my-pet-list'),
 			page = 1,
-			prevHasDone = false;
+			prevHasDone = false,
+            leftMore = $('.left-more');
 		function rendOffer(){
 			$.ajax({
 				url: '/admin/manage/myPetList',
@@ -17,7 +18,11 @@
 				if( dataIn.success && data && data.length > 0){
                     myPetList.append(template('list-template', dataIn));
                     prevHasDone = true;
+                    leftMore.html('');
                 }else{
+                    if(page > 1){
+                        leftMore.html('没有更多了...');
+                    }
                 }
 			});
 		};
