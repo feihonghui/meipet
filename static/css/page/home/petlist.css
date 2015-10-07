@@ -84,14 +84,20 @@
     border-radius: 6px;
 	width: 480px;
 	height: 60px;
-	line-height: 20px;
-	overflow: hidden;
 	padding: 10px;
 	color:#333;
 	margin-top: 10px;
 	margin-left: 20px;
 }
-
+.list-item .item-description p{
+	height: 60px;
+	width: 480px;
+	line-height: 20px;
+	text-overflow:ellipsis; 
+	white-space:nowrap; 
+	*white-space:nowrap;  
+	overflow: hidden;
+}
 .list-item a.action-button{
 	position: absolute;
 	color:#666;

@@ -51,21 +51,22 @@
         	event.preventDefault();
         	var that = $(this),
         		id = that.attr('data-id');
-
-        	$.ajax({
-        		url: '/admin/manage/delPet',
-        		dataType: 'jsonp',
-        		data: {
-        			'petid': id
-        		}
-        	})
-        	.done(function(dataIn) {
-        		if(dataIn.success && !dataIn.data){
-        			that.parent('.list-item').remove();
-        		}else{
-        			alert(dataIn.data);
-        		}
-        	});
+            if(confirm("确定要删除该宠物？")){
+                $.ajax({
+                    url: '/admin/manage/delPet',
+                    dataType: 'jsonp',
+                    data: {
+                        'petid': id
+                    }
+                })
+                .done(function(dataIn) {
+                    if(dataIn.success && !dataIn.data){
+                        that.parent('.list-item').remove();
+                    }else{
+                        alert(dataIn.data);
+                    }
+                });
+            }
         	
         });
         rendOffer();
