@@ -97,20 +97,21 @@
         });
     };
 
-    function rendRecom(box,url){
+    function rendRecom(box,url,data){
         
         $.ajax({
             url: url,
             dataType: 'jsonp',
-            data: {
-                page: 1,
-                size: 8
-            }
+            data: data
         }).done(function(dataIn) {
             var data = dataIn.data;
-            if( dataIn.result && data && data.length > 0){
+            var isOk = dataIn.result || dataIn.success;
+            if( isOk && data && data.length > 0){
                 var html = '';
                 $.each(data, function(index, val) {
+                    if(!val){
+                        return;
+                    }
                     if(val.month < 1){
                         val.month = 1;
                     }
@@ -140,8 +141,13 @@
         initInfo();
         initTab();
         var rewardRecom = $('.reward-recom');
-        rendRecom(rewardRecom,'/list/getPet');
+        rendRecom(rewardRecom,'/list/getPetById',{
+                ids: '3633,3634,3636,3637,3647,3641,3652,3645'
+            });
         var freeRecom = $('.free-recom');
-        rendRecom(freeRecom,'/freelist/getPet');
+        rendRecom(freeRecom,'/freelist/getPet',{
+                page: 1,
+                size: 8
+            });
     });
 })(jQuery);
