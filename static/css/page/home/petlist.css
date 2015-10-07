@@ -1,0 +1,129 @@
+#content{
+	min-height: 900px;
+}
+.left-more{
+	width: 840px;
+	text-align: center;
+	float: left;
+	color: #666;
+}
+.left-more .has-none{
+	height: 80px;
+	line-height: 80px;
+	border: solid #d9d9d9 1px;
+	color: #888;
+	border-radius: 10px;
+	background: #fff;
+}
+.left-more .has-none a{
+	color: #009966;
+}
+.left-more .has-none i{
+	font-size: 24px;
+}
+.list-item{
+	padding: 19px;
+	width: 800px;
+	background: #fff;
+	border-radius: 5px;
+	border: solid #d9d9d9 1px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	position: relative;
+}
+.list-item .img-box{
+	float: left;
+	width: 270px;
+	height: 270px;
+	overflow: hidden;
+	text-align: center;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	overflow: hidden;
+	border-radius: 5px;
+}
+.list-item h3{
+	width: 480px;
+	margin-left: 20px;
+	padding: 0 10px;
+	overflow: hidden;
+	float: left;
+}
+.list-item .item-info{
+	width: 500px;
+	padding-top: 10px;
+	padding-left: 20px;
+	float: left;
+}
+
+.list-item .item-info .line{
+	width: 250px;
+	padding: 2px 0 5px;
+	float: left;
+}
+.list-item .item-info .line span{
+	float: left;
+	line-height: 20px;
+}
+.list-item .item-info .line span.title{
+	width: 80px;
+	text-align: right;
+	color:#444;
+}
+.list-item .item-info .line span.text{
+	width: 160px;
+	padding: 0 5px;
+	color: #666;
+}
+
+.list-item .item-description{
+	float: left;
+	border: solid #eee 1px;
+    background: #fef1e9;
+    border-radius: 6px;
+	width: 480px;
+	height: 60px;
+	line-height: 20px;
+	overflow: hidden;
+	padding: 10px;
+	color:#333;
+	margin-top: 10px;
+	margin-left: 20px;
+}
+
+.list-item a.action-button{
+	position: absolute;
+	color:#666;
+	display: block;
+	height: 40px;
+	width: 40px;
+	text-align: center;
+	line-height: 40px;
+	display: none;
+}
+.list-item a.action-button i{
+	font-size: 22px;
+}
+.list-item a.see{
+	top:10px;
+	right: 10px;
+}
+.list-item a.delete{
+	top:10px;
+	right: 50px;
+}
+.list-item a.modify{
+	top:10px;
+	right: 90px;
+}
+.list-item a.close{
+	top: 0px;
+	left: 0px;
+}
+.list-item:hover{
+	border:solid #fd5e00 1px;
+}
+.list-item:hover a.action-button{
+	display: block;
+}
